@@ -1,8 +1,21 @@
 {
-  "global": {
-    "title": "Vampire Party"
-  },
+  "global": {},
   "web": {},
-  "desktop": {},
+  "desktop": {
+    "home": {
+      "title": "Vampire Party",
+      "play-game": "Play game",
+      "settings": "Settings",
+      "credit": "Credit",
+      "exit": "Exit"
+    },
+    "settings": {},
+    "vampire-win": {
+      "title": ["Vampires win", "All the sheeple are have been sucked dry"]
+    },
+    "play-game": {
+      "exit-modal": "Leaving now will end the game for everyone.  I know {randomPlayer} is gonna be super sad"
+    }
+  },
   "api": {}
 }
