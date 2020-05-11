@@ -1,7 +1,8 @@
 {
-  "web": {
+  "global": {
     "title": "Vampire Party"
   },
+  "web": {},
   "desktop": {},
   "api": {}
 }
