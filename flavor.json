@@ -16,7 +16,11 @@
       "title": "Credit",
       "content": "Section to be built out."
     },
-    "settings": {},
+    "settings": {
+      "title": "Settings",
+      "toggleFullScreen": "Toggle full screen",
+      "music": "Music"
+    },
     "vampireWin": {
       "title": ["Vampires win", "All the sheeple are dead"]
     },
