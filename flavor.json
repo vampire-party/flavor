@@ -31,7 +31,7 @@
       "title": "Party Lobby",
       "waitingForPlayers": "You need {playersNeeded} more player{pluralize} to start the game",
       "readyToStart": "{vipPlayer} can start the game when everyone has joined",
-      "howToQuit": "Press [ESP] to quit",
+      "howToQuit": "Press [ESC] to quit",
       "goTo": "Go to",
       "clickToCopy": "(Click link to copy to clipboard)"
     },
