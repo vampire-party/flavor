@@ -43,6 +43,15 @@
       "title": "Directory",
       "content": "Roles in this round are {currentRoles}",
       "timer": 200
+    },
+    "firstNight": {
+      "title": "Night",
+      "content": "Hello and welcome. I hope your beds are comfortable and your doors are locked. Because there are 2 Vampires afoot, and they are huuuuuungry. Vampires are not the only ones who are active at night though, so pay attention to your screen for any prompts. Hope to see you all in the AM!"
+    },
+    "night": {
+      "title": "Night",
+      "content": "It is night time... the beasts are about... they will choose their pray. There is little that can help you now... Look at your phone even if you are not the vampire... if you act quick enough maybe you can avoid death...",
+      "timer": 30
     }
   },
   "api": {}
