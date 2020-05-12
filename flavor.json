@@ -38,6 +38,10 @@
     },
     "exitModal": {
       "waitingRoomPlayersInGame": "Leaving now will end the game for everyone.  I know {randomPlayer} is gonna be super sad"
+    },
+    "directory": {
+      "title": "Directory",
+      "content": "Roles in this round are {currentRoles}"
     }
   },
   "api": {}
