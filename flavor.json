@@ -42,7 +42,7 @@
     "directory": {
       "title": "Directory",
       "content": "Roles in this round are {currentRoles}",
-      "timer": 200
+      "timer": 120
     },
     "firstNight": {
       "title": "Night",
