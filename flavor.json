@@ -41,7 +41,8 @@
     },
     "directory": {
       "title": "Directory",
-      "content": "Roles in this round are {currentRoles}"
+      "content": "Roles in this round are {currentRoles}",
+      "timer": 200
     }
   },
   "api": {}
