@@ -55,12 +55,19 @@
     },
     "morning": {
       "title": "Morning",
-      "content": "The sun rises..."
+      "content": "The sun rises...",
+      "timer": 30,
+      "nothingHappened": [
+        "It was a quiet night.",
+        "It was a nice evening.  Nobody is dead.  Weird."
+      ],
+      "vampireKilled": [
+        "During the early hours the limp bloodless body of {murderedPlayer} was discovered"
+      ]
     },
     "day": {
       "title": "Day",
       "content": "Day content coming soon..."
     }
-  },
-  "api": {}
+  }
 }
