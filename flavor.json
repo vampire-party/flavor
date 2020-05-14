@@ -48,7 +48,7 @@
       "title": "Directory",
       "content": [
         {
-          "seconds": 15,
+          "seconds": 4,
           "text": [
             "Welcome to the game",
             "Salutations and welcome to Vampire Party",
@@ -56,19 +56,19 @@
           ]
         },
         {
-          "seconds": 15,
+          "seconds": 3,
           "text": "This is some text"
         },
         {
-          "seconds": 10,
+          "seconds": 3,
           "text": "with a variety of timers"
         },
         {
-          "seconds": 5,
+          "seconds": 4,
           "text": "once the last timers runs out..."
         },
         {
-          "seconds": 5,
+          "seconds": 4,
           "text": "it'll go to the next page (in this case directory"
         }
       ]
