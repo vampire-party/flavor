@@ -1,5 +1,13 @@
 {
-  "global": {},
+  "global": {
+    "roles": {
+      "VAMPIRE": "Vampire",
+      "CULLEN": "Cullen",
+      "GARLIC_FARMER": "Garlic Farmer",
+      "PRIEST": "Priest",
+      "HUMAN": "Human Person"
+    }
+  },
   "web": {},
   "desktop": {
     "general": {
@@ -50,7 +58,7 @@
     },
     "night": {
       "title": "Night",
-      "content": "It is night time... the beasts are about... they will choose their pray. There is little that can help you now... Look at your phone even if you are not the vampire... if you act quick enough maybe you can avoid death...",
+      "content": "It is night time... the beasts are about... they will choose their prey. There is little that can help you now... Look at your phone even if you are not the vampire... if you act quick enough maybe you can avoid death...",
       "timer": 30
     },
     "morning": {
@@ -67,7 +75,41 @@
     },
     "day": {
       "title": "Day",
-      "content": "Day content coming soon..."
+      "content": "It's a cloudy day... but at least it's light out.",
+      "timer": 180
+    },
+    "polls": {
+      "title": "Poll Results",
+      "timer": 45
+    },
+    "pollResults": {
+      "killed": {
+        "Vampire": [
+          "A pile of ashes was found where {victimName} was staked through the heart... looks like there is one vampire less in the mix?"
+        ],
+        "Cullen": [
+          "A pile of ashes was found where {victimName} was staked through the heart... looks like there is one vampire less in the mix?"
+        ],
+        "Garlic Farmer": [
+          "{victimName} the {victimRole} was staked through the heart last night.  Goes to show bad breadth can kill you..."
+        ],
+        "Priest": [
+          "{victimName} the {victimRole} was staked through the heart last night"
+        ],
+        "Mayor": [
+          "{victimName} the {victimRole} was staked through the heart last night.  Don't feel so important now... do you Mr. Mayor!"
+        ],
+        "Librarian": [
+          "{victimName} the {victimRole} was staked through the heart last night.  Goes to show... reading is dead."
+        ],
+        "Human Person": [
+          "{victimName} the {victimRole} was staked through the heart last night"
+        ]
+      },
+      "onlyTwoPlayersLeft": "This was the final showdown... It doesn't look promising for the the last person standing",
+      "noTriesLeft": "No one is dying today.  It's almost as if someone  or something... is trying to thwart your attempts, and create disagreement within your group",
+      "oneTryLeft": "You have one more try to determine who to stake.",
+      "twoTriesLeft": "If you can't... agree nobody dies.. you have two tries left"
     }
   }
 }
