@@ -80,7 +80,8 @@
     },
     "polls": {
       "title": "Poll Results",
-      "timer": 45
+      "pollResultsTimer": 30,
+      "timer": 60
     },
     "pollResults": {
       "killed": {
