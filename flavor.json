@@ -45,7 +45,7 @@
       "waitingRoomPlayersInGame": "Leaving now will end the game for everyone.  I know {randomPlayer} is gonna be super sad"
     },
     "intro": {
-      "title": "Directory",
+      "title": "Introduction to game",
       "content": [
         {
           "seconds": 4,
@@ -69,7 +69,11 @@
         },
         {
           "seconds": 4,
-          "text": "it'll go to the next page (in this case directory"
+          "text": "it'll go to the next page (in this case directory)"
+        },
+        {
+          "seconds": 15,
+          "text": "Amber likes really long timers"
         }
       ]
     },
