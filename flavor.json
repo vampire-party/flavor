@@ -44,6 +44,35 @@
     "exitModal": {
       "waitingRoomPlayersInGame": "Leaving now will end the game for everyone.  I know {randomPlayer} is gonna be super sad"
     },
+    "intro": {
+      "title": "Directory",
+      "content": [
+        {
+          "seconds": 15,
+          "text": [
+            "Welcome to the game",
+            "Salutations and welcome to Vampire Party",
+            "Thanks for joining the party"
+          ]
+        },
+        {
+          "seconds": 15,
+          "text": "This is some text"
+        },
+        {
+          "seconds": 10,
+          "text": "with a variety of timers"
+        },
+        {
+          "seconds": 5,
+          "text": "once the last timers runs out..."
+        },
+        {
+          "seconds": 5,
+          "text": "it'll go to the next page (in this case directory"
+        }
+      ]
+    },
     "directory": {
       "title": "Directory",
       "content": "Roles in this round are {currentRoles}",
