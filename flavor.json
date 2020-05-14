@@ -81,7 +81,9 @@
     "polls": {
       "title": "Poll Results",
       "pollResultsTimer": 30,
-      "timer": 60
+      "timer": 60,
+      "votedToKill": "Stake {victimName}",
+      "noVote": "Didn't Vote"
     },
     "pollResults": {
       "killed": {
