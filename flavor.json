@@ -33,9 +33,6 @@
       "toggleFullScreen": "Toggle full screen",
       "music": "Music"
     },
-    "vampireWin": {
-      "title": ["Vampires win", "All the sheeple are dead"]
-    },
     "waitingRoom": {
       "title": "Party Lobby",
       "waitingForPlayers": "You need {playersNeeded} more player{pluralize} to start the game",
@@ -113,6 +110,92 @@
       "noTriesLeft": "No one is dying today.  It's almost as if someone  or something... is trying to thwart your attempts, and create disagreement within your group",
       "oneTryLeft": "You have one more try to determine who to stake.",
       "twoTriesLeft": "If you can't... agree nobody dies.. you have two tries left"
+    },
+    "vampireWin": {
+      "title": "Vampire Win",
+      "content": [
+        "If you're a vampire... great job... if you are human... well you were really just cattle to these vamps. You never had a chance"
+      ],
+      "revealRoles": {
+        "Vampire": {
+          "expired": ["{name} the {role} is simply a pile of ashes"],
+          "notExpired": [
+            "{name} the {role} is truly a vamp champ",
+            "{name} the {role} is not dead, but undead (and proud of it!)"
+          ]
+        },
+        "Cullen": {
+          "expired": ["{name} the {role}'s ashes have blown away in the wind"],
+          "notExpired": ["{name} the {role} is still kicking"]
+        },
+        "Garlic Farmer": {
+          "expired": [
+            "{name} the {role} is dead... may their children take on their work!"
+          ],
+          "notExpired": ["{name} the {role} is alive and farming"]
+        },
+        "Priest": {
+          "expired": [
+            "{name} the priest is a goner and with them goes the law"
+          ],
+          "notExpired": ["{name} can continue their 'pious' life"]
+        },
+        "Mayor": {
+          "expired": ["{name} the mayor of this town is dead"],
+          "notExpired": ["{name} the {role}"]
+        },
+        "Librarian": {
+          "expired": ["{name} the {role} has checked out... for good"],
+          "notExpired": ["{name} the {role} is still in circulation"]
+        },
+        "Human Person": {
+          "expired": ["{name} the {role} is dead"],
+          "notExpired": ["{name} the {role} is still alive and kicking"]
+        }
+      }
+    },
+    "humanWin": {
+      "title": "Human Win",
+      "content": [
+        "If you're a human huzzah! You staked all those sneaky vampires! Well done. Now get back to the party."
+      ],
+      "revealRoles": {
+        "Vampire": {
+          "expired": ["{name} the {role} is simply a pile of ashes"],
+          "notExpired": [
+            "{name} the {role} is truly a vamp champ",
+            "{name} the {role} is not dead, but undead (and proud of it!)"
+          ]
+        },
+        "Cullen": {
+          "expired": ["{name} the {role}'s ashes have blown away in the wind"],
+          "notExpired": ["{name} the {role} is still kicking"]
+        },
+        "Garlic Farmer": {
+          "expired": [
+            "{name} the {role} is dead... may their children take on their work!"
+          ],
+          "notExpired": ["{name} the {role} is alive and farming"]
+        },
+        "Priest": {
+          "expired": [
+            "{name} the priest is a goner and with them goes the law"
+          ],
+          "notExpired": ["{name} can continue their 'pious' life"]
+        },
+        "Mayor": {
+          "expired": ["{name} the mayor of this town is dead"],
+          "notExpired": ["{name} the {role}"]
+        },
+        "Librarian": {
+          "expired": ["{name} the {role} has checked out... for good"],
+          "notExpired": ["{name} the {role} is still in circulation"]
+        },
+        "Human Person": {
+          "expired": ["{name} the {role} is dead"],
+          "notExpired": ["{name} the {role} is still alive and kicking"]
+        }
+      }
     }
   }
 }
