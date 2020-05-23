@@ -50,45 +50,63 @@
         {
           "seconds": 4,
           "text": [
-            "Welcome to the game",
+            "Velcom all, and thanks vor coming to my Vampire Party",
             "Salutations and welcome to Vampire Party",
-            "Thanks for joining the party"
+            "Thanks for joining the party",
+            "So glad you could make it. You won't live....to regret it"
           ]
         },
         {
-          "seconds": 3,
-          "text": "This is some text"
+          "seconds": 9,
+          "text": "Here in our gloomy town of Spoons we seem to have run into a bit of a vampire problem. Maybe because of our unforunate positioning ontop of a gaping..HellNose. Who is to really know?"
         },
         {
-          "seconds": 3,
-          "text": "with a variety of timers"
+          "seconds": 6,
+          "text":
+            "What I do know though, is that there are vampires and people are dying, and that just makes me sad?"
         },
-        {
-          "seconds": 4,
-          "text": "once the last timers runs out..."
-        },
-        {
-          "seconds": 4,
-          "text": "it'll go to the next page (in this case directory)"
+          {
+          "seconds": 10,
+          "text": "Wait, hold on. Is your videochat and microphone turned on? And is {vipPlayer} sharing thier screen? If not, pause the game and do that now, thanks <3 xoxo"
         },
         {
           "seconds": 15,
-          "text": "Amber likes really long timers"
+          "text": "Ok great. So here's the deal. I'm gonna need y'all to figure out who these dang vampires are. They seem to always attack at night. So I figured, during the day we can all meet up around 3 PM to perform my favorite vampire staking ceremony? Yay! So Fun! And then, we can just keep doing this everyday until we kill all the vampires, or until they overrun the town. Yeah? Awesome! " 
+        },
+        {
+          "seconds": 10,
+          "text": "Majority rules is the rule in Spoons. That goes for the Vampires too. When it comes time to Stake (or Suck, no judgement), and you cannot come to an agreement, no one will die."
+        },
+        {
+         "seconds": 10,
+          "text": "Thankfully I invited some people with useful skills to help protect us. Some of you I just invited cause I love you. I love you, but you're not special. Truth Hurts, Sweaty."
+        },
+        {
+          "seconds": 4,
+          "text": "Lastly, makesure to pay close attention and follow directions on your own devices. But also pay attention to me! Me! Me! Me! It is my party afterall."
+        },
+         {
+         "seconds": 15,
+          "text": "Oh yeah, I should add, that thing about Vampires melting in the sun or whatever? All myth. Vampires are actually masters of disguise and I may have accidentally invited some to the party... oops my bad! "
+         },
+        {
+          "seconds": 10,
+          "text": "Doesn't this sound like a fun party?! Now, let's see who showed up!"
         }
       ]
     },
     "directory": {
-      "title": "Directory",
-      "content": "Roles in this round are {currentRoles}",
+      "title": "Guest List",
+      "content": "O {currentRoles}",
       "timer": 120
     },
     "firstNight": {
       "title": "Night",
-      "content": "Hello and welcome. I hope your beds are comfortable and your doors are locked. Because there are 2 Vampires afoot, and they are huuuuuungry. Vampires are not the only ones who are active at night though, so pay attention to your screen for any prompts. Hope to see you all in the AM!"
+      "content": "I hope everyone is having fun. Just a warning, lights out in just a minute! Which does unfortunately mean one of you is probably going to die soon... Sorry again for inviting a vampire... Just pay attention to your phone and maybe everything will be fine? Hope to see you all in the AM! *air kiss*"
     },
     "night": {
       "title": "Night",
-      "content": "It is night time... the beasts are about... they will choose their prey. There is little that can help you now... Look at your phone even if you are not the vampire... if you act quick enough maybe you can avoid death...",
+      "content": "Hey guys, it's bedtime. AKA time to check your phone obssessively until you fall alseep... or die! No seriously, don't take your eyes off your phone until morning.",
       "timer": 30
     },
     "morning": {
@@ -96,11 +114,12 @@
       "content": "The sun rises...",
       "timer": 30,
       "nothingHappened": [
-        "It was a quiet night.",
-        "It was a nice evening.  Nobody is dead.  Weird."
+        "Aww, everyone woke up before me? Well, at least that means you're all here and no one died",
+        "It was a quiet night. The only disturbance I heard was {randomPlayer}'s insaaaaane sleep fart. I don't know whether to congratulate you or be concerned about your colon.",
+        "You guys, I had a crazy dream last night that {randomPlayer} had thier blood drained by a Vampire. Good thing it was just a dream.",
       ],
       "vampireKilled": [
-        "During the early hours the limp bloodless body of {murderedPlayer} was discovered"
+        "Yikes, I just found {murderedPlayer}'s  was discovered"
       ]
     },
     "day": {
