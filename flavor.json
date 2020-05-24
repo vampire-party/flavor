@@ -58,37 +58,37 @@
         },
         {
           "seconds": 9,
-          "text": "Here in our gloomy town of Spoons we seem to have run into a bit of a vampire problem. Maybe because of our unforunate positioning ontop of a gaping..HellNose. Who is to really know?"
+          "text": "Here in our gloomy town of Spoons we seem to have run into a bit of a vampire problem. Maybe because of our unfortunate positioning on top of a gaping..HellNose. Who is to really know?"
         },
         {
           "seconds": 6,
           "text":
             "What I do know though, is that there are vampires and people are dying, and that just makes me sad?"
         },
-          {
+        {
           "seconds": 10,
           "text": "Wait, hold on. Is your videochat and microphone turned on? And is {vipPlayer} sharing thier screen? If not, pause the game and do that now, thanks <3 xoxo"
         },
         {
           "seconds": 15,
-          "text": "Ok great. So here's the deal. I'm gonna need y'all to figure out who these dang vampires are. They seem to always attack at night. So I figured, during the day we can all meet up around 3 PM to perform my favorite vampire staking ceremony? Yay! So Fun! And then, we can just keep doing this everyday until we kill all the vampires, or until they overrun the town. Yeah? Awesome! " 
+          "text": "Ok great. So here's the deal. I'm gonna need y'all to figure out who these dang vampires are. They seem to always attack at night. So I figured, during the day we can all meet up around 3 PM to perform my favorite vampire staking ceremony? Yay! So Fun! And then, we can just keep doing this everyday until we kill all the vampires, or until they overrun the town. Yeah? Awesome! "
         },
         {
           "seconds": 10,
           "text": "Majority rules is the rule in Spoons. That goes for the Vampires too. When it comes time to Stake (or Suck, no judgement), and you cannot come to an agreement, no one will die."
         },
         {
-         "seconds": 10,
+          "seconds": 10,
           "text": "Thankfully I invited some people with useful skills to help protect us. Some of you I just invited cause I love you. I love you, but you're not special. Truth Hurts, Sweaty."
         },
         {
           "seconds": 4,
           "text": "Lastly, makesure to pay close attention and follow directions on your own devices. But also pay attention to me! Me! Me! Me! It is my party afterall."
         },
-         {
-         "seconds": 15,
+        {
+          "seconds": 15,
           "text": "Oh yeah, I should add, that thing about Vampires melting in the sun or whatever? All myth. Vampires are actually masters of disguise and I may have accidentally invited some to the party... oops my bad! "
-         },
+        },
         {
           "seconds": 10,
           "text": "Doesn't this sound like a fun party?! Now, let's see who showed up!"
@@ -116,7 +116,7 @@
       "nothingHappened": [
         "Aww, everyone woke up before me? Well, at least that means you're all here and no one died",
         "It was a quiet night. The only disturbance I heard was {randomPlayer}'s insaaaaane sleep fart. I don't know whether to congratulate you or be concerned about your colon.",
-        "You guys, I had a crazy dream last night that {randomPlayer} had thier blood drained by a Vampire. Good thing it was just a dream.",
+        "You guys, I had a crazy dream last night that {randomPlayer} had thier blood drained by a Vampire. Good thing it was just a dream."
       ],
       "vampireKilled": [
         "Yikes, I just found {murderedPlayer}'s  was discovered"
