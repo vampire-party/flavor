@@ -83,7 +83,7 @@
         },
         {
           "seconds": 4,
-          "text": "Lastly, makesure to pay close attention and follow directions on your own devices. But also pay attention to me! Me! Me! Me! It is my party afterall."
+          "text": "Lastly, make sure to pay close attention and follow directions on your own devices. But also pay attention to me! Me! Me! Me! It is my party afterall."
         },
         {
           "seconds": 15,
@@ -106,7 +106,7 @@
     },
     "night": {
       "title": "Night",
-      "content": "Hey guys, it's bedtime. AKA time to check your phone obssessively until you fall alseep... or die! No seriously, don't take your eyes off your phone until morning.",
+      "content": "Hey guys, it's bedtime. AKA time to check your phone obsessively until you fall asleep... or die! No seriously, don't take your eyes off your phone until morning.",
       "timer": 30
     },
     "morning": {
@@ -116,7 +116,7 @@
       "nothingHappened": [
         "Aww, everyone woke up before me? Well, at least that means you're all here and no one died",
         "It was a quiet night. The only disturbance I heard was {randomPlayer}'s insaaaaane sleep fart. I don't know whether to congratulate you or be concerned about your colon.",
-        "You guys, I had a crazy dream last night that {randomPlayer} had thier blood drained by a Vampire. Good thing it was just a dream."
+        "You guys, I had a crazy dream last night that {randomPlayer} had their blood drained by a Vampire. Good thing it was just a dream."
       ],
       "vampireKilled": [
         "Yikes, I just found {murderedPlayer}'s  was discovered"
