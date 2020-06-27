@@ -59,12 +59,14 @@
       "title": "Night",
       "content": {
         "noOptions": {
-          "Cullen": "You brook silently... awaiting the sparkling daylight",
+          "Cullen": "You brood silently... awaiting the sparkling daylight",
           "Priest": "You contemplate damnation... knowing hellish creatures are on the loose",
           "Human Person": "Scary times... there are beasts on the loose....(update flavor text)",
           "Mayor": "Beasts are on the loose... look busy!(update flavor)"
         },
-        "vampireVote": {}
+        "vampireVote": {
+          "instructions": "As a vampire... you may select your next victim"
+        }
       }
     }
   },
