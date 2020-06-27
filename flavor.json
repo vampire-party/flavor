@@ -58,7 +58,7 @@
     "night": {
       "title": "Night",
       "content": {
-        "noOptions": {
+        "default": {
           "Cullen": "You brood silently... awaiting the sparkling daylight",
           "Priest": "You contemplate damnation... knowing hellish creatures are on the loose",
           "Human Person": "Scary times... there are beasts on the loose....(update flavor text)",
@@ -80,9 +80,10 @@
     "morning": {
       "title": "Morning",
       "content": {
-        "noOptions": {
+        "default": {
           "Vampire": "You slept like the dead!",
           "Cullen": "How is it possible that the sun was rising in the middle of my midnight?(paraphrase, as stolen from twilight)",
+          "Priest": "Nobody died last night!",
           "Garlic Farmer": "Time to plant those crops... by that I mean garlic",
           "Human Person": "Morning sunshine!  Drink some coffee... stretch your legs...",
           "Librarian": "You wake up... it's morning. cool. You're a goddamned librarian."
@@ -109,7 +110,7 @@
               "Human Person": "You find some garlic on your front steps...",
               "Librarian": "You find some garlic on your front steps...You've ready about this practice and are grateful",
               "Mayor": "You find some garlic on your front steps... some offering!",
-              "Vampire": "No hunting for you!"
+              "Vampire": "You were given garlic...which makes you ill... No hunting for you!"
             },
             "hunted": {
               "self": "You are pleased you put garlic out front, as there are scratch marks on your front door",
@@ -122,6 +123,21 @@
           },
           "fuckedOver": "The garlic farmer fucked you over... you went to pay a visit to {name}, and there was garlic there...(todo: make PG)",
           "gaveToFellowVamp": "A member of your vampire crew was given garlic.  No hunting tonight...."
+        },
+        "resurrectionUpdates": {
+          "resurrectionPrompt": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
+          "playerResurrected": {
+            "self": "You've successfully resurrected ${name}!",
+            "Garlic Farmer": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Priest": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Human Person": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Librarian": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Mayor": "You've been given a second chance at life!  The priest has resurrected you!"
+          },
+          "alreadyUsedSuperPower": {
+            "death": "You've already used your priestly powers... nothing to do but sit back and pray for {name}'s soul",
+            "nobodyDied": "You've already used your priestly powers... luckily nobody died"
+          }
         }
       }
     }
@@ -218,6 +234,9 @@
       ],
       "vampireKilled": [
         "During the early hours the limp bloodless body of {murderedPlayer} was discovered"
+      ],
+      "playerResurrected": [
+        "It's a miracle!  During the night {name} was resurrected"
       ]
     },
     "day": {
