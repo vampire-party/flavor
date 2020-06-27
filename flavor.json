@@ -16,7 +16,10 @@
       ]
     },
     "waitingRoom": {
-      "enterRoomCode": "Enter Room Code"
+      "enterRoomCode": "Enter Room Code",
+      "enter": "Enter",
+      "roomCode": "Room code:",
+      "name": "Name"
     }
   },
   "desktop": {
