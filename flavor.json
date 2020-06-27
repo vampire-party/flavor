@@ -120,7 +120,7 @@
               "Mayor": "You find some garlic on your front steps... and scratch marks at the door"
             }
           },
-          "fuckedOver": "The garlic farmer fucked you over... you went to the room of {selectedPrey.userName}, and there was garlic there...(todo: make PG)",
+          "fuckedOver": "The garlic farmer fucked you over... you went to pay a visit to {name}, and there was garlic there...(todo: make PG)",
           "gaveToFellowVamp": "A member of your vampire crew was given garlic.  No hunting tonight...."
         }
       }
