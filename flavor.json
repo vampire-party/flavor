@@ -101,7 +101,7 @@
           "confirmVote": "Confirm"
         },
         "garlicUpdates": {
-          "garlicReceived": {
+          "received": {
             "notHunted": {
               "self": "You slept well... with the knowledge that you protected yourself.",
               "Garlic Farmer": "You find some garlic on your front steps...",
