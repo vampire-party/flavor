@@ -5,7 +5,9 @@
       "CULLEN": "Cullen",
       "GARLIC_FARMER": "Garlic Farmer",
       "PRIEST": "Priest",
-      "HUMAN": "Human Person"
+      "HUMAN": "Human Person",
+      "LIBRARIAN": "Librarian",
+      "MAYOR": "Mayor"
     }
   },
   "web": {
@@ -32,6 +34,24 @@
       "content": [
         "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
       ]
+    },
+    "directory": {
+      "title": {
+        "Vampire": "Vampire",
+        "Cullen": "Cullen",
+        "Garlic Farmer": "Garlic Farmer",
+        "Priest": "Priest",
+        "Human Person": "Human Person"
+      },
+      "content": {
+        "Vampire": "You are at the top of the food chain. Each night, the Vampires can select one non-vampire to suck their blood - but if there are multiple vampires, you must be in agreement to kill",
+        "Cullen": "A sneaky vampire, who has perfected their act of deception as a human in  main-stream society for the last century and feasts only on innocent animals and carrots.  If the Garlic Farmer chooses to gift The Cullen garlic, The Cullen will be outed as a Vampire",
+        "Garlic Farmer": "A friendly farmer who has taken over their family garlic farm, which has been in operation since 1696. While other townspeople discount them as a crackpot old fool, the Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.",
+        "Priest": "Character summary/backstory TBD",
+        "Human Person": "This is a placeholder for future more interesting characters.",
+        "LIBRARIAN": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love him, and will reward him useful information about vampiric identities.",
+        "Mayor": "Mayors placeholder text"
+      }
     }
   },
   "desktop": {
