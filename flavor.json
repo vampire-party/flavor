@@ -65,7 +65,10 @@
           "Mayor": "Beasts are on the loose... look busy!(update flavor)"
         },
         "vampireVote": {
-          "instructions": "As a vampire... you may select your next victim"
+          "instructions": "As a vampire... you may select your next victim",
+          "voted": "The hunt is on. (add flavor text)",
+          "confirmVote": "Stalk Prey",
+          "agreeOnVote": "All vampires must be in agreement in order to begin the hunt"
         }
       }
     }
