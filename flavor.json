@@ -99,6 +99,18 @@
           "usePower": "Use mayoral vote",
           "doNotUsePower": "Bide your time...",
           "confirmVote": "Confirm"
+        },
+        "garlicUpdates": {
+          "garlicReceived": {
+            "notHunted": {
+              "self": "You slept well... with the knowledge that you protected yourself.",
+              "Garlic Farmer": "You find some garlic on your front steps...",
+              "Priest": "You find some garlic on your front steps... It's a miracle!",
+              "Human Person": "You find some garlic on your front steps...",
+              "Librarian": "You find some garlic on your front steps...You've ready about this practice and are grateful",
+              "Mayor": "You find some garlic on your front steps... some offering!"
+            }
+          }
         }
       }
     }
