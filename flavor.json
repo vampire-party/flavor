@@ -93,6 +93,12 @@
           "resurrectPlayer": "Resurrect {name}",
           "doNotResurrectPlayer": "Pray",
           "confirmVote": "Confirm"
+        },
+        "mayorVote": {
+          "voted": "Your votes today count for two... but nobody knows!",
+          "useMayoralVote": "Use mayoral vote",
+          "doNotUseMayoralVote": "Bide your time...",
+          "confirmVote": "Confirm"
         }
       }
     }
