@@ -54,6 +54,18 @@
         "Librarian": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love him, and will reward him useful information about vampiric identities.",
         "Mayor": "Mayors placeholder text"
       }
+    },
+    "night": {
+      "title": "Night",
+      "content": {
+        "noOptions": {
+          "Cullen": "You brook silently... awaiting the sparkling daylight",
+          "Priest": "You contemplate damnation... knowing hellish creatures are on the loose",
+          "Human Person": "Scary times... there are beasts on the loose....(update flavor text)",
+          "Mayor": "Beasts are on the loose... look busy!(update flavor)"
+        },
+        "vampireVote": {}
+      }
     }
   },
   "desktop": {
