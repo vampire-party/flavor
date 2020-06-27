@@ -82,7 +82,7 @@
       "content": {
         "default": {
           "Vampire": "You slept like the dead!",
-          "Cullen": "How is it possible that the sun was rising in the middle of my midnight?(paraphrase, as stolen from twilight)",
+          "Cullen": "How is it possible that the sun was rising in the middle of my midnight?(TODO: re-write in prod, as stolen from twilight)",
           "Priest": "Nobody died last night!",
           "Garlic Farmer": "Time to plant those crops... by that I mean garlic",
           "Human Person": "Morning sunshine!  Drink some coffee... stretch your legs...",
@@ -127,7 +127,7 @@
         "resurrectionUpdates": {
           "resurrectionPrompt": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
           "playerResurrected": {
-            "self": "You've successfully resurrected ${name}!",
+            "self": "You've successfully resurrected {name}!",
             "Garlic Farmer": "You've been given a second chance at life!  The priest has resurrected you!",
             "Priest": "You've been given a second chance at life!  The priest has resurrected you!",
             "Human Person": "You've been given a second chance at life!  The priest has resurrected you!",
