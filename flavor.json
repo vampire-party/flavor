@@ -41,7 +41,9 @@
         "Cullen": "Cullen",
         "Garlic Farmer": "Garlic Farmer",
         "Priest": "Priest",
-        "Human Person": "Human Person"
+        "Human Person": "Human Person",
+        "Librarian": "Librarian",
+        "Mayor": "Mayor"
       },
       "content": {
         "Vampire": "You are at the top of the food chain. Each night, the Vampires can select one non-vampire to suck their blood - but if there are multiple vampires, you must be in agreement to kill",
@@ -49,7 +51,7 @@
         "Garlic Farmer": "A friendly farmer who has taken over their family garlic farm, which has been in operation since 1696. While other townspeople discount them as a crackpot old fool, the Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.",
         "Priest": "Character summary/backstory TBD",
         "Human Person": "This is a placeholder for future more interesting characters.",
-        "LIBRARIAN": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love him, and will reward him useful information about vampiric identities.",
+        "Librarian": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love him, and will reward him useful information about vampiric identities.",
         "Mayor": "Mayors placeholder text"
       }
     }
