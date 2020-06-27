@@ -20,7 +20,7 @@
       "enter": "Enter",
       "roomCode": "Room code:",
       "name": "Name",
-      "welcomeText": "Welcome {playerName}, you're now in the *spooky* waiting room #{gameSessionId }. Chill out and relax while everyone else joins.... if you can... hahahhaha",
+      "welcomeText": "Welcome {playerName}, you're now in the *spooky* waiting room #{gameSessionId}. Chill out and relax while everyone else joins.... if you can... hahahhaha",
       "vipWelcomeText": "{playerName}, as the first play to join room #{gameSessionId} you have special responsibilities.  Once more than four players have joined you can start the game."
     }
   },
