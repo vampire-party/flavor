@@ -8,7 +8,14 @@
       "HUMAN": "Human Person"
     }
   },
-  "web": {},
+  "web": {
+    "general": {
+      "title": "Vampire Party",
+      "error": [
+        "Oops! Something went wrong. It's probably your fault. Don't blame this on me!"
+      ]
+    }
+  },
   "desktop": {
     "general": {
       "title": "Vampire Party",
