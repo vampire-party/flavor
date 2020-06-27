@@ -104,13 +104,24 @@
           "received": {
             "notHunted": {
               "self": "You slept well... with the knowledge that you protected yourself.",
-              "Garlic Farmer": "You find some garlic on your front steps...",
+              "Garlic Farmer": "You find some garlic on your front steps... and you didn't put it there! Farmers stick together",
               "Priest": "You find some garlic on your front steps... It's a miracle!",
               "Human Person": "You find some garlic on your front steps...",
               "Librarian": "You find some garlic on your front steps...You've ready about this practice and are grateful",
-              "Mayor": "You find some garlic on your front steps... some offering!"
+              "Mayor": "You find some garlic on your front steps... some offering!",
+              "Vampire": "No hunting for you!"
+            },
+            "hunted": {
+              "self": "You are pleased you put garlic out front, as there are scratch marks on your front door",
+              "Garlic Farmer": "You find scratch marks are your front steps... thank goodness for the kindness of your fellow farmer!",
+              "Priest": "Bless the garlic farmer!  His garlic tithe was your saving grace - you find scratch marks out front",
+              "Human Person": "You find some garlic on your front steps... and scratch marks at the door",
+              "Librarian": "You find some garlic on your front steps...You've ready about this practice and are grateful - and are thankful as there are scratches at the door",
+              "Mayor": "You find some garlic on your front steps... and scratch marks at the door"
             }
-          }
+          },
+          "fuckedOver": "The garlic farmer fucked you over... you went to the room of {selectedPrey.userName}, and there was garlic there...(todo: make PG)",
+          "gaveToFellowVamp": "A member of your vampire crew was given garlic.  No hunting tonight...."
         }
       }
     }
