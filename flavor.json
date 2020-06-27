@@ -15,6 +15,10 @@
         "Oops! Something went wrong. It's probably your fault. Don't blame this on me!"
       ]
     },
+    "actions": {
+      "startGame": "Start the party!",
+      "startGameSkipIntro": "Start the party! (Skip Intro)"
+    },
     "waitingRoom": {
       "enterRoomCode": "Enter Room Code",
       "enter": "Enter",
@@ -23,9 +27,11 @@
       "welcomeText": "Welcome {playerName}, you're now in the *spooky* waiting room #{gameSessionId}. Chill out and relax while everyone else joins.... if you can... hahahhaha",
       "vipWelcomeText": "{playerName}, as the first play to join room #{gameSessionId} you have special responsibilities.  Once more than four players have joined you can start the game."
     },
-    "actions": {
-      "startGame": "Start the party!",
-      "startGameSkipIntro": "Start the party! (Skip Intro)"
+    "intro": {
+      "title": "Introduction to game",
+      "content": [
+        "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
+      ]
     }
   },
   "desktop": {
