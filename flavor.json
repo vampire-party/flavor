@@ -90,11 +90,25 @@
           "Mayor": "Mayors rule the school, it's cool.  Morning fool!"
         },
         "priestVote": {
-          "instructions": "",
           "voted": "You've chosen to resurrect {name}... this is a long and arduous process...",
           "usePower": "Resurrect {name}",
           "doNotUsePower": "Pray",
           "confirmVote": "Confirm"
+        },
+        "resurrectionUpdates": {
+          "prompt": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
+          "playerResurrected": {
+            "self": "You've successfully resurrected {name}!",
+            "Garlic Farmer": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Priest": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Human Person": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Librarian": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Mayor": "You've been given a second chance at life!  The priest has resurrected you!"
+          },
+          "alreadyUsedSuperPower": {
+            "death": "You've already used your priestly powers... nothing to do but sit back and pray for {name}'s soul",
+            "nobodyDied": "You've already used your priestly powers... luckily nobody died"
+          }
         },
         "mayorVote": {
           "prompt": "As the wiley politician you may choose to vote twice... but you'll have to plan ahead.  This can only be done once!",
@@ -126,21 +140,6 @@
           },
           "fuckedOver": "The garlic farmer fucked you over... you went to pay a visit to {name}, and there was garlic there...(todo: make PG)",
           "gaveToFellowVamp": "A member of your vampire crew was given garlic.  No hunting tonight...."
-        },
-        "resurrectionUpdates": {
-          "prompt": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
-          "playerResurrected": {
-            "self": "You've successfully resurrected {name}!",
-            "Garlic Farmer": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Priest": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Human Person": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Librarian": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Mayor": "You've been given a second chance at life!  The priest has resurrected you!"
-          },
-          "alreadyUsedSuperPower": {
-            "death": "You've already used your priestly powers... nothing to do but sit back and pray for {name}'s soul",
-            "nobodyDied": "You've already used your priestly powers... luckily nobody died"
-          }
         }
       }
     },
