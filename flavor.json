@@ -195,7 +195,15 @@
       }
     },
     "vampireWin": {
-      "title": "Vampire Win",
+      "title": {
+        "Vampire": "You win!",
+        "Cullen": "You lose",
+        "Garlic Farmer": "You lose",
+        "Priest": "You lose",
+        "Human Person": "Yuu lose",
+        "Librarian": "You lose",
+        "Mayor": "You lose"
+      },
       "content": {
         "Vampire": {
           "expired": [
@@ -242,7 +250,15 @@
       }
     },
     "humanWin": {
-      "title": "Human Win",
+      "title": {
+        "Vampire": "You lose",
+        "Cullen": "You win!",
+        "Garlic Farmer": "You win!",
+        "Priest": "You win!",
+        "Human Person": "Yuu win!",
+        "Librarian": "You win!",
+        "Mayor": "You win!"
+      },
       "content": {
         "Vampire": {
           "expired": ["Well..,. never saw this coming..."]
