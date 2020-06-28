@@ -97,10 +97,12 @@
           "confirmVote": "Confirm"
         },
         "mayorVote": {
+          "prompt": "As the wiley politician you may choose to vote twice... but you'll have to plan ahead.  This can only be done once!",
           "voted": "Your votes today count for two... but nobody knows!",
           "usePower": "Use mayoral vote",
           "doNotUsePower": "Bide your time...",
-          "confirmVote": "Confirm"
+          "confirmVote": "Confirm",
+          "alreadyUsedSuperPower": "You've used your ace in the hole... But that but you are still a politician at heart.  Use that!"
         },
         "garlicUpdates": {
           "received": {
@@ -139,10 +141,6 @@
             "death": "You've already used your priestly powers... nothing to do but sit back and pray for {name}'s soul",
             "nobodyDied": "You've already used your priestly powers... luckily nobody died"
           }
-        },
-        "mayoralUpdates": {
-          "prompt": "As the wiley politician you may choose to vote twice... but you'll have to plan ahead.  This can only be done once!",
-          "alreadyUsedSuperPower": "You've used your ace in the hole... But that but you are still a politician at heart.  Use that!"
         }
       }
     },
@@ -158,6 +156,7 @@
           "Librarian": "Grab your pitchforks, decide who must be staked next!",
           "Mayor": "Politic time! Help these peeps decide who must be staked next!"
         },
+        "mayoralSuperVote": "Today all your votes count for two!",
         "deathVote": {
           "confirm": "Confirm Ballot of Death"
         }
