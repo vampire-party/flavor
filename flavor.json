@@ -161,6 +161,18 @@
           "confirm": "Confirm Ballot of Death"
         }
       }
+    },
+    "polls": {
+      "title": "Poll Results",
+      "content": {
+        "Vampire": "Look at the main screen to see vote results",
+        "Cullen": "Look at the main screen to see vote results",
+        "Garlic Farmer": "Look at the main screen to see vote results",
+        "Priest": "Look at the main screen to see vote results",
+        "Human Person": "Look at the main screen to see vote results",
+        "Librarian": "Look at the main screen to see vote results",
+        "Mayor": "Look at the main screen to see vote results"
+      }
     }
   },
   "desktop": {
