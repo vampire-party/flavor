@@ -173,6 +173,26 @@
         "Librarian": "Look at the main screen to see vote results",
         "Mayor": "Look at the main screen to see vote results"
       }
+    },
+    "expired": {
+      "title": {
+        "Vampire": "Staked",
+        "Cullen": "Staked",
+        "Garlic Farmer": "Dead",
+        "Priest": "Dead",
+        "Human Person": "Dead",
+        "Librarian": "Dead",
+        "Mayor": "Dead"
+      },
+      "content": {
+        "Vampire": "You are no longer undead... in fact you are a pile of ashes... ",
+        "Cullen": "You are gone... you never wanted to hurt anyone... why... why!",
+        "Garlic Farmer": "You are dead... who will water the garden?",
+        "Priest": "Why fear death",
+        "Human Person": "ahhhhh! no!",
+        "Librarian": "Looks like you've checked out...",
+        "Mayor": "Worst scandal yet..."
+      }
     }
   },
   "desktop": {
