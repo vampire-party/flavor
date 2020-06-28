@@ -13,6 +13,7 @@
   "web": {
     "general": {
       "title": "Vampire Party",
+      "loading": "Loading...",
       "error": [
         "Oops! Something went wrong. It's probably your fault. Don't blame this on me!"
       ]
@@ -156,7 +157,16 @@
         },
         "mayoralSuperVote": "Today all your votes count for two!",
         "deathVote": {
-          "confirm": "Confirm Ballot of Death"
+          "confirm": "Confirm Ballot of Death",
+          "voted": {
+            "Vampire": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+            "Cullen": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+            "Priest": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+            "Garlic Farmer": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+            "Human Person": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+            "Librarian": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+            "Mayor": "You've made your decision...You want to put a stake through {condemnedName}'s heart."
+          }
         }
       }
     },
