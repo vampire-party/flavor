@@ -51,7 +51,7 @@
         "Garlic Farmer": "A friendly farmer who has taken over their family garlic farm, which has been in operation since 1696. While other townspeople discount them as a crackpot old fool, the Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.",
         "Priest": "Character summary/backstory TBD",
         "Human Person": "This is a placeholder for future more interesting characters.",
-        "Librarian": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love him, and will reward him useful information about vampiric identities.",
+        "Librarian": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love them, and will reward them useful information about vampiric identities.",
         "Mayor": "Mayors placeholder text"
       }
     },
@@ -192,6 +192,99 @@
         "Human Person": "ahhhhh! no!",
         "Librarian": "Looks like you've checked out...",
         "Mayor": "Worst scandal yet..."
+      }
+    },
+    "vampireWin": {
+      "title": "Vampire Win",
+      "content": {
+        "Vampire": {
+          "expired": [
+            "Beyond the grave you revel in your demonic friends triumph"
+          ],
+          "notExpired": [
+            "Long live the vampires! Do your vampire dance",
+            "You can't truly be shocked.  Humans are just stray cattle in the end..."
+          ]
+        },
+        "Cullen": {
+          "expired": [
+            "You only wanted to help those humans... how did it come to this?"
+          ],
+          "notExpired": [
+            "How did it come to this... will they humans thing you... you helped?"
+          ]
+        },
+        "Garlic Farmer": {
+          "expired": ["My farm... no!"],
+          "notExpired": ["Now I suppose you will be farmed by the vampires..."]
+        },
+        "Priest": {
+          "expired": ["You are dead and your prayers have not been answered"],
+          "notExpired": [
+            "You will not pray for the soulless admonitions that have defeated you"
+          ]
+        },
+        "Mayor": {
+          "expired": ["Running out of ideas. Dead mayor"],
+          "notExpired": ["NOt dead mayor but vamp won"]
+        },
+        "Librarian": {
+          "expired": ["Not so booksmart after all... can't read in the grave"],
+          "notExpired": [
+            "All your studies couldn't have prepared you for this defeat",
+            "With you last dying breath you pledge revenge against these satanic spawns..."
+          ]
+        },
+        "Human Person": {
+          "expired": ["You are super dead and defeated"],
+          "notExpired": ["Well, might as well offer yourself up to the vamps"]
+        }
+      }
+    },
+    "humanWin": {
+      "title": "Human Win",
+      "content": {
+        "Vampire": {
+          "expired": ["Well..,. never saw this coming..."]
+        },
+        "Cullen": {
+          "expired": [
+            "You only wanted to help those humans... at least they succeeded in the end"
+          ],
+          "notExpired": [
+            "You won! yah... are you finally accepted by the humans?"
+          ]
+        },
+        "Garlic Farmer": {
+          "expired": ["You're dead, but hey your friends won"],
+          "notExpired": [
+            "You've beaten the odds against these oversized mosquito!"
+          ]
+        },
+        "Priest": {
+          "expired": ["You're dead, but hey your friends won"],
+          "notExpired": [
+            "You've beaten the odds against these oversized mosquito!"
+          ]
+        },
+        "Mayor": {
+          "expired": ["You're dead, but hey your friends won"],
+          "notExpired": [
+            "You've beaten the odds against these oversized mosquito!"
+          ]
+        },
+        "Librarian": {
+          "expired": ["You're dead, but hey your friends won"],
+          "notExpired": [
+            "You've beaten the odds against these oversized mosquito!"
+          ]
+        },
+        "Human Person": {
+          "expired": ["You're dead, but hey your friends won"],
+          "notExpired": [
+            "You've beaten the odds against these oversized mosquito!"
+          ]
+        }
       }
     }
   },
