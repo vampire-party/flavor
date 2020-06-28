@@ -91,13 +91,11 @@
           "Mayor": "Mayors rule the school, it's cool.  Morning fool!"
         },
         "priestVote": {
+          "instructions": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
           "voted": "You've chosen to resurrect {name}... this is a long and arduous process...",
           "usePower": "Resurrect {name}",
           "doNotUsePower": "Pray",
-          "confirmVote": "Confirm"
-        },
-        "resurrectionUpdates": {
-          "prompt": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
+          "confirmVote": "Confirm",
           "playerResurrected": {
             "self": "You've successfully resurrected {name}!",
             "Garlic Farmer": "You've been given a second chance at life!  The priest has resurrected you!",
@@ -112,7 +110,7 @@
           }
         },
         "mayorVote": {
-          "prompt": "As the wiley politician you may choose to vote twice... but you'll have to plan ahead.  This can only be done once!",
+          "instructions": "As the wiley politician you may choose to vote twice... but you'll have to plan ahead.  This can only be done once!",
           "voted": "Your votes today count for two... but nobody knows!",
           "usePower": "Use mayoral vote",
           "doNotUsePower": "Bide your time...",
