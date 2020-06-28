@@ -85,7 +85,7 @@
         "default": {
           "Vampire": "You slept like the dead!",
           "Cullen": "How is it possible that the sun was rising in the middle of my midnight?(TODO: re-write in prod, as stolen from twilight)",
-          "Priest": "Nobody died last night!",
+          "Priest": "Another day, another prayer",
           "Garlic Farmer": "Time to plant those crops... by that I mean garlic",
           "Human Person": "Morning sunshine!  Drink some coffee... stretch your legs...",
           "Librarian": "You wake up... it's morning. cool. You're a goddamned librarian.",
@@ -136,10 +136,23 @@
               "Human Person": "You find some garlic on your front steps... and scratch marks at the door",
               "Librarian": "You find some garlic on your front steps...You've ready about this practice and are grateful - and are thankful as there are scratches at the door",
               "Mayor": "You find some garlic on your front steps... and scratch marks at the door"
+            },
+            "cullenUpdates": {
+              "survived": "You were given garlic... but you prevailed!",
+              "expired": "You were given garlic... too many years on a none-human diet has made you week... you are a goner",
+              "turned": "You received garlic... it enrages you to such an extent that you revert to your true form... You are now a vampire, and will win or lose with your nest",
+              "vampireNotice": {
+                "expired": "You were given garlic... too many years on a none-human diet has made you week... you are a goner",
+                "turned": "Great news! Your veggie sibling has rejoined the nest.  {name} is now a vampire!"
+              }
             }
           },
           "fuckedOver": "The garlic farmer fucked you over... you went to pay a visit to {name}, and there was garlic there...(todo: make PG)",
-          "gaveToFellowVamp": "A member of your vampire crew was given garlic.  No hunting tonight...."
+          "gaveToFellowVamp": "A member of your vampire crew was given garlic.  No hunting tonight....",
+          "vampireAttackedCullen": {
+            "Cullen": "You've been playing human so long, you were attacked by the Vamps... luckily you've still got a few moves and you fought them off",
+            "Vampire": "That was no human you attacked! {name} took you by surprise... and injured more than your pride... you must rest the following evening"
+          }
         }
       }
     },
@@ -403,6 +416,14 @@
       "vampireKilled": [
         "During the early hours the limp bloodless body of {murderedPlayer} was discovered"
       ],
+      "cullenUpdates": {
+        "expired": [
+          "How Strange... checking on {name} you find a pile of ashes..."
+        ],
+        "turned": [
+          "During the night you heard the wild howls of a beast... you know there is one more Vampire in the mix"
+        ]
+      },
       "playerResurrected": [
         "It's a miracle!  During the night {name} was resurrected"
       ]
