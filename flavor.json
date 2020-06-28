@@ -156,17 +156,15 @@
           "Mayor": "Politic time! Help these peeps decide who must be staked next!"
         },
         "mayoralSuperVote": "Today all your votes count for two!",
-        "deathVote": {
-          "confirm": "Confirm Ballot of Death",
-          "voted": {
-            "Vampire": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-            "Cullen": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-            "Priest": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-            "Garlic Farmer": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-            "Human Person": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-            "Librarian": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-            "Mayor": "You've made your decision...You want to put a stake through {condemnedName}'s heart."
-          }
+        "confirm": "Confirm Ballot of Death",
+        "voted": {
+          "Vampire": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Cullen": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Priest": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Garlic Farmer": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Human Person": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Librarian": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Mayor": "You've made your decision...You want to put a stake through {condemnedName}'s heart."
         }
       }
     },
