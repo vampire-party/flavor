@@ -86,7 +86,8 @@
           "Priest": "Nobody died last night!",
           "Garlic Farmer": "Time to plant those crops... by that I mean garlic",
           "Human Person": "Morning sunshine!  Drink some coffee... stretch your legs...",
-          "Librarian": "You wake up... it's morning. cool. You're a goddamned librarian."
+          "Librarian": "You wake up... it's morning. cool. You're a goddamned librarian.",
+          "Mayor": "Mayors rule the school, it's cool.  Morning fool!"
         },
         "priestVote": {
           "instructions": "",
@@ -125,7 +126,7 @@
           "gaveToFellowVamp": "A member of your vampire crew was given garlic.  No hunting tonight...."
         },
         "resurrectionUpdates": {
-          "resurrectionPrompt": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
+          "prompt": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
           "playerResurrected": {
             "self": "You've successfully resurrected {name}!",
             "Garlic Farmer": "You've been given a second chance at life!  The priest has resurrected you!",
@@ -138,6 +139,27 @@
             "death": "You've already used your priestly powers... nothing to do but sit back and pray for {name}'s soul",
             "nobodyDied": "You've already used your priestly powers... luckily nobody died"
           }
+        },
+        "mayoralUpdates": {
+          "prompt": "As the wiley politician you may choose to vote twice... but you'll have to plan ahead.  This can only be done once!",
+          "alreadyUsedSuperPower": "You've used your ace in the hole... But that but you are still a politician at heart.  Use that!"
+        }
+      }
+    },
+    "day": {
+      "title": "Day",
+      "content": {
+        "default": {
+          "Vampire": "Time to vote on who dies next... keep a low profile!",
+          "Cullen": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
+          "Priest": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
+          "Garlic Farmer": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
+          "Human Person": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
+          "Librarian": "Grab your pitchforks, decide who must be staked next!",
+          "Mayor": "Politic time! Help these peeps decide who must be staked next!"
+        },
+        "deathVote": {
+          "confirm": "Confirm Ballot of Death"
         }
       }
     }
