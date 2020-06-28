@@ -156,7 +156,7 @@
           "Mayor": "Politic time! Help these peeps decide who must be staked next!"
         },
         "mayoralSuperVote": "Today all your votes count for two!",
-        "confirm": "Confirm Ballot of Death",
+        "confirmVote": "Confirm Ballot of Death",
         "voted": {
           "Vampire": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
           "Cullen": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
