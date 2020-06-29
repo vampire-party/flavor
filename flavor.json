@@ -146,7 +146,7 @@
           "expired": "You were given garlic... too many years on a none-human diet has made you week... you are a goner",
           "turned": "You received garlic... it enrages you to such an extent that you revert to your true form... You are now a vampire, and will win or lose with your nest",
           "vampireNotice": {
-            "expired": "You were given garlic... too many years on a none-human diet has made you week... you are a goner",
+            "expired": "You went to attack... and all you found was a pile of ashes...",
             "turned": "Great news! Your veggie sibling has rejoined the nest.  {name} is now a vampire!"
           },
           "vampireAttackedCullen": {
