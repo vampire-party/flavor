@@ -70,7 +70,8 @@
           "instructions": "As a vampire... you may select your next victim",
           "voted": "The hunt is on. (add flavor text)",
           "confirmVote": "Stalk Prey",
-          "agreeOnVote": "All vampires must be in agreement in order to begin the hunt"
+          "agreeOnVote": "All vampires must be in agreement in order to begin the hunt",
+          "resting": "You must rest... you are hurt from last nights battle"
         },
         "garlicVote": {
           "instructions": "As the garlic farmer you get choose who to give garlic to. But remember you can only give each player one garlic per game.",
