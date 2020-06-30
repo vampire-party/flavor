@@ -5,10 +5,325 @@
       "CULLEN": "Cullen",
       "GARLIC_FARMER": "Garlic Farmer",
       "PRIEST": "Priest",
-      "HUMAN": "Human Person"
+      "HUMAN": "Human Person",
+      "LIBRARIAN": "Librarian",
+      "MAYOR": "Mayor"
     }
   },
-  "web": {},
+  "web": {
+    "general": {
+      "title": "Vampire Party",
+      "loading": "Loading...",
+      "error": [
+        "Oops! Something went wrong. It's probably your fault. Don't blame this on me!"
+      ]
+    },
+    "actions": {
+      "startGame": "Start the party!",
+      "startGameSkipIntro": "Start the party! (Skip Intro)"
+    },
+    "waitingRoom": {
+      "enterRoomCode": "Enter Room Code",
+      "enter": "Enter",
+      "roomCode": "Room code:",
+      "name": "Name",
+      "playGame": "Play game!",
+      "welcomeText": "Welcome {playerName}, you're now in the *spooky* waiting room #{gameSessionId}. Chill out and relax while everyone else joins.... if you can... hahahhaha",
+      "vipWelcomeText": "{playerName}, as the first play to join room #{gameSessionId} you have special responsibilities.  Once more than four players have joined you can start the game."
+    },
+    "intro": {
+      "title": "Introduction to game",
+      "content": [
+        "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
+      ]
+    },
+    "directory": {
+      "title": {
+        "Vampire": "Vampire",
+        "Cullen": "Cullen",
+        "Garlic Farmer": "Garlic Farmer",
+        "Priest": "Priest",
+        "Human Person": "Human Person",
+        "Librarian": "Librarian",
+        "Mayor": "Mayor"
+      },
+      "description": {
+        "Vampire": "You are at the top of the food chain. Each night, the Vampires can select one non-vampire to suck their blood - but if there are multiple vampires, you must be in agreement to kill",
+        "Cullen": "A sneaky vampire, who has perfected their act of deception as a human in  main-stream society for the last century and feasts only on innocent animals and carrots.  If the Garlic Farmer chooses to gift The Cullen garlic, The Cullen will be outed as a Vampire",
+        "Garlic Farmer": "A friendly farmer who has taken over their family garlic farm, which has been in operation since 1696. While other townspeople discount them as a crackpot old fool, the Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.",
+        "Priest": "Character summary/backstory TBD",
+        "Human Person": "This is a placeholder for future more interesting characters.",
+        "Librarian": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love them, and will reward them useful information about vampiric identities.",
+        "Mayor": "Mayors placeholder text"
+      }
+    },
+    "night": {
+      "title": "Night",
+      "content": {
+        "default": {
+          "Cullen": "You brood silently... awaiting the sparkling daylight",
+          "Priest": "You contemplate damnation... knowing hellish creatures are on the loose",
+          "Human Person": "Scary times... there are beasts on the loose....(update flavor text)",
+          "Mayor": "Beasts are on the loose... look busy!(update flavor)"
+        },
+        "vampireVote": {
+          "instructions": "As a vampire... you may select your next victim",
+          "voted": "The hunt is on. (add flavor text)",
+          "confirmVote": "Stalk Prey",
+          "agreeOnVote": "All vampires must be in agreement in order to begin the hunt",
+          "resting": "You must rest... you are hurt from last nights battle"
+        },
+        "garlicVote": {
+          "instructions": "As the garlic farmer you get choose who to give garlic to. But remember you can only give each player one garlic per game.",
+          "voted": "You've given a head of garlic to {name}.",
+          "confirmVote": "Confirm Your Gift of Garlic"
+        }
+      }
+    },
+    "morning": {
+      "title": "Morning",
+      "content": {
+        "default": {
+          "Vampire": "You slept like the dead!",
+          "Cullen": "How is it possible that the sun was rising in the middle of my midnight?(TODO: re-write in prod, as stolen from twilight)",
+          "Priest": "Another day, another prayer",
+          "Garlic Farmer": "Time to plant those crops... by that I mean garlic",
+          "Human Person": "Morning sunshine!  Drink some coffee... stretch your legs...",
+          "Librarian": "You wake up... it's morning. cool. You're a goddamned librarian.",
+          "Mayor": "Mayors rule the school, it's cool.  Morning fool!"
+        },
+        "priestVote": {
+          "instructions": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
+          "voted": "You've chosen to resurrect {name}... this is a long and arduous process...",
+          "usePower": "Resurrect {name}",
+          "doNotUsePower": "Pray",
+          "confirmVote": "Confirm",
+          "playerResurrected": {
+            "self": "You've successfully resurrected {name}!",
+            "Garlic Farmer": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Priest": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Human Person": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Librarian": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Mayor": "You've been given a second chance at life!  The priest has resurrected you!"
+          },
+          "alreadyUsedSuperPower": {
+            "death": "You've already used your priestly powers... nothing to do but sit back and pray for {name}'s soul",
+            "nobodyDied": "You've already used your priestly powers... luckily nobody died"
+          }
+        },
+        "mayorVote": {
+          "instructions": "As the wiley politician you may choose to vote twice... but you'll have to plan ahead.  This can only be done once!",
+          "voted": "Your votes today count for two... but nobody knows!",
+          "usePower": "Use mayoral vote",
+          "doNotUsePower": "Bide your time...",
+          "confirmVote": "Confirm",
+          "alreadyUsedSuperPower": "You've used your ace in the hole... But that but you are still a politician at heart.  Use that!"
+        },
+        "garlicUpdates": {
+          "received": {
+            "notHunted": {
+              "self": "You slept well... with the knowledge that you protected yourself.",
+              "Garlic Farmer": "You find some garlic on your front steps... and you didn't put it there! Farmers stick together",
+              "Priest": "You find some garlic on your front steps... It's a miracle!",
+              "Human Person": "You find some garlic on your front steps...",
+              "Librarian": "You find some garlic on your front steps...You've ready about this practice and are grateful",
+              "Mayor": "You find some garlic on your front steps... some offering!",
+              "Vampire": "You were given garlic...which makes you ill... No hunting for you!"
+            },
+            "hunted": {
+              "self": "You are pleased you put garlic out front, as there are scratch marks on your front door",
+              "Garlic Farmer": "You find scratch marks are your front steps... thank goodness for the kindness of your fellow farmer!",
+              "Priest": "Bless the garlic farmer!  His garlic tithe was your saving grace - you find scratch marks out front",
+              "Human Person": "You find some garlic on your front steps... and scratch marks at the door",
+              "Librarian": "You find some garlic on your front steps...You've ready about this practice and are grateful - and are thankful as there are scratches at the door",
+              "Mayor": "You find some garlic on your front steps... and scratch marks at the door"
+            }
+          },
+          "fuckedOver": "The garlic farmer fucked you over... you went to pay a visit to {name}, and there was garlic there...(todo: make PG)",
+          "gaveToFellowVamp": "A member of your vampire crew was given garlic.  No hunting tonight...."
+        },
+        "cullenUpdates": {
+          "survived": "You were given garlic... but you prevailed!",
+          "expired": "You were given garlic... too many years on a none-human diet has made you week... you are a goner",
+          "turned": "You received garlic... it enrages you to such an extent that you revert to your true form... You are now a vampire, and will win or lose with your nest",
+          "vampireNotice": {
+            "expired": "You went to attack... and all you found was a pile of ashes...",
+            "turned": "Great news! Your veggie sibling has rejoined the nest.  {name} is now a vampire!"
+          },
+          "vampireAttackedCullen": {
+            "Cullen": "You've been playing human so long, you were attacked by the Vamps... luckily you've still got a few moves and you fought them off",
+            "Vampire": "That was no human you attacked! {name} took you by surprise... and injured more than your pride... you must rest the following evening"
+          }
+        }
+      }
+    },
+    "day": {
+      "title": "Day",
+      "content": {
+        "default": {
+          "Vampire": "Time to vote on who dies next... keep a low profile!",
+          "Cullen": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
+          "Priest": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
+          "Garlic Farmer": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
+          "Human Person": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
+          "Librarian": "Grab your pitchforks, decide who must be staked next!",
+          "Mayor": "Politic time! Help these peeps decide who must be staked next!"
+        },
+        "mayoralSuperVote": "Today all your votes count for two!",
+        "confirmVote": "Confirm Ballot of Death",
+        "voted": {
+          "Vampire": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Cullen": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Priest": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Garlic Farmer": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Human Person": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Librarian": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
+          "Mayor": "You've made your decision...You want to put a stake through {condemnedName}'s heart."
+        }
+      }
+    },
+    "polls": {
+      "title": "Poll Results",
+      "content": {
+        "Vampire": "Look at the main screen to see vote results",
+        "Cullen": "Look at the main screen to see vote results",
+        "Garlic Farmer": "Look at the main screen to see vote results",
+        "Priest": "Look at the main screen to see vote results",
+        "Human Person": "Look at the main screen to see vote results",
+        "Librarian": "Look at the main screen to see vote results",
+        "Mayor": "Look at the main screen to see vote results"
+      }
+    },
+    "expired": {
+      "title": {
+        "Vampire": "Staked",
+        "Cullen": "Staked",
+        "Garlic Farmer": "Dead",
+        "Priest": "Dead",
+        "Human Person": "Dead",
+        "Librarian": "Dead",
+        "Mayor": "Dead"
+      },
+      "content": {
+        "Vampire": "You are no longer undead... in fact you are a pile of ashes... ",
+        "Cullen": "You are gone... you never wanted to hurt anyone... why... why!",
+        "Garlic Farmer": "You are dead... who will water the garden?",
+        "Priest": "Why fear death",
+        "Human Person": "ahhhhh! no!",
+        "Librarian": "Looks like you've checked out...",
+        "Mayor": "Worst scandal yet..."
+      }
+    },
+    "vampireWin": {
+      "title": {
+        "Vampire": "You win!",
+        "Cullen": "You lose",
+        "Garlic Farmer": "You lose",
+        "Priest": "You lose",
+        "Human Person": "You lose",
+        "Librarian": "You lose",
+        "Mayor": "You lose"
+      },
+      "content": {
+        "Vampire": {
+          "expired": [
+            "Beyond the grave you revel in your demonic friends triumph"
+          ],
+          "notExpired": [
+            "Long live the vampires! Do your vampire dance",
+            "You can't truly be shocked.  Humans are just stray cattle in the end..."
+          ]
+        },
+        "Cullen": {
+          "expired": [
+            "You only wanted to help those humans... how did it come to this?"
+          ],
+          "notExpired": [
+            "How did it come to this... will they humans thing you... you helped?"
+          ]
+        },
+        "Garlic Farmer": {
+          "expired": ["My farm... no!"],
+          "notExpired": ["Now I suppose you will be farmed by the vampires..."]
+        },
+        "Priest": {
+          "expired": ["You are dead and your prayers have not been answered"],
+          "notExpired": [
+            "You will not pray for the soulless admonitions that have defeated you"
+          ]
+        },
+        "Mayor": {
+          "expired": ["Running out of ideas. Dead mayor"],
+          "notExpired": ["NOt dead mayor but vamp won"]
+        },
+        "Librarian": {
+          "expired": ["Not so booksmart after all... can't read in the grave"],
+          "notExpired": [
+            "All your studies couldn't have prepared you for this defeat",
+            "With you last dying breath you pledge revenge against these satanic spawns..."
+          ]
+        },
+        "Human Person": {
+          "expired": ["You are super dead and defeated"],
+          "notExpired": ["Well, might as well offer yourself up to the vamps"]
+        }
+      }
+    },
+    "humanWin": {
+      "title": {
+        "Vampire": "You lose",
+        "Cullen": "You win!",
+        "Garlic Farmer": "You win!",
+        "Priest": "You win!",
+        "Human Person": "Yuu win!",
+        "Librarian": "You win!",
+        "Mayor": "You win!"
+      },
+      "content": {
+        "Vampire": {
+          "expired": ["Well..,. never saw this coming..."]
+        },
+        "Cullen": {
+          "expired": [
+            "You only wanted to help those humans... at least they succeeded in the end"
+          ],
+          "notExpired": [
+            "You won! yah... are you finally accepted by the humans?"
+          ]
+        },
+        "Garlic Farmer": {
+          "expired": ["You're dead, but hey your friends won"],
+          "notExpired": [
+            "You've beaten the odds against these oversized mosquito!"
+          ]
+        },
+        "Priest": {
+          "expired": ["You're dead, but hey your friends won"],
+          "notExpired": [
+            "You've beaten the odds against these oversized mosquito!"
+          ]
+        },
+        "Mayor": {
+          "expired": ["You're dead, but hey your friends won"],
+          "notExpired": [
+            "You've beaten the odds against these oversized mosquito!"
+          ]
+        },
+        "Librarian": {
+          "expired": ["You're dead, but hey your friends won"],
+          "notExpired": [
+            "You've beaten the odds against these oversized mosquito!"
+          ]
+        },
+        "Human Person": {
+          "expired": ["You're dead, but hey your friends won"],
+          "notExpired": [
+            "You've beaten the odds against these oversized mosquito!"
+          ]
+        }
+      }
+    }
+  },
   "desktop": {
     "general": {
       "title": "Vampire Party",
@@ -119,7 +434,19 @@
         "You guys, I had a crazy dream last night that {randomPlayer} had their blood drained by a Vampire. Good thing it was just a dream."
       ],
       "vampireKilled": [
-        "Yikes, I just found {murderedPlayer}'s  was discovered"
+        "Yikes, I just found {murderedPlayer}'s  was discovered",
+        "During the early hours the limp bloodless body of {murderedPlayer} was discovered"
+      ],
+      "cullenUpdates": {
+        "expired": [
+          "How Strange... checking on {name} you find a pile of ashes..."
+        ],
+        "turned": [
+          "During the night you heard the wild howls of a beast... you know there is one more Vampire in the mix"
+        ]
+      },
+      "playerResurrected": [
+        "It's a miracle!  During the night {name} was resurrected"
       ]
     },
     "day": {
