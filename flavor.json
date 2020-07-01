@@ -143,7 +143,7 @@
           "gaveToFellowVamp": "A member of your vampire crew was given garlic.  No hunting tonight...."
         },
         "cullenUpdates": {
-          "survived": "You were given garlic... but you prevailed!",
+          "survived": "Gross.... Garlic is nasty.!",
           "expired": "You were given garlic... too many years on a none-human diet has made you week... you are a goner",
           "turned": "You received garlic... it enrages you to such an extent that you revert to your true form... You are now a vampire, and will win or lose with your nest",
           "vampireNotice": {
@@ -377,8 +377,7 @@
         },
         {
           "seconds": 6,
-          "text":
-            "What I do know though, is that there are vampires and people are dying, and that just makes me sad?"
+          "text": "What I do know though, is that there are vampires and people are dying, and that just makes me sad?"
         },
         {
           "seconds": 10,
@@ -434,7 +433,7 @@
         "You guys, I had a crazy dream last night that {randomPlayer} had their blood drained by a Vampire. Good thing it was just a dream."
       ],
       "vampireKilled": [
-        "Yikes, I just found {murderedPlayer}'s  was discovered",
+        "Yikes, I just found {murderedPlayer}'s bloodless body",
         "During the early hours the limp bloodless body of {murderedPlayer} was discovered"
       ],
       "cullenUpdates": {
@@ -476,7 +475,7 @@
           "{victimName} the {victimRole} was staked through the heart last night"
         ],
         "Mayor": [
-          "{victimName} the {victimRole} was staked through the heart last night.  Damnit! You were relying on their endor!"
+          "{victimName} the {victimRole} was staked through the heart last night.  Damnit! You were relying on their endorsement!"
         ],
         "Librarian": [
           "{victimName} the {victimRole} was staked through the heart last night.  Read em' and weep, boys. Read em' and weep."
@@ -488,36 +487,31 @@
       "onlyTwoPlayersLeft": "This was the final showdown... It doesn't look promising for the the last person standing",
       "noTriesLeft": "No one is dying today.  It's almost as if someone  or something... is trying to thwart your attempts, and create disagreement within your group",
       "oneTryLeft": "You have one more try to determine who to stake.",
-      "twoTriesLeft": "If you can't... agree nobody dies.. you have two tries left"
+      "twoTriesLeft": "If you can't... agree nobody dies.. you have two tries left",
+      "deathByMayor": {
+        "Vampire": [
+          "Well, this mayor just locked in your vote for next term... He *literally* just slayed a Vampire for y'all. "
+        ],
+        "Cullen": [
+          "Well, this mayor just locked in your vote for next term... He *literally* just slayed a Vampire for y'all."
+        ],
+        "Garlic Farmer": [
+          "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
+        ],
+        "Priest": [
+          "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
+        ],
+        "Mayor": [
+          "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
+        ],
+        "Librarian": [
+          "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
+        ],
+        "Human Person": [
+          "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
+        ]
+      }
     },
-    "deathByMayor": {
-      "Vampire": [
-        "Well, this mayor just locked in your vote for next term... He *literally* just slayed a Vampire for y'all. "
-      ],
-      "Cullen": [
-        "Well, this mayor just locked in your vote for next term... He *literally* just slayed a Vampire for y'all."
-      ],
-      "Garlic Farmer": [
-        "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
-      ],
-      "Priest": [
-        "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
-      ],
-      "Mayor": [
-        "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
-      ],
-      "Librarian": [
-        "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
-      ],
-      "Human Person": [
-        "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
-      ]
-    },
-    "onlyTwoPlayersLeft": "This was the final showdown... It doesn't look promising for the the last person standing",
-    "noTriesLeft": "No one is dying today.  It's almost as if someone  or something... is trying to thwart your attempts, and create disagreement within your group",
-    "oneTryLeft": "You have one more try to determine who to stake.",
-    "twoTriesLeft": "If you can't... agree nobody dies.. you have two tries left"
-  },
     "vampireWin": {
       "title": "Vampire Win",
       "content": [
