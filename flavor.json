@@ -284,7 +284,7 @@
           "expired": [
             "Sucks to suck, mother sucker. You are dead...again. See you in hell.",
             "I hope you enjoy eternal damnnation, because yer dead."
-          ],
+          ]
         },
         "Cullen": {
           "expired": [
@@ -295,7 +295,9 @@
           ]
         },
         "Garlic Farmer": {
-          "expired": ["You may be dead, but your sacrifices (and bad breath) will never be forgotten"],
+          "expired": [
+            "You may be dead, but your sacrifices (and bad breath) will never be forgotten"
+          ],
           "notExpired": [
             "You've beaten the odds against these oversized mosquito!"
           ]
