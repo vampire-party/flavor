@@ -28,7 +28,7 @@
       "roomCode": "Room code:",
       "name": "Name",
       "playGame": "Play game!",
-      "welcomeText": "Welcome {playerName}, you're now in the *spooky* waiting room #{gameSessionId}. Chill out and relax while everyone else joins.... if you can... hahahhaha",
+      "welcomeText": "Velcome {playerName}, you're now in the *spooky* waiting room #{gameSessionId}. Chill out and relax while everyone else joins.... if you can... hahahhaha",
       "vipWelcomeText": "{playerName}, as the first play to join room #{gameSessionId} you have special responsibilities.  Once more than four players have joined you can start the game."
     },
     "intro": {
@@ -341,7 +341,7 @@
     },
     "credit": {
       "title": "Credit",
-      "content": "Section to be built out."
+      "content": "I'm building this section out, motha truckas"
     },
     "settings": {
       "title": "Settings",
@@ -368,7 +368,7 @@
             "Velcom all, and thanks vor coming to my Vampire Party",
             "Salutations and welcome to Vampire Party",
             "Thanks for joining the party",
-            "So glad you could make it. You won't live....to regret it"
+            "So glad you could make it. You won't live...to regret it"
           ]
         },
         {
@@ -467,7 +467,7 @@
           "A pile of ashes was found where {victimName} was staked through the heart... looks like there is one vampire less in the mix?"
         ],
         "Cullen": [
-          "A pile of ashes was found where {victimName} was staked through the heart... looks like there is one vampire less in the mix?"
+          "Okay, this is hard to explain... but a pile of ashes was found where {victimName} was  like there is one vampire less in the mix?"
         ],
         "Garlic Farmer": [
           "{victimName} the {victimRole} was staked through the heart last night.  Goes to show bad breadth can kill you..."
@@ -476,10 +476,10 @@
           "{victimName} the {victimRole} was staked through the heart last night"
         ],
         "Mayor": [
-          "{victimName} the {victimRole} was staked through the heart last night.  Don't feel so important now... do you Mr. Mayor!"
+          "{victimName} the {victimRole} was staked through the heart last night.  Damnit! You were relying on their endor!"
         ],
         "Librarian": [
-          "{victimName} the {victimRole} was staked through the heart last night.  Goes to show... reading is dead."
+          "{victimName} the {victimRole} was staked through the heart last night.  Read em' and weep, boys. Read em' and weep."
         ],
         "Human Person": [
           "{victimName} the {victimRole} was staked through the heart last night"
@@ -490,6 +490,34 @@
       "oneTryLeft": "You have one more try to determine who to stake.",
       "twoTriesLeft": "If you can't... agree nobody dies.. you have two tries left"
     },
+    "deathByMayor": {
+      "Vampire": [
+        "Well, this mayor just locked in your vote for next term... He *literally* just slayed a Vampire for y'all. "
+      ],
+      "Cullen": [
+        "Well, this mayor just locked in your vote for next term... He *literally* just slayed a Vampire for y'all."
+      ],
+      "Garlic Farmer": [
+        "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
+      ],
+      "Priest": [
+        "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
+      ],
+      "Mayor": [
+        "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
+      ],
+      "Librarian": [
+        "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
+      ],
+      "Human Person": [
+        "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
+      ]
+    },
+    "onlyTwoPlayersLeft": "This was the final showdown... It doesn't look promising for the the last person standing",
+    "noTriesLeft": "No one is dying today.  It's almost as if someone  or something... is trying to thwart your attempts, and create disagreement within your group",
+    "oneTryLeft": "You have one more try to determine who to stake.",
+    "twoTriesLeft": "If you can't... agree nobody dies.. you have two tries left"
+  },
     "vampireWin": {
       "title": "Vampire Win",
       "content": [
