@@ -281,18 +281,23 @@
       },
       "content": {
         "Vampire": {
-          "expired": ["Well..,. never saw this coming..."]
+          "expired": [
+            "Sucks to suck, mother sucker. You are dead...again. See you in hell.",
+            "I hope you enjoy eternal damnnation, because yer dead."
+          ]
         },
         "Cullen": {
           "expired": [
-            "You only wanted to help those humans... at least they succeeded in the end"
+            "Hey, at least you died trying to help those you love... even if they may not have loved you back."
           ],
           "notExpired": [
-            "You won! yah... are you finally accepted by the humans?"
+            "You won! But I don't recommend revealing your true nature to your friends. You saw what they do to Vampires."
           ]
         },
         "Garlic Farmer": {
-          "expired": ["You're dead, but hey your friends won"],
+          "expired": [
+            "You may be dead, but your sacrifices (and bad breath) will never be forgotten"
+          ],
           "notExpired": [
             "You've beaten the odds against these oversized mosquito!"
           ]
@@ -411,7 +416,7 @@
     },
     "directory": {
       "title": "Guest List",
-      "content": "O {currentRoles}",
+      "content": "{currentRoles}",
       "timer": 120
     },
     "firstNight": {
