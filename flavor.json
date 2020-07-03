@@ -84,7 +84,7 @@
             "Pick quick! Once the night is over your research is done"
           ],
           "roleResearchResults": {
-            "Vampire": "After hours of research your fairly certain {name} is a vampire",
+            "Vampire": "After hours of research you're fairly certain {name} is a vampire",
             "Human Person": "You've scoured the records and have learned nothing about {name} in Vampire legends.  They seem to be human"
           }
         }
@@ -388,7 +388,7 @@
         },
         {
           "seconds": 9,
-          "text": "Here in our gloomy town of Spoons we seem to have run into a bit of a vampire problem. Maybe because of our unfortunate positioning on top of a gaping..HellNose. Who is to really know?"
+          "text": "Here in our gloomy town of Spoons we seem to have run into a bit of a vampire problem. Maybe because of our unfortunate positioning on top of a gaping...  HellNose. Who is to really know?"
         },
         {
           "seconds": 6,
@@ -396,7 +396,7 @@
         },
         {
           "seconds": 10,
-          "text": "Wait, hold on. Is your videochat and microphone turned on? And is {vipPlayer} sharing thier screen? If not, pause the game and do that now, thanks <3 xoxo"
+          "text": "Wait, hold on. Is your videochat and microphone turned on? And is {vipPlayer} sharing their screen? If not, pause the game and do that now, thanks <3 xoxo"
         },
         {
           "seconds": 15,
@@ -412,7 +412,7 @@
         },
         {
           "seconds": 4,
-          "text": "Lastly, make sure to pay close attention and follow directions on your own devices. But also pay attention to me! Me! Me! Me! It is my party afterall."
+          "text": "Lastly, make sure to pay close attention and follow directions on your own devices. But also pay attention to me! Me! Me! Me! It is my party after all."
         },
         {
           "seconds": 15,
