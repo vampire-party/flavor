@@ -82,7 +82,11 @@
           "instructions": [
             "You can research a player... although not always accurate you can figure out if they are human or vampire",
             "Pick quick! Once the night is over your research is done"
-          ]
+          ],
+          "roleResearchResults": {
+            "Vampire": "After hours of research your fairly certain {name} is a vampire",
+            "Human Person": "You've scoured the records and have learned nothing about {name} in Vampire legends.  They seem to be human"
+          }
         }
       }
     },
