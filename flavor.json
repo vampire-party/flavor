@@ -429,59 +429,19 @@
       "content": "{currentRoles}",
       "timer": 120
     },
+    "firstNight": {
+      "title": "Night",
+      "content": "I hope everyone is having fun. Just a warning, lights out in just a minute! Which does unfortunately mean one of you is probably going to die soon... Sorry again for inviting a vampire... Just pay attention to your phone and maybe everything will be fine? Hope to see you all in the AM! *air kiss*"
+    },
     "night": {
       "title": "Night",
       "content": "Hey guys, it's bedtime. AKA time to check your phone obsessively until you fall asleep... or die! No seriously, don't take your eyes off your phone until morning.",
-      "timer": 30,
-      "introText": [
-        {
-          "seconds": 5,
-          "text": "Okay, so this is intro for night"
-        },
-        {
-          "seconds": 5,
-          "text": "It'll run"
-        },
-        {
-          "seconds": 5,
-          "text": "And once it finishes"
-        },
-        {
-          "seconds": 5,
-          "text": "content (or whatever else) will display"
-        },
-        {
-          "seconds": 1,
-          "text": "BAM"
-        },
-        {
-          "seconds": 1,
-          "text": "BOOOM"
-        },
-        {
-          "seconds": 1,
-          "text": "BANG"
-        }
-      ]
+      "timer": 30
     },
     "morning": {
       "title": "Morning",
       "content": "The sun rises...",
       "timer": 30,
-      "introText": [
-        {
-          "seconds": 15,
-          "text": "It's morning.  This is the time for for news.  Look at the bulletins posted to see who died, or anything else that may have happened"
-        },
-        {
-          "seconds": 15,
-          "text": "If you are the Priest or the Mayor, you may have the possibility to do a little more."
-        },
-        {
-          "seconds": 10,
-          "text": "Quick!  Look at your phone!  (@Hayley... clean it up!"
-        }
-      ],
       "nothingHappened": [
         "Aww, everyone woke up before me? Well, at least that means you're all here and no one died",
         "It was a quiet night. The only disturbance I heard was {randomPlayer}'s insaaaaane sleep fart. I don't know whether to congratulate you or be concerned about your colon.",
@@ -506,25 +466,7 @@
     "day": {
       "title": "Day",
       "content": "It's a cloudy day... but at least it's light out.",
-      "timer": 180,
-      "introText": [
-        {
-          "seconds": 15,
-          "text": "It's day timer... time to vote!"
-        },
-        {
-          "seconds": 15,
-          "text": "Vote on who you think is a vamp"
-        },
-        {
-          "seconds": 15,
-          "text": "Once everyone votes or the time runs out, votes will be tallies. Plurality rules!"
-        },
-        {
-          "seconds": 15,
-          "text": "But if you can't decide... no-one dies"
-        }
-      ]
+      "timer": 180
     },
     "polls": {
       "title": "Poll Results",
