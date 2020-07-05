@@ -33,9 +33,17 @@
     },
     "intro": {
       "title": "Introduction to game",
-      "content": [
-        "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
-      ]
+      "button": "Skip",
+      "afterClick": "Waiting for rest of players",
+      "content": {
+        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
+      }
     },
     "directory": {
       "title": {
@@ -55,6 +63,20 @@
         "Human Person": "This is a placeholder for future more interesting characters.",
         "Librarian": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love them, and will reward them useful information about vampiric identities.",
         "Mayor": "Mayors placeholder text"
+      }
+    },
+    "nightIntro": {
+      "title": "Night",
+      "button": "Ok",
+      "afterClick": "Waiting for rest of players",
+      "content": {
+        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
       }
     },
     "night": {
@@ -88,6 +110,20 @@
             "Human Person": "You've scoured the records and have learned nothing about {name} in Vampire legends.  They seem to be human"
           }
         }
+      }
+    },
+    "morningIntro": {
+      "title": "Introduction to game",
+      "button": "Copy that",
+      "afterClick": "Waiting for rest of players",
+      "content": {
+        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
       }
     },
     "morning": {
@@ -165,6 +201,20 @@
             "Vampire": "That was no human you attacked! {name} took you by surprise... and injured more than your pride... you must rest the following evening"
           }
         }
+      }
+    },
+    "dayIntro": {
+      "title": "Introduction to game",
+      "button": "Got it!",
+      "afterClick": "Waiting for rest of players",
+      "content": {
+        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
       }
     },
     "day": {
