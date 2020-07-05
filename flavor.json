@@ -479,14 +479,32 @@
       "content": "{currentRoles}",
       "timer": 120
     },
-    "firstNight": {
-      "title": "Night",
-      "content": "I hope everyone is having fun. Just a warning, lights out in just a minute! Which does unfortunately mean one of you is probably going to die soon... Sorry again for inviting a vampire... Just pay attention to your phone and maybe everything will be fine? Hope to see you all in the AM! *air kiss*"
+    "nightIntro": {
+      "title": "Introduction to game",
+      "content": [
+        {
+          "seconds": 60,
+          "text": [
+            "It is night time.  Look at your phone for further instructions."
+          ]
+        }
+      ]
     },
     "night": {
       "title": "Night",
       "content": "Hey guys, it's bedtime. AKA time to check your phone obsessively until you fall asleep... or die! No seriously, don't take your eyes off your phone until morning.",
       "timer": 30
+    },
+    "morningIntro": {
+      "title": "Introduction to game",
+      "content": [
+        {
+          "seconds": 60,
+          "text": [
+            "It is morning time.  Look at your phone for further instructions."
+          ]
+        }
+      ]
     },
     "morning": {
       "title": "Morning",
@@ -511,6 +529,17 @@
       },
       "playerResurrected": [
         "It's a miracle!  During the night {name} was resurrected"
+      ]
+    },
+    "dayIntro": {
+      "title": "Introduction to game",
+      "content": [
+        {
+          "seconds": 60,
+          "text": [
+            "It is day time.  Look at your phone for further instructions."
+          ]
+        }
       ]
     },
     "day": {
