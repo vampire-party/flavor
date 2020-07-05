@@ -55,7 +55,7 @@
         "Librarian": "Librarian",
         "Mayor": "Mayor"
       },
-      "button": "Skip",
+      "button": "Done",
       "afterClick": "Waiting for rest of players",
       "description": {
         "Vampire": "You are at the top of the food chain. Each night, the Vampires can select one non-vampire to suck their blood - but if there are multiple vampires, you must be in agreement to kill",
