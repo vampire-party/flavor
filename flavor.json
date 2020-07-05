@@ -55,6 +55,8 @@
         "Librarian": "Librarian",
         "Mayor": "Mayor"
       },
+      "button": "Skip",
+      "afterClick": "Waiting for rest of players",
       "description": {
         "Vampire": "You are at the top of the food chain. Each night, the Vampires can select one non-vampire to suck their blood - but if there are multiple vampires, you must be in agreement to kill",
         "Cullen": "A sneaky vampire, who has perfected their act of deception as a human in  main-stream society for the last century and feasts only on innocent animals and carrots.  If the Garlic Farmer chooses to gift The Cullen garlic, The Cullen will be outed as a Vampire",
