@@ -93,21 +93,21 @@
           "Mayor": "Mayors rule the school, it's cool.  Morning fool!"
         },
         "priestVote": {
-          "instructions": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
-          "voted": "You've chosen to resurrect {name}... this is a long and arduous process...",
+          "instructions": "{name} was bitten... would you like to try your hand at a once in a lifetime resurrection?",
+          "voted": "You've chosen to resurrect {name}... you will find out the next morning if you were successful.",
           "usePower": "Resurrect {name}",
-          "doNotUsePower": "Pray",
+          "doNotUsePower": "{name}, may they rest in peace.",
           "confirmVote": "Confirm",
           "playerResurrected": {
-            "self": "You've successfully resurrected {name}!",
+            "self": "Jesus H. Christ, it worked! {name} is back from the dead.",
             "Garlic Farmer": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Priest": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Priest": "Bless your brethren!  The other priest has resurrected you! Yes... there can be more than one of you.",
             "Human Person": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Librarian": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Mayor": "You've been given a second chance at life!  The priest has resurrected you!"
+            "Librarian": "Alas, you finally understand the woes of Buffy. You have been resurrected by the priest!",
+            "Mayor": "Looks like you may live to see another term. You have been resurrected by the priest. God Bless!"
           },
           "alreadyUsedSuperPower": {
-            "death": "You've already used your priestly powers... nothing to do but sit back and pray for {name}'s soul",
+            "death": "Sorry, that was a once in a lifetime resurrection. All we can do now is pray.",
             "nobodyDied": "You've already used your priestly powers... luckily nobody died"
           }
         },
