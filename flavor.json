@@ -52,17 +52,17 @@
         "Cullen": "A sneaky vampire, who has perfected their act of deception as a human in  main-stream society for the last century and feasts only on innocent animals and carrots.  If the Garlic Farmer chooses to gift The Cullen garlic, The Cullen will be outed as a Vampire",
         "Garlic Farmer": "A friendly farmer who has taken over their family garlic farm, which has been in operation since 1696. While other townspeople discount them as a crackpot old fool, the Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.",
         "Priest": "Character summary/backstory TBD",
-        "Human Person": "This is a placeholder for future more interesting characters.",
+        "Human Person": "You are a human. Plain and simple.",
         "Librarian": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love them, and will reward them useful information about vampiric identities.",
-        "Mayor": "Mayors placeholder text"
+        "Mayor": "As mayor of this town, you are granted a magic button that when you press it, you can make everything go your way."
       }
     },
     "night": {
       "title": "Night",
       "content": {
         "default": {
-          "Cullen": "You brood silently... awaiting the sparkling daylight",
-          "Priest": "You contemplate damnation... knowing hellish creatures are on the loose",
+          "Cullen": "You wish, you wish upon a star, to one day be a human with a car.",
+          "Priest": "Say your Hail Marys and ",
           "Human Person": "Scary times... there are beasts on the loose....(update flavor text)",
           "Mayor": "Beasts are on the loose... look busy!(update flavor)"
         },
