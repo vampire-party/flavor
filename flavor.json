@@ -33,9 +33,17 @@
     },
     "intro": {
       "title": "Introduction to game",
-      "content": [
-        "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
-      ]
+      "button": "Skip",
+      "afterClick": "Waiting for rest of players",
+      "content": {
+        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
+      }
     },
     "directory": {
       "title": {
@@ -47,6 +55,8 @@
         "Librarian": "Librarian",
         "Mayor": "Mayor"
       },
+      "button": "Done",
+      "afterClick": "Waiting for rest of players",
       "description": {
         "Vampire": "You are at the top of the food chain. Each night, the Vampires can select one non-vampire to suck their blood - but if there are multiple vampires, you must be in agreement to kill",
         "Cullen": "A sneaky vampire, who has perfected their act of deception as a human in  main-stream society for the last century and feasts only on innocent animals and carrots.  If the Garlic Farmer chooses to gift The Cullen garlic, The Cullen will be outed as a Vampire",
@@ -55,6 +65,20 @@
         "Human Person": "You are a human. Plain and simple.",
         "Librarian": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love them, and will reward them useful information about vampiric identities.",
         "Mayor": "As mayor of this town, you are granted a magic button that when you press it, you can make everything go your way."
+      }
+    },
+    "nightIntro": {
+      "title": "Night",
+      "button": "Ok",
+      "afterClick": "Waiting for rest of players",
+      "content": {
+        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
       }
     },
     "night": {
@@ -77,7 +101,31 @@
           "instructions": "As the garlic farmer you get choose who to give garlic to. But remember you can only give each player one garlic per game.",
           "voted": "You've given a head of garlic to {name}.",
           "confirmVote": "Confirm Your Gift of Garlic"
+        },
+        "librarianResearch": {
+          "instructions": [
+            "You can research a player... although not always accurate you can figure out if they are human or vampire",
+            "Pick quick! Once the night is over your research is done"
+          ],
+          "roleResearchResults": {
+            "Vampire": "After hours of research you're fairly certain {name} is a vampire",
+            "Human Person": "You've scoured the records and have learned nothing about {name} in Vampire legends.  They seem to be human"
+          }
         }
+      }
+    },
+    "morningIntro": {
+      "title": "Introduction to game",
+      "button": "Copy that",
+      "afterClick": "Waiting for rest of players",
+      "content": {
+        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
       }
     },
     "morning": {
@@ -155,6 +203,20 @@
             "Vampire": "That was no human you attacked! {name} took you by surprise... and injured more than your pride... you must rest the following evening"
           }
         }
+      }
+    },
+    "dayIntro": {
+      "title": "Introduction to game",
+      "button": "Got it!",
+      "afterClick": "Waiting for rest of players",
+      "content": {
+        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
+        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
       }
     },
     "day": {
@@ -284,7 +346,7 @@
           "expired": [
             "Sucks to suck, mother sucker. You are dead...again. See you in hell.",
             "I hope you enjoy eternal damnnation, because yer dead."
-          ],
+          ]
         },
         "Cullen": {
           "expired": [
@@ -295,7 +357,9 @@
           ]
         },
         "Garlic Farmer": {
-          "expired": ["You may be dead, but your sacrifices (and bad breath) will never be forgotten"],
+          "expired": [
+            "You may be dead, but your sacrifices (and bad breath) will never be forgotten"
+          ],
           "notExpired": [
             "You've beaten the odds against these oversized mosquito!"
           ]
@@ -376,7 +440,7 @@
         },
         {
           "seconds": 9,
-          "text": "Here in our gloomy town of Spoons we seem to have run into a bit of a vampire problem. Maybe because of our unfortunate positioning on top of a gaping..HellNose. Who is to really know?"
+          "text": "Here in our gloomy town of Spoons we seem to have run into a bit of a vampire problem. Maybe because of our unfortunate positioning on top of a gaping...  HellNose. Who is to really know?"
         },
         {
           "seconds": 6,
@@ -384,7 +448,7 @@
         },
         {
           "seconds": 10,
-          "text": "Wait, hold on. Is your videochat and microphone turned on? And is {vipPlayer} sharing thier screen? If not, pause the game and do that now, thanks <3 xoxo"
+          "text": "Wait, hold on. Is your videochat and microphone turned on? And is {vipPlayer} sharing their screen? If not, pause the game and do that now, thanks <3 xoxo"
         },
         {
           "seconds": 15,
@@ -400,7 +464,7 @@
         },
         {
           "seconds": 4,
-          "text": "Lastly, make sure to pay close attention and follow directions on your own devices. But also pay attention to me! Me! Me! Me! It is my party afterall."
+          "text": "Lastly, make sure to pay close attention and follow directions on your own devices. But also pay attention to me! Me! Me! Me! It is my party after all."
         },
         {
           "seconds": 15,
@@ -417,14 +481,32 @@
       "content": "{currentRoles}",
       "timer": 120
     },
-    "firstNight": {
-      "title": "Night",
-      "content": "I hope everyone is having fun. Just a warning, lights out in just a minute! Which does unfortunately mean one of you is probably going to die soon... Sorry again for inviting a vampire... Just pay attention to your phone and maybe everything will be fine? Hope to see you all in the AM! *air kiss*"
+    "nightIntro": {
+      "title": "Introduction to game",
+      "content": [
+        {
+          "seconds": 60,
+          "text": [
+            "It is night time.  Look at your phone for further instructions."
+          ]
+        }
+      ]
     },
     "night": {
       "title": "Night",
       "content": "Hey guys, it's bedtime. AKA time to check your phone obsessively until you fall asleep... or die! No seriously, don't take your eyes off your phone until morning.",
       "timer": 30
+    },
+    "morningIntro": {
+      "title": "Introduction to game",
+      "content": [
+        {
+          "seconds": 60,
+          "text": [
+            "It is morning time.  Look at your phone for further instructions."
+          ]
+        }
+      ]
     },
     "morning": {
       "title": "Morning",
@@ -449,6 +531,17 @@
       },
       "playerResurrected": [
         "It's a miracle!  During the night {name} was resurrected"
+      ]
+    },
+    "dayIntro": {
+      "title": "Introduction to game",
+      "content": [
+        {
+          "seconds": 60,
+          "text": [
+            "It is day time.  Look at your phone for further instructions."
+          ]
+        }
       ]
     },
     "day": {
