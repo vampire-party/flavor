@@ -28,7 +28,7 @@
       "roomCode": "Room code:",
       "name": "Name",
       "playGame": "Play game!",
-      "welcomeText": "Velcome {playerName}, you're now in the *spooky* waiting room #{gameSessionId}. Chill out and relax while everyone else joins.... if you can... hahahhaha",
+      "welcomeText": "Velcome {playerName}, you're now in the *spooky* waiting room #{gameSessionId}. Chill out and relax while everyone else joins.... if you can... mwahahaha",
       "vipWelcomeText": "{playerName}, as the first play to join room #{gameSessionId} you have special responsibilities.  Once more than four players have joined you can start the game."
     },
     "intro": {
@@ -62,9 +62,9 @@
         "Cullen": "A sneaky vampire, who has perfected their act of deception as a human in  main-stream society for the last century and feasts only on innocent animals and carrots.  If the Garlic Farmer chooses to gift The Cullen garlic, The Cullen will be outed as a Vampire",
         "Garlic Farmer": "A friendly farmer who has taken over their family garlic farm, which has been in operation since 1696. While other townspeople discount them as a crackpot old fool, the Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.",
         "Priest": "Character summary/backstory TBD",
-        "Human Person": "This is a placeholder for future more interesting characters.",
+        "Human Person": "You are a human. Plain and simple.",
         "Librarian": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love them, and will reward them useful information about vampiric identities.",
-        "Mayor": "Mayors placeholder text"
+        "Mayor": "As mayor of this town, you are granted a magic button that when you press it, you can make everything go your way."
       }
     },
     "nightIntro": {
@@ -85,8 +85,8 @@
       "title": "Night",
       "content": {
         "default": {
-          "Cullen": "You brood silently... awaiting the sparkling daylight",
-          "Priest": "You contemplate damnation... knowing hellish creatures are on the loose",
+          "Cullen": "You wish, you wish upon a star, to one day be a human with a car.",
+          "Priest": "Say your Hail Marys and ",
           "Human Person": "Scary times... there are beasts on the loose....(update flavor text)",
           "Mayor": "Beasts are on the loose... look busy!(update flavor)"
         },
@@ -141,21 +141,21 @@
           "Mayor": "Mayors rule the school, it's cool.  Morning fool!"
         },
         "priestVote": {
-          "instructions": "Last night {name} was bitten... would you like to use your priestly powers to help them?",
-          "voted": "You've chosen to resurrect {name}... this is a long and arduous process...",
+          "instructions": "{name} was bitten... would you like to try your hand at a once in a lifetime resurrection?",
+          "voted": "You've chosen to resurrect {name}... you will find out the next morning if you were successful.",
           "usePower": "Resurrect {name}",
-          "doNotUsePower": "Pray",
+          "doNotUsePower": "{name}, may they rest in peace.",
           "confirmVote": "Confirm",
           "playerResurrected": {
-            "self": "You've successfully resurrected {name}!",
+            "self": "Jesus H. Christ, it worked! {name} is back from the dead.",
             "Garlic Farmer": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Priest": "You've been given a second chance at life!  The priest has resurrected you!",
+            "Priest": "Bless your brethren!  The other priest has resurrected you! Yes... there can be more than one of you.",
             "Human Person": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Librarian": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Mayor": "You've been given a second chance at life!  The priest has resurrected you!"
+            "Librarian": "Alas, you finally understand the woes of Buffy. You have been resurrected by the priest!",
+            "Mayor": "Looks like you may live to see another term. You have been resurrected by the priest. God Bless!"
           },
           "alreadyUsedSuperPower": {
-            "death": "You've already used your priestly powers... nothing to do but sit back and pray for {name}'s soul",
+            "death": "Sorry, that was a once in a lifetime resurrection. All we can do now is pray.",
             "nobodyDied": "You've already used your priestly powers... luckily nobody died"
           }
         },
@@ -439,31 +439,31 @@
           ]
         },
         {
-          "seconds": 9,
+          "seconds": 10,
           "text": "Here in our gloomy town of Spoons we seem to have run into a bit of a vampire problem. Maybe because of our unfortunate positioning on top of a gaping...  HellNose. Who is to really know?"
         },
         {
-          "seconds": 6,
+          "seconds": 10,
           "text": "What I do know though, is that there are vampires and people are dying, and that just makes me sad?"
         },
         {
           "seconds": 10,
-          "text": "Wait, hold on. Is your videochat and microphone turned on? And is {vipPlayer} sharing their screen? If not, pause the game and do that now, thanks <3 xoxo"
+          "text": "Wait, hold on. Is your videochat and microphone turned on? And is your host sharing their screen? If not, pause the game and do that now, thanks <3 xoxo"
         },
         {
           "seconds": 15,
-          "text": "Ok great. So here's the deal. I'm gonna need y'all to figure out who these dang vampires are. They seem to always attack at night. So I figured, during the day we can all meet up around 3 PM to perform my favorite vampire staking ceremony? Yay! So Fun! And then, we can just keep doing this everyday until we kill all the vampires, or until they overrun the town. Yeah? Awesome! "
+          "text": "Ok great. So here's the deal. We're going to play a party game called, Stake The Vampire. I was thinking around 3 PM we can perform my favorite vampire staking ceremony? Yay! So Fun! And then, we can just keep doing this everyday until we kill all the vampires, or until they overrun the town. Yeah? Awesome! "
         },
         {
           "seconds": 10,
-          "text": "Majority rules is the rule in Spoons. That goes for the Vampires too. When it comes time to Stake (or Suck, no judgement), and you cannot come to an agreement, no one will die."
+          "text": "Majority rules is the rule in Spoons. That goes for the Vampires too. When it comes time to Stake (or Suck), and you cannot come to an agreement, no one will die."
         },
         {
           "seconds": 10,
-          "text": "Thankfully I invited some people with useful skills to help protect us. Some of you I just invited cause I love you. I love you, but you're not special. Truth Hurts, Sweaty."
+          "text": "Thankfully I invited some people with useful skills to help protect us. Some of you I just invited cause I love you. I love you, but you're not special. Truth Hurts, sweaty."
         },
         {
-          "seconds": 4,
+          "seconds": 10,
           "text": "Lastly, make sure to pay close attention and follow directions on your own devices. But also pay attention to me! Me! Me! Me! It is my party after all."
         },
         {
@@ -510,7 +510,7 @@
     },
     "morning": {
       "title": "Morning",
-      "content": "The sun rises...",
+      "content": "How did everyone sleep? Let's see...",
       "timer": 30,
       "nothingHappened": [
         "Aww, everyone woke up before me? Well, at least that means you're all here and no one died",
@@ -519,18 +519,18 @@
       ],
       "vampireKilled": [
         "Yikes, I just found {murderedPlayer}'s bloodless body",
-        "During the early hours the limp bloodless body of {murderedPlayer} was discovered"
+        "Nothing like the smell of {murderedPlayer}'s dead body in the morning!"
       ],
       "cullenUpdates": {
         "expired": [
-          "How Strange... checking on {name} you find a pile of ashes..."
+          "How Strange... checking on {name}, you find a pile of ashes... There can only be one explanation, right?"
         ],
         "turned": [
-          "During the night you heard the wild howls of a beast... you know there is one more Vampire in the mix"
+          "The room just got a lot colder... do we have *another* vampire at this party now?"
         ]
       },
       "playerResurrected": [
-        "It's a miracle!  During the night {name} was resurrected"
+        "Wonders of wonders, miracles of miracles! {name} has joined us back from the dead! Who do we have to thank?"
       ]
     },
     "dayIntro": {
@@ -539,50 +539,50 @@
         {
           "seconds": 60,
           "text": [
-            "It is day time.  Look at your phone for further instructions."
+            "Now is the time we play the Staking Game! Simply vote on who you think the vampire is. But lets take a few minutes and talk about it first, we only get three chances to come to an agreement, so lets make them count, people."
           ]
         }
       ]
     },
     "day": {
       "title": "Day",
-      "content": "It's a cloudy day... but at least it's light out.",
+      "content": "Time for the Staking Game! Just take a stab at who you think the vampire is. It's easy as vamPIE...r.",
       "timer": 180
     },
     "polls": {
       "title": "Poll Results",
       "pollResultsTimer": 30,
       "timer": 60,
-      "votedToKill": "Stake {victimName}",
-      "noVote": "Didn't Vote"
+      "votedToKill": "{victimName}, yer dead.",
+      "noVote": "Welp, we blew it. When someone else dies tonight, I hope you remember why. This sucks."
     },
     "pollResults": {
       "killed": {
         "Vampire": [
-          "A pile of ashes was found where {victimName} was staked through the heart... looks like there is one vampire less in the mix?"
+          "Where there once stood {victimName}, there is now a pile of ashes. One vampire down!"
         ],
         "Cullen": [
-          "Okay, this is hard to explain... but a pile of ashes was found where {victimName} was  like there is one vampire less in the mix?"
+          "Okay, this is hard to explain... but a pile of ashes was found where {victimName} was standing? I thought they were one of the good guys?"
         ],
         "Garlic Farmer": [
-          "{victimName} the {victimRole} was staked through the heart last night.  Goes to show bad breadth can kill you..."
+          "{victimName} the {victimRole} is dead.  Goes to show bad breadth can kill you..."
         ],
         "Priest": [
-          "{victimName} the {victimRole} was staked through the heart last night"
+          "{victimName} the {victimRole} is now with the Lord. Put in a good word for me, buddy!"
         ],
         "Mayor": [
-          "{victimName} the {victimRole} was staked through the heart last night.  Damnit! You were relying on their endorsement!"
+          "{victimName} the {victimRole} is dead.  Damnit! You were relying on their endorsement!"
         ],
         "Librarian": [
-          "{victimName} the {victimRole} was staked through the heart last night.  Read em' and weep, boys. Read em' and weep."
+          "{victimName} the {victimRole} is dead.  Read em' and weep, boys. Read em' and weep."
         ],
         "Human Person": [
-          "{victimName} the {victimRole} was staked through the heart last night"
+          "{victimName} the {victimRole} is dead.  That is too bad. "
         ]
       },
-      "onlyTwoPlayersLeft": "This was the final showdown... It doesn't look promising for the the last person standing",
+      "onlyTwoPlayersLeft": "This is the final showdown... It doesn't look promising for the the last person standing",
       "noTriesLeft": "No one is dying today.  It's almost as if someone  or something... is trying to thwart your attempts, and create disagreement within your group",
-      "oneTryLeft": "You have one more try to determine who to stake.",
+      "oneTryLeft": "Seriously? Can't we all just get along? One last try...",
       "twoTriesLeft": "If you can't... agree nobody dies.. you have two tries left",
       "deathByMayor": {
         "Vampire": [
@@ -611,66 +611,66 @@
     "vampireWin": {
       "title": "Vampire Win",
       "content": [
-        "If you're a vampire... great job... if you are human... well you were really just cattle to these vamps. You never had a chance"
+        "*Gulp* This only turned out well for our pointy toothed friends. I'm so sorry for inviting you all here. I hope you can accept my apology from beyond the grave. "
       ],
       "revealRoles": {
         "Vampire": {
-          "expired": ["{name} the {role} is simply a pile of ashes"],
+          "expired": ["{name} the {role} hath een slain."],
           "notExpired": [
-            "{name} the {role} is truly a vamp champ",
+            "{name} the {role} is truly a vamp champ. Congrats.",
             "{name} the {role} is not dead, but undead (and proud of it!)"
           ]
         },
         "Cullen": {
-          "expired": ["{name} the {role}'s ashes have blown away in the wind"],
-          "notExpired": ["{name} the {role} is still kicking"]
+          "expired": ["{name} the {role}, our sparkly angel, is dead."],
+          "notExpired": ["{name} the {role} is still our sparkly friend!"]
         },
         "Garlic Farmer": {
           "expired": [
-            "{name} the {role} is dead... may their children take on their work!"
+            "{name} the {role} is dead... let the legacy of the great allium cultivator live on."
           ],
           "notExpired": ["{name} the {role} is alive and farming"]
         },
         "Priest": {
           "expired": [
-            "{name} the priest is a goner and with them goes the law"
+            "{name} the priest has found their way to heavens gate. Hope God is cool with their new piercings."
           ],
-          "notExpired": ["{name} can continue their 'pious' life"]
+          "notExpired": ["Blessed be, {name} can continue their 'pious' life"]
         },
         "Mayor": {
           "expired": ["{name} the mayor of this town is dead"],
-          "notExpired": ["{name} the {role}"]
+          "notExpired": ["{name} the {role} will be once again, asking for your vote"]
         },
         "Librarian": {
           "expired": ["{name} the {role} has checked out... for good"],
           "notExpired": ["{name} the {role} is still in circulation"]
         },
         "Human Person": {
-          "expired": ["{name} the {role} is dead"],
-          "notExpired": ["{name} the {role} is still alive and kicking"]
+          "expired": ["{name} the boring {role} is dead"],
+          "notExpired": ["{name} the {role} is still alive and powerless."]
         }
       }
     },
     "humanWin": {
       "title": "Human Win",
       "content": [
-        "If you're a human huzzah! You staked all those sneaky vampires! Well done. Now get back to the party."
+        "If you're a human (or a human ally) huzzah! You staked all those sneaky vampires! Well done. Now we can get back to the party."
       ],
       "revealRoles": {
         "Vampire": {
-          "expired": ["{name} the {role} is simply a pile of ashes"],
+          "expired": ["{name} the {role} is simply a pile of ashes R.I.P....again."],
           "notExpired": [
             "{name} the {role} is truly a vamp champ",
             "{name} the {role} is not dead, but undead (and proud of it!)"
           ]
         },
         "Cullen": {
-          "expired": ["{name} the {role}'s ashes have blown away in the wind"],
-          "notExpired": ["{name} the {role} is still kicking"]
+          "expired": ["{name} the {role}, our sparkly angel, is dead."],
+          "notExpired": ["{name} the {role} is still our sparkly friend!"]
         },
         "Garlic Farmer": {
           "expired": [
-            "{name} the {role} is dead... may their children take on their work!"
+            "{name} the {role} is dead... let the legacy of the great allium cultivator live on."
           ],
           "notExpired": ["{name} the {role} is alive and farming"]
         },
@@ -678,19 +678,19 @@
           "expired": [
             "{name} the priest is a goner and with them goes the law"
           ],
-          "notExpired": ["{name} can continue their 'pious' life"]
+          "notExpired": ["Blessed be. {name} can continue their 'pious' life"]
         },
         "Mayor": {
-          "expired": ["{name} the mayor of this town is dead"],
-          "notExpired": ["{name} the {role}"]
+          "expired": ["{name} the mayor of this town is dead."],
+          "notExpired": ["{name} the {role} will be once again, asking for your vote."]
         },
         "Librarian": {
-          "expired": ["{name} the {role} has checked out... for good"],
+          "expired": ["{name} the {role} has checked out... for good."],
           "notExpired": ["{name} the {role} is still in circulation"]
         },
         "Human Person": {
-          "expired": ["{name} the {role} is dead"],
-          "notExpired": ["{name} the {role} is still alive and kicking"]
+          "expired": ["{name} the boring {role} is dead"],
+          "notExpired": ["{name} the {role} is still alive and powerless."]
         }
       }
     }
