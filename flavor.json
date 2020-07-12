@@ -553,8 +553,8 @@
       "title": "Poll Results",
       "pollResultsTimer": 30,
       "timer": 60,
-      "votedToKill": "{victimName}, yer dead.",
-      "noVote": "Welp, we blew it. When someone else dies tonight, I hope you remember why. This sucks."
+      "votedToKill": "Voted to kill {victimName}",
+      "noVote": "Didn't vote:"
     },
     "pollResults": {
       "killed": {
@@ -639,7 +639,9 @@
         },
         "Mayor": {
           "expired": ["{name} the mayor of this town is dead"],
-          "notExpired": ["{name} the {role} will be once again, asking for your vote"]
+          "notExpired": [
+            "{name} the {role} will be once again, asking for your vote"
+          ]
         },
         "Librarian": {
           "expired": ["{name} the {role} has checked out... for good"],
@@ -658,7 +660,9 @@
       ],
       "revealRoles": {
         "Vampire": {
-          "expired": ["{name} the {role} is simply a pile of ashes R.I.P....again."],
+          "expired": [
+            "{name} the {role} is simply a pile of ashes R.I.P....again."
+          ],
           "notExpired": [
             "{name} the {role} is truly a vamp champ",
             "{name} the {role} is not dead, but undead (and proud of it!)"
@@ -682,7 +686,9 @@
         },
         "Mayor": {
           "expired": ["{name} the mayor of this town is dead."],
-          "notExpired": ["{name} the {role} will be once again, asking for your vote."]
+          "notExpired": [
+            "{name} the {role} will be once again, asking for your vote."
+          ]
         },
         "Librarian": {
           "expired": ["{name} the {role} has checked out... for good."],
