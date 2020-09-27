@@ -141,7 +141,7 @@
           "Mayor": "Read announcements on main screen"
         },
         "priestVote": {
-          "instructions": "{name} was killed... would you like resurrect them?",
+          "instructions": "{name} was killed... would you like to resurrect them?",
           "voted": "You've chosen to resurrect {name}.",
           "usePower": "Resurrect {name}",
           "doNotUsePower": "Do nothing",
@@ -494,7 +494,7 @@
         },
         {
           "seconds": 11,
-          "text": "It's a fast paced game so if you don't get it the first time, try playing again. The more you play, the more variety of characters you'll get to try out!"
+          "text": "It's a fast paced game so if you don't get it the first time, try playing again. The more you play, the greater variety of characters you'll get to try out!"
         }
       ]
     },
