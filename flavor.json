@@ -58,12 +58,12 @@
       "button": "I'm ready",
       "afterClick": "Waiting for rest of players",
       "description": {
-        "Vampire": "Each night, the Vampires can select one non-vampire to attack if there are multiple vampires,  but they must all be in agreement to kill",
+        "Vampire": "Each night the Vampires can select one non-vampire to attack if there are multiple vampires,  but they must all be in agreement to kill",
         "Cullen": "A vegetarian vampire who dislikes other vampires and wins if humans win. If the Garlic Farmer chooses to gift The Cullen garlic there is a chance they will die or become a vampire.  If a vampire attacks the Cullen, they will fend them off.",
-        "Garlic Farmer": "The Garlic Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.  They have enough garlic to give one garlic to every player - including themselves.  By giving a garlic to a human they are guaranteeing their protection from the vampires for the night.",
+        "Garlic Farmer": "Garlic farmers give out garlic at night.  They have enough garlic to give out one to every player. If a human player receives garlic, they will be protected from the vampire for the night. If a vampire is given garlic, the hunt is off.",
         "Priest": "The morning after a player is killed by a vampire, the priest may resurrect that player.  This can only be done once per game.",
         "Human Person": "Humans have no special skills or abilities.",
-        "Librarian": "Librarian has many books rich with town history, including records of paranormal and supernatural events. Every night the librarian may research a player and learn with some degree of accuracy whether that player is a vampire or not.  This is an art not a science and the librarian is not always correct.",
+        "Librarian": "Every night the librarian may research a player and learn with some degree of accuracy whether that player is a vampire or not.  This is an art not a science and the librarian is not always correct.",
         "Mayor": "The Mayor of this town may once a game rig the election and exclusively decide who will be executed during the day voting phase."
       }
     },
@@ -495,6 +495,14 @@
         {
           "seconds": 11,
           "text": "It's a fast paced game so if you don't get it the first time, try playing again. The more you play, the greater variety of characters you'll get to try out!"
+        },
+        {
+          "seconds": 9,
+          "text": "Don't worry about knowing the exact details, as your phone will tell what to do, and the main screen (here!) will announce everything that is going on."
+        },
+        {
+          "seconds": 7,
+          "text": "Next up you will learn what characters are going to be in this round."
         }
       ]
     },
@@ -507,10 +515,49 @@
       "title": "Introduction to game",
       "content": [
         {
-          "seconds": 60,
-          "text": [
-            "It is night time.  Look at your phone for further instructions."
-          ]
+          "seconds": 11,
+          "text": "It's now night time.  During that period, the Vampires, the Garlic farmer and the Librarian have activities to perform."
+        },
+        {
+          "seconds": 7,
+          "text": "The vampires get to choose one player to attack.  But their success is by no means guaranteed."
+        },
+        {
+          "seconds": 10,
+          "text": "If present, the Garlic farmers can give out one garlic a night.  They have enough garlic to give out one to every player."
+        },
+        {
+          "seconds": 7,
+          "text": "If a human player receives garlic they will be protected from the vampire for the night."
+        },
+        {
+          "seconds": 6,
+          "text": "If a Vampire is given garlic the hunt is off and everyone is safe for the night."
+        },
+        {
+          "seconds": 9,
+          "text": "Every night the Librarian may research a player and learn with some degree of accuracy whether that player is a vampire or not."
+        },
+        {
+          "seconds": 5,
+          "text": "This is an art not a science and the Librarian is not always correct."
+        },
+        {
+          "seconds": 10,
+          "text": "If the Cullen - the seclusive vegetarian vampire - is in play they win and lose with humans."
+        },
+        {
+          "seconds": 10,
+          "text": "If the Vampires attack the Cullen the Vampires will be stunned and will lose their night action the following night."
+        },
+        {
+          "seconds": 9,
+          "text": "If the Cullen is given garlic there is a chance they will die or turn into a vampire - they really don't like garlic."
+        },
+
+        {
+          "seconds": 7,
+          "text": "With these rules out of the way, lets begin the night.  Look at your phone for further instructions!"
         }
       ]
     },
