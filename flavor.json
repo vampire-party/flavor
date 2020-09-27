@@ -104,7 +104,7 @@
         },
         "librarianResearch": {
           "instructions": [
-            "You can research a player... although not always accurate you can try and ascertain if they are human or vampire",
+            "Research player",
             "Pick quick! Once the night is over you've missed your chance to research."
           ],
           "roleResearchResults": {
@@ -435,9 +435,9 @@
         {
           "seconds": 5,
           "text": [
-            "Salutations and welcome to Vampire Party",
-            "Thanks for joining the party",
-            "So glad you could make it. You won't live...to regret it"
+            "Salutations and welcome to Vampire Party.",
+            "Thanks for joining the party.",
+            "So glad you could make it. You won't live...to regret it."
           ]
         },
         {
@@ -454,7 +454,7 @@
         },
         {
           "seconds": 11,
-          "text": "On your phone you will see which character you have been assigned.  If you don't see it, try refreshing the page"
+          "text": "On your phone you will see which character you have been assigned.  If you don't see it, try refreshing the page."
         },
         {
           "seconds": 9,
@@ -466,7 +466,7 @@
         },
         {
           "seconds": 7,
-          "text": "Every aspect of the game involves voting or make choices about other players."
+          "text": "Every aspect of the game involves voting or making choices about other players."
         },
         {
           "seconds": 11,
@@ -509,7 +509,7 @@
     "directory": {
       "title": "Guest List",
       "content": "{currentRoles}",
-      "timer": 120
+      "timer": 10
     },
     "nightIntro": {
       "title": "Introduction to game",
@@ -523,8 +523,8 @@
           "text": "The vampires get to choose one player to attack.  But their success is by no means guaranteed."
         },
         {
-          "seconds": 10,
-          "text": "If present, the Garlic farmers can give out one garlic a night.  They have enough garlic to give out one to every player."
+          "seconds": 9,
+          "text": "The Garlic farmers can give out one garlic a night.  They have enough garlic to give out one to every player."
         },
         {
           "seconds": 7,
@@ -543,12 +543,12 @@
           "text": "This is an art not a science and the Librarian is not always correct."
         },
         {
-          "seconds": 10,
-          "text": "If the Cullen - the seclusive vegetarian vampire - is in play they win and lose with humans."
+          "seconds": 8,
+          "text": "The Cullen - the seclusive vegetarian vampire - wins and loses with the humans."
         },
         {
           "seconds": 10,
-          "text": "If the Vampires attack the Cullen the Vampires will be stunned and will lose their night action the following night."
+          "text": "If the Vampires attack the Cullen the Vampires will be stunned and will lose their action the following night."
         },
         {
           "seconds": 9,
@@ -574,7 +574,7 @@
         },
         {
           "seconds": 6,
-          "text": "Maybe someone was murdered or a Cullen was changed into a vampire."
+          "text": "Maybe someone was murdered or a Cullen was changed into a vampire?"
         },
         {
           "seconds": 9,
@@ -590,14 +590,14 @@
         },
         {
           "seconds": 10,
-          "text": "If a player was murdered, the Priest will have a chance to resurrect them.  Like the Mayor, this ability can only be used once."
+          "text": "If during the night a player was murdered, the Priest will have a chance to resurrect them.  Like the Mayor, this ability can only be used once."
         }
       ]
     },
     "morning": {
       "title": "Morning",
       "content": "How did everyone sleep? Let's see...",
-      "timer": 30,
+      "timer": 20,
       "nothingHappened": ["It was a quiet night."],
       "vampireKilled": [
         "The bloodless body of {murderedPlayer}'s was discovered",
@@ -619,11 +619,11 @@
       "content": [
         {
           "seconds": 7,
-          "text": "Day time is divided into two parts. Voting and viewing vote results"
+          "text": "Day time is divided into two parts. Voting and viewing vote results."
         },
         {
           "seconds": 10,
-          "text": "Rather than simply voting, we recommend discussing with, accusing, and interrogating fellow players to see what you can learn."
+          "text": "Rather than simply voting, we recommend accusing, interrogating and discussing with fellow players to see what can be learned."
         },
         {
           "seconds": 9,
