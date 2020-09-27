@@ -58,7 +58,7 @@
       "button": "I'm ready",
       "afterClick": "Waiting for rest of players",
       "description": {
-        "Vampire": "Each night, the Vampires can select one non-vampire to attack if there are multiple vampires, you must be in agreement to kill",
+        "Vampire": "Each night, the Vampires can select one non-vampire to attack if there are multiple vampires,  but they must all be in agreement to kill",
         "Cullen": "A vegetarian vampire who dislikes other vampires and wins if humans win. If the Garlic Farmer chooses to gift The Cullen garlic there is a chance you will die or become a vampire.  If a vampire attacks the Cullen, they will fend them off.",
         "Garlic Farmer": "The Garlic Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.  They have enough garlic to give one garlic to every player - including themselves.  By giving a garlic to a human they are guaranteeing their protection from the vampire for the night.",
         "Priest": "The morning after a player is killed by a vampire, the priest may resurrect that player.  This can only be done once per game.",
