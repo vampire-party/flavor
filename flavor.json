@@ -569,10 +569,28 @@
       "title": "Introduction to game",
       "content": [
         {
-          "seconds": 60,
-          "text": [
-            "It is morning time.  Look at your phone for further instructions."
-          ]
+          "seconds": 5,
+          "text": "Morning is when you learn what happened the night before."
+        },
+        {
+          "seconds": 6,
+          "text": "Maybe someone was murdered or a Cullen was changed into a vampire."
+        },
+        {
+          "seconds": 9,
+          "text": "During this phase, you will both see announcements on the main screen, and on your phone."
+        },
+        {
+          "seconds": 6,
+          "text": "The Mayor is presented with an option to use their Mayoral powers."
+        },
+        {
+          "seconds": 8,
+          "text": "If used, the Mayoral super vote will beat all other none politicians.  It can only be used once."
+        },
+        {
+          "seconds": 10,
+          "text": "If a player was murdered, the Priest will have a chance to resurrect them.  Like the Mayor, this ability can only be used once."
         }
       ]
     },
@@ -580,35 +598,28 @@
       "title": "Morning",
       "content": "How did everyone sleep? Let's see...",
       "timer": 30,
-      "nothingHappened": [
-        "Aww, everyone woke up before me? Well, at least that means you're all here and no one died",
-        "It was a quiet night. The only disturbance I heard was {randomPlayer}'s insaaaaane sleep fart. I don't know whether to congratulate you or be concerned about your colon.",
-        "You guys, I had a crazy dream last night that {randomPlayer} had their blood drained by a Vampire. Good thing it was just a dream."
-      ],
+      "nothingHappened": ["It was a quiet night."],
       "vampireKilled": [
-        "Yikes, I just found {murderedPlayer}'s bloodless body",
-        "Nothing like the smell of {murderedPlayer}'s dead body in the morning!"
+        "The bloodless body of {murderedPlayer}'s was discovered",
+        "{murderedPlayer}'s killed last night.",
+        "{murderedPlayer}'s is dead."
       ],
       "cullenUpdates": {
         "expired": [
-          "How Strange... checking on {name}, you find a pile of ashes... There can only be one explanation, right?"
+          "Last night {name} the Cullen was given garlic... and as a result turned into ashes."
         ],
         "turned": [
-          "The room just got a lot colder... do we have *another* vampire at this party now?"
+          "As a result of being given garlic, the Cullen has been transformed into a full fledged Vampire"
         ]
       },
-      "playerResurrected": [
-        "Wonders of wonders, miracles of miracles! {name} has joined us back from the dead! Who do we have to thank?"
-      ]
+      "playerResurrected": ["{name} has been resurrected!!!"]
     },
     "dayIntro": {
       "title": "Introduction to game",
       "content": [
         {
           "seconds": 60,
-          "text": [
-            "Now is the time we play the Staking Game! Simply vote on who you think the vampire is. But lets take a few minutes and talk about it first, we only get three chances to come to an agreement, so lets make them count, people."
-          ]
+          "text": "Day"
         }
       ]
     },
