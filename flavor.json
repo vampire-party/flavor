@@ -618,116 +618,101 @@
       "title": "Introduction to game",
       "content": [
         {
-          "seconds": 60,
-          "text": "Day"
+          "seconds": 7,
+          "text": "Day time is divided into two parts. Voting and viewing vote results"
+        },
+        {
+          "seconds": 10,
+          "text": "Rather than simply voting, we recommend discussing with, accusing, and interrogating fellow players to see what you can learn."
+        },
+        {
+          "seconds": 9,
+          "text": "Once all players confirm their votes or the time runs out, the votes will be tallied."
+        },
+        {
+          "seconds": 9,
+          "text": "The votes are public, so you can learn a lot about a players intentions by viewing the vote results."
+        },
+        {
+          "seconds": 6,
+          "text": "The most votes win, but in the event of a tie, there will be a re-vote."
+        },
+        {
+          "seconds": 10,
+          "text": "If after three votes consensus can not be made, nobody dies and the phase cycles back to night."
+        },
+        {
+          "seconds": 8,
+          "text": "This ends the tutorial! Best of luck, and if you're not already dead.... try not to die!"
         }
       ]
     },
     "day": {
       "title": "Day",
-      "content": "Time for the Staking Game! Just take a stab at who you think the vampire is. It's easy as vamPIE...r.",
+      "content": "Discuss and vote.",
       "timer": 180
     },
     "polls": {
       "title": "Poll Results",
-      "pollResultsTimer": 30,
-      "timer": 60,
+      "pollResultsTimer": 25,
+      "timer": 15,
       "votedToKill": "Voted to kill {victimName}",
       "noVote": "Didn't vote:"
     },
     "pollResults": {
       "killed": {
-        "Vampire": [
-          "Where there once stood {victimName}, there is now a pile of ashes. One vampire down!"
-        ],
-        "Cullen": [
-          "Okay, this is hard to explain... but a pile of ashes was found where {victimName} was standing? I thought they were one of the good guys?"
-        ],
-        "Garlic Farmer": [
-          "{victimName} the {victimRole} is dead.  Goes to show bad breadth can kill you..."
-        ],
-        "Priest": [
-          "{victimName} the {victimRole} is now with the Lord. Put in a good word for me, buddy!"
-        ],
-        "Mayor": [
-          "{victimName} the {victimRole} is dead.  Damnit! You were relying on their endorsement!"
-        ],
-        "Librarian": [
-          "{victimName} the {victimRole} is dead.  Read em' and weep, boys. Read em' and weep."
-        ],
-        "Human Person": [
-          "{victimName} the {victimRole} is dead.  That is too bad. "
-        ]
+        "Vampire": "{victimName} the Vampire has been staked!",
+        "Cullen": "{victimName} the {victimRole} has been staked.",
+        "Garlic Farmer": "{victimName} the {victimRole} is dead.",
+        "Priest": "{victimName} the {victimRole} dead.",
+        "Mayor": "{victimName} the {victimRole} dead.",
+        "Librarian": "{victimName} the {victimRole} dead.",
+        "Human Person": "{victimName} the {victimRole} dead."
       },
-      "onlyTwoPlayersLeft": "This is the final showdown... It doesn't look promising for the the last person standing",
-      "noTriesLeft": "No one is dying today.  It's almost as if someone  or something... is trying to thwart your attempts, and create disagreement within your group",
-      "oneTryLeft": "Seriously? Can't we all just get along? One last try...",
-      "twoTriesLeft": "If you can't... agree nobody dies.. you have two tries left",
+      "onlyTwoPlayersLeft": "This is the final showdown...",
+      "noTriesLeft": "Without consensus nobody dies.",
+      "oneTryLeft": "This is the final vote of the day",
+      "twoTriesLeft": "Nobody can agree.  Let's try again.",
       "deathByMayor": {
-        "Vampire": [
-          "Well, this mayor just locked in your vote for next term... He *literally* just slayed a Vampire for y'all. "
-        ],
-        "Cullen": [
-          "Well, this mayor just locked in your vote for next term... He *literally* just slayed a Vampire for y'all."
-        ],
-        "Garlic Farmer": [
-          "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
-        ],
-        "Priest": [
-          "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
-        ],
-        "Mayor": [
-          "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
-        ],
-        "Librarian": [
-          "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
-        ],
-        "Human Person": [
-          "OMG... thanks to the Mayor being soo sure of themselves, {victimName} was just killed. Can't imagine he'll be Mayor much longer."
-        ]
+        "Vampire": "Thanks to the Mayor {victimName} the Vampire has been staked!",
+        "Cullen": "{victimName} the {victimRole} has been staked... this was the Mayors doing.",
+        "Garlic Farmer": "Because of the Mayor... {victimName} the {victimRole} is dead.",
+        "Priest": "Because of the Mayor... {victimName} the {victimRole} is dead.",
+        "Mayor": "Because of the Mayor... {victimName} the {victimRole} is dead.",
+        "Librarian": "Because of the Mayor... {victimName} the {victimRole} is dead.",
+        "Human Person": "Because of the Mayor... {victimName} the {victimRole} is dead."
       }
     },
     "vampireWin": {
       "title": "Vampire Win",
-      "content": [
-        "*Gulp* This only turned out well for our pointy toothed friends. I'm so sorry for inviting you all here. I hope you can accept my apology from beyond the grave. "
-      ],
+      "content": ["The Vampires dominated and destroyed the humans"],
       "revealRoles": {
         "Vampire": {
-          "expired": ["{name} the {role} hath een slain."],
-          "notExpired": [
-            "{name} the {role} is truly a vamp champ. Congrats.",
-            "{name} the {role} is not dead, but undead (and proud of it!)"
-          ]
+          "expired": ["{name} the {role} hath been slain."],
+          "notExpired": ["{name} the {role} survived."]
         },
         "Cullen": {
           "expired": ["{name} the {role}, our sparkly angel, is dead."],
-          "notExpired": ["{name} the {role} is still our sparkly friend!"]
+          "notExpired": ["{name} the {role} survived."]
         },
         "Garlic Farmer": {
-          "expired": [
-            "{name} the {role} is dead... let the legacy of the great allium cultivator live on."
-          ],
-          "notExpired": ["{name} the {role} is alive and farming"]
+          "expired": ["{name} the {role} is dead."],
+          "notExpired": ["{name} the {role} is alive and under Vampiric rule"]
         },
         "Priest": {
-          "expired": [
-            "{name} the priest has found their way to heavens gate. Hope God is cool with their new piercings."
-          ],
-          "notExpired": ["Blessed be, {name} can continue their 'pious' life"]
+          "expired": ["{name} the {role} is dead."],
+          "notExpired": ["{name} the {role} is alive and under Vampiric rule"]
         },
         "Mayor": {
-          "expired": ["{name} the mayor of this town is dead"],
-          "notExpired": [
-            "{name} the {role} will be once again, asking for your vote"
-          ]
+          "expired": ["{name} the {role} is dead."],
+          "notExpired": ["{name} the {role} is alive and under Vampiric rule"]
         },
         "Librarian": {
-          "expired": ["{name} the {role} has checked out... for good"],
+          "expired": ["{name} the {role} has checked out... for good."],
           "notExpired": ["{name} the {role} is still in circulation"]
         },
         "Human Person": {
-          "expired": ["{name} the boring {role} is dead"],
+          "expired": ["{name} the {role} is dead."],
           "notExpired": ["{name} the {role} is still alive and powerless."]
         }
       }
@@ -739,32 +724,25 @@
       ],
       "revealRoles": {
         "Vampire": {
-          "expired": [
-            "{name} the {role} is simply a pile of ashes R.I.P....again."
-          ],
+          "expired": ["{name} the {role} is simply a pile of ashes"],
           "notExpired": [
-            "{name} the {role} is truly a vamp champ",
-            "{name} the {role} is not dead, but undead (and proud of it!)"
+            "{name} the {role} alive... which is impossible and definitely a bug!"
           ]
         },
         "Cullen": {
           "expired": ["{name} the {role}, our sparkly angel, is dead."],
-          "notExpired": ["{name} the {role} is still our sparkly friend!"]
+          "notExpired": ["{name} the {role} and accepted as a Human"]
         },
         "Garlic Farmer": {
-          "expired": [
-            "{name} the {role} is dead... let the legacy of the great allium cultivator live on."
-          ],
+          "expired": ["{name} the {role} is dead."],
           "notExpired": ["{name} the {role} is alive and farming"]
         },
         "Priest": {
-          "expired": [
-            "{name} the priest is a goner and with them goes the law"
-          ],
-          "notExpired": ["Blessed be. {name} can continue their 'pious' life"]
+          "expired": ["{name} the priest is a goner"],
+          "notExpired": ["{name} the priest is alive"]
         },
         "Mayor": {
-          "expired": ["{name} the mayor of this town is dead."],
+          "expired": ["{name} the {role} is dead."],
           "notExpired": [
             "{name} the {role} will be once again, asking for your vote."
           ]
