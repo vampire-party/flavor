@@ -15,7 +15,7 @@
       "title": "Vampire Party",
       "loading": "Loading...",
       "error": [
-        "Oops! Something went wrong. It's probably your fault. Don't blame this on me!"
+        "Something went wrong.  Please check your internet connection or try again later."
       ]
     },
     "actions": {
@@ -36,13 +36,13 @@
       "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
-        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
+        "Vampire": "Read instructions on main screen.",
+        "Cullen": "Read instructions on main screen.",
+        "Garlic Farmer": "Read instructions on main screen.",
+        "Priest": "Read instructions on main screen.",
+        "Human Person": "Read instructions on main screen.",
+        "Librarian": "Read instructions on main screen.",
+        "Mayor": "Read instructions on main screen."
       }
     },
     "directory": {
@@ -55,139 +55,138 @@
         "Librarian": "Librarian",
         "Mayor": "Mayor"
       },
-      "button": "Done",
+      "button": "I'm ready",
       "afterClick": "Waiting for rest of players",
       "description": {
-        "Vampire": "You are at the top of the food chain. Each night, the Vampires can select one non-vampire to suck their blood - but if there are multiple vampires, you must be in agreement to kill",
-        "Cullen": "A sneaky vampire, who has perfected their act of deception as a human in  main-stream society for the last century and feasts only on innocent animals and carrots.  If the Garlic Farmer chooses to gift The Cullen garlic, The Cullen will be outed as a Vampire",
-        "Garlic Farmer": "A friendly farmer who has taken over their family garlic farm, which has been in operation since 1696. While other townspeople discount them as a crackpot old fool, the Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.",
-        "Priest": "Character summary/backstory TBD",
-        "Human Person": "You are a human. Plain and simple.",
-        "Librarian": "Librarian has so many books rich with town history, including records of paranormal and supernatural events. Giles loves his books, and his books love them, and will reward them useful information about vampiric identities.",
-        "Mayor": "As mayor of this town, you are granted a magic button that when you press it, you can make everything go your way."
+        "Vampire": "Each night, the Vampires can select one non-vampire to attack if there are multiple vampires,  but they must all be in agreement to kill",
+        "Cullen": "A vegetarian vampire who dislikes other vampires and wins if humans win. If the Garlic Farmer chooses to gift The Cullen garlic there is a chance they will die or become a vampire.  If a vampire attacks the Cullen, they will fend them off.",
+        "Garlic Farmer": "The Garlic Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.  They have enough garlic to give one garlic to every player - including themselves.  By giving a garlic to a human they are guaranteeing their protection from the vampires for the night.",
+        "Priest": "The morning after a player is killed by a vampire, the priest may resurrect that player.  This can only be done once per game.",
+        "Human Person": "Humans have no special skills or abilities.",
+        "Librarian": "Librarian has many books rich with town history, including records of paranormal and supernatural events. Every night the librarian may research a player and learn with some degree of accuracy whether that player is a vampire or not.  This is an art not a science and the librarian is not always correct.",
+        "Mayor": "The Mayor of this town may once a game rig the election and exclusively decide who will be executed during the day voting phase."
       }
     },
     "nightIntro": {
       "title": "Night",
-      "button": "Ok",
+      "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
-        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
+        "Vampire": "Read instructions on main screen.",
+        "Cullen": "Read instructions on main screen.",
+        "Priest": "Read instructions on main screen.",
+        "Garlic Farmer": "Read instructions on main screen.",
+        "Human Person": "Read instructions on main screen.",
+        "Librarian": "Read instructions on main screen.",
+        "Mayor": "Read instructions on main screen."
       }
     },
     "night": {
       "title": "Night",
       "content": {
         "default": {
-          "Cullen": "You wish, you wish upon a star, to one day be a human with a car.",
-          "Priest": "Say your Hail Marys and ",
-          "Human Person": "Scary times... there are beasts on the loose....(update flavor text)",
-          "Mayor": "Beasts are on the loose... look busy!(update flavor)"
+          "Cullen": "The vampires are out... but so is the garlic farmer, and the librarian.",
+          "Priest": "The vampires are out... but so is the garlic farmer, and the librarian.",
+          "Human Person": "The vampires are on the hunt... but so is the garlic farmer, and the librarian.",
+          "Mayor": "The vampires are out... but so is the garlic farmer, and the librarian."
         },
         "vampireVote": {
-          "instructions": "As a vampire... you may select your next victim",
-          "voted": "The hunt is on. (add flavor text)",
+          "instructions": "Select your next victim.",
+          "voted": "The hunt is on.  You plan to feast on {name}.",
           "confirmVote": "Stalk Prey",
           "agreeOnVote": "All vampires must be in agreement in order to begin the hunt",
-          "resting": "You must rest... you are hurt from last nights battle"
+          "resting": "Last night you attacked a vampire in human clothes.  You were injured in the fray and must rest."
         },
         "garlicVote": {
           "instructions": "As the garlic farmer you get choose who to give garlic to. But remember you can only give each player one garlic per game.",
-          "voted": "You've given a head of garlic to {name}.",
-          "confirmVote": "Confirm Your Gift of Garlic"
+          "voted": "You've given garlic to {name}.",
+          "confirmVote": "Confirm Gift of Garlic"
         },
         "librarianResearch": {
           "instructions": [
-            "You can research a player... although not always accurate you can figure out if they are human or vampire",
-            "Pick quick! Once the night is over your research is done"
+            "You can research a player... although not always accurate you can try and ascertain if they are human or vampire",
+            "Pick quick! Once the night is over you've missed your chance to research."
           ],
           "roleResearchResults": {
-            "Vampire": "After hours of research you're fairly certain {name} is a vampire",
-            "Human Person": "You've scoured the records and have learned nothing about {name} in Vampire legends.  They seem to be human"
+            "Vampire": "You are fairly certain {name} is a vampire",
+            "Human Person": "Based on your research {name} is human"
           }
         }
       }
     },
     "morningIntro": {
       "title": "Introduction to game",
-      "button": "Copy that",
+      "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
-        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
+        "Vampire": "Read instructions on main screen.",
+        "Cullen": "Read instructions on main screen.",
+        "Priest": "Read instructions on main screen.",
+        "Garlic Farmer": "Read instructions on main screen.",
+        "Human Person": "Read instructions on main screen.",
+        "Librarian": "Read instructions on main screen.",
+        "Mayor": "Read instructions on main screen."
       }
     },
     "morning": {
       "title": "Morning",
       "content": {
         "default": {
-          "Vampire": "You slept like the dead!",
-          "Cullen": "How is it possible that the sun was rising in the middle of my midnight?(TODO: re-write in prod, as stolen from twilight)",
-          "Priest": "Another day, another prayer",
-          "Garlic Farmer": "Time to plant those crops... by that I mean garlic",
-          "Human Person": "Morning sunshine!  Drink some coffee... stretch your legs...",
-          "Librarian": "You wake up... it's morning. cool. You're a goddamned librarian.",
-          "Mayor": "Mayors rule the school, it's cool.  Morning fool!"
+          "Vampire": "Read announcements on main screen",
+          "Cullen": "Read announcements on main screen",
+          "Priest": "Read announcements on main screen",
+          "Garlic Farmer": "Read announcements on main screen",
+          "Human Person": "Read announcements on main screen",
+          "Librarian": "Read announcements on main screen",
+          "Mayor": "Read announcements on main screen"
         },
         "priestVote": {
-          "instructions": "{name} was bitten... would you like to try your hand at a once in a lifetime resurrection?",
-          "voted": "You've chosen to resurrect {name}... you will find out the next morning if you were successful.",
+          "instructions": "{name} was killed... would you like to resurrect them?",
+          "voted": "You've chosen to resurrect {name}.",
           "usePower": "Resurrect {name}",
-          "doNotUsePower": "{name}, may they rest in peace.",
-          "confirmVote": "Confirm",
+          "doNotUsePower": "Do nothing",
+          "confirmVote": "Confirm choice",
           "playerResurrected": {
-            "self": "Jesus H. Christ, it worked! {name} is back from the dead.",
-            "Garlic Farmer": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Priest": "Bless your brethren!  The other priest has resurrected you! Yes... there can be more than one of you.",
+            "self": "{name} is back from the dead.",
+            "Garlic Farmer": "You have been resurrected by the priest!",
+            "Priest": "You have been resurrected by the priest! Bless your brethren!  Yes... there can be more than one of you.",
             "Human Person": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Librarian": "Alas, you finally understand the woes of Buffy. You have been resurrected by the priest!",
-            "Mayor": "Looks like you may live to see another term. You have been resurrected by the priest. God Bless!"
+            "Librarian": "You have been resurrected by the priest!",
+            "Mayor": "You have been resurrected by the priest!"
           },
           "alreadyUsedSuperPower": {
-            "death": "Sorry, that was a once in a lifetime resurrection. All we can do now is pray.",
-            "nobodyDied": "You've already used your priestly powers... luckily nobody died"
+            "death": "You've already used your resurrection powers this game.",
+            "nobodyDied": "You've already used your resurrection powers... luckily nobody died."
           }
         },
         "mayorVote": {
-          "instructions": "As the wiley politician you may choose to vote twice... but you'll have to plan ahead.  This can only be done once!",
-          "voted": "Your votes today count for two... but nobody knows!",
-          "usePower": "Use mayoral vote",
+          "instructions": "You may choice to override the results - making your vote supersede none-politicians ",
+          "usePower": "Rig the elections",
           "doNotUsePower": "Bide your time...",
           "confirmVote": "Confirm",
-          "alreadyUsedSuperPower": "You've used your ace in the hole... But that but you are still a politician at heart.  Use that!"
+          "alreadyUsedSuperPower": "You've already used your mayoral super vote this game."
         },
         "garlicUpdates": {
           "received": {
             "notHunted": {
               "self": "You slept well... with the knowledge that you protected yourself.",
               "Garlic Farmer": "You find some garlic on your front steps... and you didn't put it there! Farmers stick together",
-              "Priest": "You find some garlic on your front steps... It's a miracle!",
+              "Priest": "You find some garlic on your front steps... ",
               "Human Person": "You find some garlic on your front steps...",
-              "Librarian": "You find some garlic on your front steps...You've ready about this practice and are grateful",
+              "Librarian": "You find some garlic on your front steps...",
               "Mayor": "You find some garlic on your front steps... some offering!",
               "Vampire": "You were given garlic...which makes you ill... No hunting for you!"
             },
             "hunted": {
               "self": "You are pleased you put garlic out front, as there are scratch marks on your front door",
-              "Garlic Farmer": "You find scratch marks are your front steps... thank goodness for the kindness of your fellow farmer!",
-              "Priest": "Bless the garlic farmer!  His garlic tithe was your saving grace - you find scratch marks out front",
-              "Human Person": "You find some garlic on your front steps... and scratch marks at the door",
-              "Librarian": "You find some garlic on your front steps...You've ready about this practice and are grateful - and are thankful as there are scratches at the door",
-              "Mayor": "You find some garlic on your front steps... and scratch marks at the door"
+              "Garlic Farmer": "You find scratch marks are your front steps...",
+              "Priest": "You find scratch marks are your front steps...",
+              "Human Person": "You find scratch marks are your front steps...",
+              "Librarian": "You find scratch marks are your front steps...",
+              "Mayor": "You find scratch marks are your front steps..."
             }
           },
-          "fuckedOver": "The garlic farmer fucked you over... you went to pay a visit to {name}, and there was garlic there...(todo: make PG)",
+          "fuckedOver": "You went to pay a visit to {name}, and there was garlic there... so you went home.  Foul stuff!",
           "gaveToFellowVamp": "A member of your vampire crew was given garlic.  No hunting tonight...."
         },
         "cullenUpdates": {
@@ -199,7 +198,7 @@
             "turned": "Great news! Your veggie sibling has rejoined the nest.  {name} is now a vampire!"
           },
           "vampireAttackedCullen": {
-            "Cullen": "You've been playing human so long, you were attacked by the Vamps... luckily you've still got a few moves and you fought them off",
+            "Cullen": "You were attacked by the Vamps - they thought you were human... you fought them off",
             "Vampire": "That was no human you attacked! {name} took you by surprise... and injured more than your pride... you must rest the following evening"
           }
         }
@@ -207,53 +206,53 @@
     },
     "dayIntro": {
       "title": "Introduction to game",
-      "button": "Got it!",
+      "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
-        "Vampire": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Cullen": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Priest": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Garlic Farmer": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Human Person": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Librarian": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)",
-        "Mayor": "Please look at the Desktop app (if you can't see it, check that the video chat is visible and ask the host to share their screen)"
+        "Vampire": "Read instructions on main screen.",
+        "Cullen": "Read instructions on main screen.",
+        "Priest": "Read instructions on main screen.",
+        "Garlic Farmer": "Read instructions on main screen.",
+        "Human Person": "Read instructions on main screen.",
+        "Librarian": "Read instructions on main screen.",
+        "Mayor": "Read instructions on main screen."
       }
     },
     "day": {
       "title": "Day",
       "content": {
         "default": {
-          "Vampire": "Time to vote on who dies next... keep a low profile!",
-          "Cullen": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
-          "Priest": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
-          "Garlic Farmer": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
-          "Human Person": "It's time for mob mobility! Grab your pitchforks, decide who must be staked next!",
-          "Librarian": "Grab your pitchforks, decide who must be staked next!",
-          "Mayor": "Politic time! Help these peeps decide who must be staked next!"
+          "Vampire": "Time to vote on who dies next... keep a low profile - they're looking for you!",
+          "Cullen": "Vote on who must be staked next!",
+          "Priest": "Vote on who must be staked next!",
+          "Garlic Farmer": "Vote on who must be staked next!",
+          "Human Person": "Vote on who must be staked next!",
+          "Librarian": "Vote on who must be staked next!",
+          "Mayor": "Vote on who must be staked next!"
         },
-        "mayoralSuperVote": "Today all your votes count for two!",
+        "mayoralSuperVote": "Today your votes are all that count!",
         "confirmVote": "Confirm Ballot of Death",
         "voted": {
-          "Vampire": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-          "Cullen": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-          "Priest": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-          "Garlic Farmer": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-          "Human Person": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-          "Librarian": "You've made your decision...You want to put a stake through {condemnedName}'s heart.",
-          "Mayor": "You've made your decision...You want to put a stake through {condemnedName}'s heart."
+          "Vampire": "You've voted to stake {condemnedName}.",
+          "Cullen": "You've voted to stake {condemnedName}.",
+          "Priest": "You've voted to stake {condemnedName}.",
+          "Garlic Farmer": "You've voted to stake {condemnedName}.",
+          "Human Person": "You've voted to stake {condemnedName}.",
+          "Librarian": "You've voted to stake {condemnedName}.",
+          "Mayor": "You've voted to stake {condemnedName}."
         }
       }
     },
     "polls": {
       "title": "Poll Results",
       "content": {
-        "Vampire": "Look at the main screen to see vote results",
-        "Cullen": "Look at the main screen to see vote results",
-        "Garlic Farmer": "Look at the main screen to see vote results",
-        "Priest": "Look at the main screen to see vote results",
-        "Human Person": "Look at the main screen to see vote results",
-        "Librarian": "Look at the main screen to see vote results",
-        "Mayor": "Look at the main screen to see vote results"
+        "Vampire": "Look at the main screen to see vote results.",
+        "Cullen": "Look at the main screen to see vote results.",
+        "Garlic Farmer": "Look at the main screen to see vote results.",
+        "Priest": "Look at the main screen to see vote results.",
+        "Human Person": "Look at the main screen to see vote results.",
+        "Librarian": "Look at the main screen to see vote results.",
+        "Mayor": "Look at the main screen to see vote results."
       }
     },
     "expired": {
@@ -271,9 +270,9 @@
         "Cullen": "You are gone... you never wanted to hurt anyone... why... why!",
         "Garlic Farmer": "You are dead... who will water the garden?",
         "Priest": "Why fear death",
-        "Human Person": "ahhhhh! no!",
+        "Human Person": "You're dead and gone...",
         "Librarian": "Looks like you've checked out...",
-        "Mayor": "Worst scandal yet..."
+        "Mayor": "Worst scandal yet... Yaa dead."
       }
     },
     "vampireWin": {
@@ -301,7 +300,7 @@
             "You only wanted to help those humans... how did it come to this?"
           ],
           "notExpired": [
-            "How did it come to this... will they humans thing you... you helped?"
+            "How did it come to this... You just wanted a simple human life..."
           ]
         },
         "Garlic Farmer": {
@@ -309,25 +308,29 @@
           "notExpired": ["Now I suppose you will be farmed by the vampires..."]
         },
         "Priest": {
-          "expired": ["You are dead and your prayers have not been answered"],
+          "expired": ["You are dead."],
           "notExpired": [
-            "You will not pray for the soulless admonitions that have defeated you"
+            "You will not pray for the soulless admonitions that have defeated you."
           ]
         },
         "Mayor": {
-          "expired": ["Running out of ideas. Dead mayor"],
-          "notExpired": ["NOt dead mayor but vamp won"]
+          "expired": ["You have been defeated..."],
+          "notExpired": [
+            "You have lost, and it's doubtful you will win the next election"
+          ]
         },
         "Librarian": {
-          "expired": ["Not so booksmart after all... can't read in the grave"],
+          "expired": ["Not so booksmart after all... can't read in the grave."],
           "notExpired": [
-            "All your studies couldn't have prepared you for this defeat",
-            "With you last dying breath you pledge revenge against these satanic spawns..."
+            "All your studies couldn't have prepared you for this defeat."
           ]
         },
         "Human Person": {
-          "expired": ["You are super dead and defeated"],
-          "notExpired": ["Well, might as well offer yourself up to the vamps"]
+          "expired": ["You are dead and defeated."],
+          "notExpired": [
+            "Well, might as well offer yourself up to the vamps.",
+            "With your last dying breath you pledge revenge against these satanic spawns..."
+          ]
         }
       }
     },
@@ -344,7 +347,7 @@
       "content": {
         "Vampire": {
           "expired": [
-            "Sucks to suck, mother sucker. You are dead...again. See you in hell.",
+            "You are dead...again. See you in hell.",
             "I hope you enjoy eternal damnnation, because yer dead."
           ]
         },
@@ -398,7 +401,7 @@
       "cancel": "Cancel",
       "back": "Back",
       "error": [
-        "Oops! Something went wrong. It's probably your fault. Don't blame this on me!"
+        "Something went wrong.  Please check your internet connection or try again later."
       ]
     },
     "home": {
@@ -408,7 +411,7 @@
     },
     "credit": {
       "title": "Credit",
-      "content": "I'm building this section out, motha truckas"
+      "content": "Under construction"
     },
     "settings": {
       "title": "Settings",
@@ -430,49 +433,68 @@
       "title": "Introduction to game",
       "content": [
         {
-          "seconds": 4,
+          "seconds": 5,
           "text": [
-            "Velcom all, and thanks vor coming to my Vampire Party",
             "Salutations and welcome to Vampire Party",
             "Thanks for joining the party",
             "So glad you could make it. You won't live...to regret it"
           ]
         },
         {
-          "seconds": 10,
-          "text": "Here in our gloomy town of Spoons we seem to have run into a bit of a vampire problem. Maybe because of our unfortunate positioning on top of a gaping...  HellNose. Who is to really know?"
+          "seconds": 12,
+          "text": "This game is a survival game in which the minority of the players are vampires pitted against the majority, humans."
         },
         {
-          "seconds": 10,
-          "text": "What I do know though, is that there are vampires and people are dying, and that just makes me sad?"
+          "seconds": 6,
+          "text": "Humans win if all vampires are exterminated."
         },
         {
-          "seconds": 10,
-          "text": "Wait, hold on. Is your videochat and microphone turned on? And is your host sharing their screen? If not, pause the game and do that now, thanks <3 xoxo"
+          "seconds": 6,
+          "text": "Vampires win if there are more vampires than humans."
+        },
+        {
+          "seconds": 11,
+          "text": "On your phone you should what character you have randomly been assigned.  If you don't see it, try refreshing the page"
+        },
+        {
+          "seconds": 9,
+          "text": "Don't share this info with other players.  Your character is a secret you should take to the grave."
+        },
+        {
+          "seconds": 9,
+          "text": "Whenever your phone says \"Read instructions on main screen.\" - LOOK HERE!"
+        },
+        {
+          "seconds": 9,
+          "text": "Every aspect of the game involves voting or make choices about other players."
         },
         {
           "seconds": 15,
-          "text": "Ok great. So here's the deal. We're going to play a party game called, Stake The Vampire. I was thinking around 3 PM we can perform my favorite vampire staking ceremony? Yay! So Fun! And then, we can just keep doing this everyday until we kill all the vampires, or until they overrun the town. Yeah? Awesome! "
+          "text": "As such, it's HIGHLY recommended using your actual names.  If you don't, it'll be confusing, harder to learn, and subsequently less fun."
         },
         {
-          "seconds": 10,
-          "text": "Majority rules is the rule in Spoons. That goes for the Vampires too. When it comes time to Stake (or Suck), and you cannot come to an agreement, no one will die."
+          "seconds": 16,
+          "text": "If you are unsure who {playerNames} are, you should probably quit and restart the game."
         },
         {
-          "seconds": 10,
-          "text": "Thankfully I invited some people with useful skills to help protect us. Some of you I just invited cause I love you. I love you, but you're not special. Truth Hurts, sweaty."
+          "seconds": 6,
+          "text": "To pause/exit the game press the [ESC] key."
         },
         {
-          "seconds": 10,
-          "text": "Lastly, make sure to pay close attention and follow directions on your own devices. But also pay attention to me! Me! Me! Me! It is my party after all."
+          "seconds": 12,
+          "text": "If you are playing over video chat, it is suggested the host shares their video and audio with everyone."
         },
         {
-          "seconds": 15,
-          "text": "Oh yeah, I should add, that thing about Vampires melting in the sun or whatever? All myth. Vampires are actually masters of disguise and I may have accidentally invited some to the party... oops my bad! "
+          "seconds": 13,
+          "text": "There are three phases in the game, and depending on who your character is you'll be able to perform actions at those times."
         },
         {
-          "seconds": 10,
-          "text": "Doesn't this sound like a fun party?! Now, let's see who showed up!"
+          "seconds": 11,
+          "text": "The phases are,  Night, Morning and Day - but we'll learn more about each of these phases as they approach!"
+        },
+        {
+          "seconds": 11,
+          "text": "It's a fast paced game so if you don't get it the first time, try playing again. The more you play, the greater variety of characters you'll get to try out!"
         }
       ]
     },
