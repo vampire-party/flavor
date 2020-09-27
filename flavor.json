@@ -55,7 +55,7 @@
         "Librarian": "Librarian",
         "Mayor": "Mayor"
       },
-      "button": "I'm ready",
+      "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "description": {
         "Vampire": "Each night the Vampires can select one non-vampire to attack if there are multiple vampires,  but they must all be in agreement to kill",
