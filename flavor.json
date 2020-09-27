@@ -60,7 +60,7 @@
       "description": {
         "Vampire": "Each night, the Vampires can select one non-vampire to attack if there are multiple vampires,  but they must all be in agreement to kill",
         "Cullen": "A vegetarian vampire who dislikes other vampires and wins if humans win. If the Garlic Farmer chooses to gift The Cullen garlic there is a chance they will die or become a vampire.  If a vampire attacks the Cullen, they will fend them off.",
-        "Garlic Farmer": "The Garlic Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.  They have enough garlic to give one garlic to every player - including themselves.  By giving a garlic to a human they are guaranteeing their protection from the vampire for the night.",
+        "Garlic Farmer": "The Garlic Farmer knows well the lore of the Vampire, and is devoted to protecting the town with his crop.  They have enough garlic to give one garlic to every player - including themselves.  By giving a garlic to a human they are guaranteeing their protection from the vampires for the night.",
         "Priest": "The morning after a player is killed by a vampire, the priest may resurrect that player.  This can only be done once per game.",
         "Human Person": "Humans have no special skills or abilities.",
         "Librarian": "Librarian has many books rich with town history, including records of paranormal and supernatural events. Every night the librarian may research a player and learn with some degree of accuracy whether that player is a vampire or not.  This is an art not a science and the librarian is not always correct.",
@@ -85,10 +85,10 @@
       "title": "Night",
       "content": {
         "default": {
-          "Cullen": "It is night.  If a vampire attacks you, you know can defend yourself... you simply hope you are not given garlic.   If you are given garlic, there is a chance they will die or become a vampire.",
-          "Priest": "The vampires are on the hunt... but so are perhaps the garlic farmer, and the librarian.",
-          "Human Person": "The vampires are on the hunt... but so are perhaps the garlic farmer, and the librarian.",
-          "Mayor": "Beasts are on the loose... look busy!(update flavor)"
+          "Cullen": "The vampires are out... but so is the garlic farmer, and the librarian.",
+          "Priest": "The vampires are out... but so is the garlic farmer, and the librarian.",
+          "Human Person": "The vampires are on the hunt... but so is the garlic farmer, and the librarian.",
+          "Mayor": "The vampires are out... but so is the garlic farmer, and the librarian."
         },
         "vampireVote": {
           "instructions": "Select your next victim.",
