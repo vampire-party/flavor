@@ -36,13 +36,13 @@
       "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
-        "Vampire": "Read instructions on main screen.",
-        "Cullen": "Read instructions on main screen.",
-        "Garlic Farmer": "Read instructions on main screen.",
-        "Priest": "Read instructions on main screen.",
-        "Human Person": "Read instructions on main screen.",
-        "Librarian": "Read instructions on main screen.",
-        "Mayor": "Read instructions on main screen."
+        "Vampire": "Follow instructions on main screen.",
+        "Cullen": "Follow instructions on main screen.",
+        "Garlic Farmer": "Follow instructions on main screen.",
+        "Priest": "Follow instructions on main screen.",
+        "Human Person": "Follow instructions on main screen.",
+        "Librarian": "Follow instructions on main screen.",
+        "Mayor": "Follow instructions on main screen."
       }
     },
     "directory": {
@@ -72,13 +72,13 @@
       "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
-        "Vampire": "Read instructions on main screen.",
-        "Cullen": "Read instructions on main screen.",
-        "Priest": "Read instructions on main screen.",
-        "Garlic Farmer": "Read instructions on main screen.",
-        "Human Person": "Read instructions on main screen.",
-        "Librarian": "Read instructions on main screen.",
-        "Mayor": "Read instructions on main screen."
+        "Vampire": "Follow instructions on main screen.",
+        "Cullen": "Follow instructions on main screen.",
+        "Priest": "Follow instructions on main screen.",
+        "Garlic Farmer": "Follow instructions on main screen.",
+        "Human Person": "Follow instructions on main screen.",
+        "Librarian": "Follow instructions on main screen.",
+        "Mayor": "Follow instructions on main screen."
       }
     },
     "night": {
@@ -119,13 +119,13 @@
       "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
-        "Vampire": "Read instructions on main screen.",
-        "Cullen": "Read instructions on main screen.",
-        "Priest": "Read instructions on main screen.",
-        "Garlic Farmer": "Read instructions on main screen.",
-        "Human Person": "Read instructions on main screen.",
-        "Librarian": "Read instructions on main screen.",
-        "Mayor": "Read instructions on main screen."
+        "Vampire": "Follow instructions on main screen.",
+        "Cullen": "Follow instructions on main screen.",
+        "Priest": "Follow instructions on main screen.",
+        "Garlic Farmer": "Follow instructions on main screen.",
+        "Human Person": "Follow instructions on main screen.",
+        "Librarian": "Follow instructions on main screen.",
+        "Mayor": "Follow instructions on main screen."
       }
     },
     "morning": {
@@ -209,13 +209,13 @@
       "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
-        "Vampire": "Read instructions on main screen.",
-        "Cullen": "Read instructions on main screen.",
-        "Priest": "Read instructions on main screen.",
-        "Garlic Farmer": "Read instructions on main screen.",
-        "Human Person": "Read instructions on main screen.",
-        "Librarian": "Read instructions on main screen.",
-        "Mayor": "Read instructions on main screen."
+        "Vampire": "Follow instructions on main screen.",
+        "Cullen": "Follow instructions on main screen.",
+        "Priest": "Follow instructions on main screen.",
+        "Garlic Farmer": "Follow instructions on main screen.",
+        "Human Person": "Follow instructions on main screen.",
+        "Librarian": "Follow instructions on main screen.",
+        "Mayor": "Follow instructions on main screen."
       }
     },
     "day": {
@@ -462,7 +462,7 @@
         },
         {
           "seconds": 9,
-          "text": "Whenever your phone says \"Read instructions on main screen.\" - LOOK HERE!"
+          "text": "Whenever your phone says \"Follow instructions on main screen.\" - LOOK HERE!"
         },
         {
           "seconds": 7,
@@ -515,7 +515,7 @@
       "title": "Introduction to game",
       "content": [
         {
-          "seconds": 11,
+          "seconds": 9,
           "text": "It's now night time.  During that period, the Vampires, the Garlic farmer and the Librarian have activities to perform."
         },
         {
@@ -539,7 +539,7 @@
           "text": "Every night the Librarian may research a player and learn with some degree of accuracy whether that player is a vampire or not."
         },
         {
-          "seconds": 5,
+          "seconds": 6,
           "text": "This is an art not a science and the Librarian is not always correct."
         },
         {
@@ -554,7 +554,6 @@
           "seconds": 9,
           "text": "If the Cullen is given garlic there is a chance they will die or turn into a vampire - they really don't like garlic."
         },
-
         {
           "seconds": 7,
           "text": "With these rules out of the way, lets begin the night.  Look at your phone for further instructions!"
@@ -563,7 +562,7 @@
     },
     "night": {
       "title": "Night",
-      "content": "Hey guys, it's bedtime. AKA time to check your phone obsessively until you fall asleep... or die! No seriously, don't take your eyes off your phone until morning.",
+      "content": "Follow instructions on phone.",
       "timer": 30
     },
     "morningIntro": {
