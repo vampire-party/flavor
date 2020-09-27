@@ -516,7 +516,7 @@
       "content": [
         {
           "seconds": 9,
-          "text": "It's now night time.  During that period, the Vampires, the Garlic farmer and the Librarian have activities to perform."
+          "text": "It's now night time.  During this period, the Vampires, the Garlic farmer and the Librarian have activities to perform."
         },
         {
           "seconds": 7,
@@ -544,7 +544,7 @@
         },
         {
           "seconds": 8,
-          "text": "The Cullen - the seclusive vegetarian vampire - wins and loses with the humans."
+          "text": "The Cullen - the reclusive vegetarian vampire - wins and loses with the humans."
         },
         {
           "seconds": 10,
@@ -639,7 +639,7 @@
         },
         {
           "seconds": 10,
-          "text": "If after three votes consensus can not be made, nobody dies and the phase cycles back to night."
+          "text": "If after three votes no consensus can be made, nobody dies and the phase cycles back to night."
         },
         {
           "seconds": 8,
