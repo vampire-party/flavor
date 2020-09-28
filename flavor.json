@@ -509,7 +509,7 @@
     "directory": {
       "title": "Guest List",
       "content": "{currentRoles}",
-      "timer": 10
+      "timer": 20
     },
     "nightIntro": {
       "title": "Introduction to game",
