@@ -146,14 +146,6 @@
           "usePower": "Resurrect {name}",
           "doNotUsePower": "Do nothing",
           "confirmVote": "Confirm choice",
-          "playerResurrected": {
-            "self": "{name} is back from the dead.",
-            "Garlic Farmer": "You have been resurrected by the priest!",
-            "Priest": "You have been resurrected by the priest! Bless your brethren!  Yes... there can be more than one of you.",
-            "Human Person": "You've been given a second chance at life!  The priest has resurrected you!",
-            "Librarian": "You have been resurrected by the priest!",
-            "Mayor": "You have been resurrected by the priest!"
-          },
           "alreadyUsedSuperPower": {
             "death": "You've already used your resurrection powers this game.",
             "nobodyDied": "You've already used your resurrection powers... luckily nobody died."
@@ -240,6 +232,14 @@
           "Human Person": "You've voted to stake {condemnedName}.",
           "Librarian": "You've voted to stake {condemnedName}.",
           "Mayor": "You've voted to stake {condemnedName}."
+        },
+        "playerResurrected": {
+          "self": "{name} is back from the dead.",
+          "Garlic Farmer": "You have been resurrected by the priest!",
+          "Priest": "You have been resurrected by the priest! Bless your brethren!  Yes... there can be more than one of you.",
+          "Human Person": "You've been given a second chance at life!  The priest has resurrected you!",
+          "Librarian": "You have been resurrected by the priest!",
+          "Mayor": "You have been resurrected by the priest!"
         }
       }
     },
@@ -611,8 +611,7 @@
         "turned": [
           "As a result of being given garlic, the Cullen has been transformed into a full fledged Vampire"
         ]
-      },
-      "playerResurrected": ["{name} has been resurrected!!!"]
+      }
     },
     "dayIntro": {
       "title": "Introduction to game",
@@ -650,6 +649,7 @@
     "day": {
       "title": "Day",
       "content": "Discuss and vote.",
+      "playerResurrected": ["{name} has been resurrected!"],
       "timer": 180
     },
     "polls": {
