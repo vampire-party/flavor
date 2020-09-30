@@ -58,8 +58,8 @@
       "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "description": {
-        "Vampire": "Each night the Vampires can select one non-vampire to attack if there are multiple vampires,  but they must all be in agreement to kill",
-        "Cullen": "A vegetarian vampire who dislikes other vampires and wins if humans win. If the Garlic Farmer chooses to gift The Cullen garlic there is a chance they will die or become a vampire.  If a vampire attacks the Cullen, they will fend them off.",
+        "Vampire": "Each night the Vampires can select one non-vampire to attack if there are multiple vampires, in the event of a tie, nobody dies",
+        "Cullen": "A vegetarian vampire who wins and loses with the humans. If given garlic, there is a chance the CUllen will die or become a vampire.  If a vampire attacks the Cullen, they will fend them off.",
         "Garlic Farmer": "Garlic farmers give out garlic at night.  They have enough garlic to give out one to every player. If a human player receives garlic, they will be protected from the vampire for the night. If a vampire is given garlic, the hunt is off.",
         "Priest": "The morning after a player is killed by a vampire, the priest may resurrect that player.  This can only be done once per game.",
         "Human Person": "Humans have no special skills or abilities.",
@@ -187,7 +187,7 @@
           "turned": "You received garlic... it enrages you to such an extent that you revert to your true form... You are now a vampire, and will win or lose with your nest",
           "vampireNotice": {
             "expired": "You went to attack... and all you found was a pile of ashes...",
-            "turned": "Great news! Your veggie sibling has rejoined the nest.  {name} is now a vampire!"
+            "turned": "Great news! {name} is now a full fledged vampire!"
           },
           "vampireAttackedCullen": {
             "Cullen": "You were attacked by the Vamps - they thought you were human... you fought them off",
@@ -340,7 +340,7 @@
         "Cullen": "You win!",
         "Garlic Farmer": "You win!",
         "Priest": "You win!",
-        "Human Person": "Yuu win!",
+        "Human Person": "You win!",
         "Librarian": "You win!",
         "Mayor": "You win!"
       },
@@ -515,16 +515,24 @@
       "title": "Introduction to game",
       "content": [
         {
-          "seconds": 9,
+          "seconds": 11,
           "text": "It's now night time.  During this period, the Vampires, the Garlic farmer and the Librarian have activities to perform."
         },
         {
           "seconds": 7,
-          "text": "The vampires get to choose one player to attack.  But their success is by no means guaranteed."
+          "text": "The vampires get to choose one player to attack."
         },
         {
-          "seconds": 9,
-          "text": "The Garlic farmers can give out one garlic a night.  They have enough garlic to give out one to every player."
+          "seconds": 7,
+          "text": "But their success is by no means guaranteed."
+        },
+        {
+          "seconds": 6,
+          "text": "The Garlic farmers can give out one garlic a night..."
+        },
+        {
+          "seconds": 6,
+          "text": "and have enough garlic to give out one to every player."
         },
         {
           "seconds": 7,
@@ -548,11 +556,11 @@
         },
         {
           "seconds": 10,
-          "text": "If the Vampires attack the Cullen the Vampires will be stunned and will lose their action the following night."
+          "text": "If the Cullen is attacked by Vampires the Vampires will be stunned and will lose their action the following night."
         },
         {
           "seconds": 9,
-          "text": "If the Cullen is given garlic there is a chance they will die or turn into a vampire - they really don't like garlic."
+          "text": "If given garlic there is a chance the Cullen will die or turn into a full fledged vampire."
         },
         {
           "seconds": 7,
@@ -562,7 +570,7 @@
     },
     "night": {
       "title": "Night",
-      "content": "Follow instructions on phone.",
+      "content": "Be ready for anything....",
       "timer": 30
     },
     "morningIntro": {
