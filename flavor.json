@@ -141,15 +141,11 @@
           "Mayor": "Read announcements on main screen"
         },
         "priestVote": {
-          "instructions": "{name} was killed... would you like to resurrect them?",
+          "instructions": "Resurrect player (One time action).",
+          "nobodyIsDead": "Sleep well.",
           "voted": "You've chosen to resurrect {name}.",
-          "usePower": "Resurrect {name}",
-          "doNotUsePower": "Do nothing",
           "confirmVote": "Confirm choice",
-          "alreadyUsedSuperPower": {
-            "death": "You've already used your resurrection powers this game.",
-            "nobodyDied": "You've already used your resurrection powers... luckily nobody died."
-          }
+          "alreadyUsedSuperPower": "You've used your resurrection powers."
         },
         "mayorVote": {
           "instructions": "You may choice to override the results - making your vote supersede none-politicians ",
@@ -436,29 +432,36 @@
           "seconds": 5,
           "text": [
             "Salutations and welcome to Vampire Party.",
-            "Thanks for joining the party.",
-            "So glad you could make it. You won't live...to regret it."
+            "Thanks for joining the party."
           ]
         },
         {
-          "seconds": 10,
+          "seconds": 12,
           "text": "This is a game of survival and secrecy in which the minority of the players are vampires pitted against the majority, humans."
         },
         {
-          "seconds": 6,
+          "seconds": 8,
           "text": "Humans win if all vampires are exterminated."
         },
         {
-          "seconds": 6,
+          "seconds": 7,
           "text": "Vampires win if there are more vampires than humans."
         },
         {
-          "seconds": 11,
-          "text": "On your phone you will see which character you have been assigned.  If you don't see it, try refreshing the page."
+          "seconds": 9,
+          "text": "On your phone you will see which character role you have been assigned."
         },
         {
           "seconds": 9,
-          "text": "Don't share this info with other players.  Your character is a secret you should take to the grave."
+          "text": "If you don't see your role, try refreshing the page on your phone."
+        },
+        {
+          "seconds": 6,
+          "text": "Don't share this info with other players."
+        },
+        {
+          "seconds": 7,
+          "text": "Your character is a secret you should take to the grave."
         },
         {
           "seconds": 9,
@@ -469,8 +472,12 @@
           "text": "Every aspect of the game involves voting or making choices about other players."
         },
         {
-          "seconds": 11,
-          "text": "As such, it's HIGHLY recommended that you use your actual names.  If you don't, it'll be confusing, harder to learn, and subsequently less fun."
+          "seconds": 7,
+          "text": "As such, it's HIGHLY recommended that you use your actual names."
+        },
+        {
+          "seconds": 9,
+          "text": "If you don't use real names, it'll be confusing, harder to learn, and subsequently less fun."
         },
         {
           "seconds": 12,
@@ -482,23 +489,35 @@
         },
         {
           "seconds": 9,
-          "text": "If you are playing over video chat, it is suggested the host shares their video and audio with everyone."
+          "text": "If you are playing over video chat make sure to share video and audio of this."
         },
         {
-          "seconds": 10,
-          "text": "There are three phases in the game, and depending on who your character is you'll be able to perform actions at those times."
-        },
-        {
-          "seconds": 8,
-          "text": "The phases are,  Night, Morning and Day - but we'll learn more about each of these phases as they approach!"
-        },
-        {
-          "seconds": 11,
-          "text": "It's a fast paced game so if you don't get it the first time, try playing again. The more you play, the greater variety of characters you'll get to try out!"
+          "seconds": 5,
+          "text": "There are three phases in the game."
         },
         {
           "seconds": 9,
-          "text": "Don't worry about knowing the exact details, as your phone will tell what to do, and the main screen (here!) will announce everything that is going on."
+          "text": "Different characters will be  able to perform different actions at those times."
+        },
+        {
+          "seconds": 10,
+          "text": "The phases are,  Night, Morning and Day - but we'll learn more about each of before each phase"
+        },
+        {
+          "seconds": 9,
+          "text": "It's a fast paced game and if you don't get it the first time, try playing again."
+        },
+        {
+          "seconds": 8,
+          "text": "The more you play, the greater variety of characters you'll get to try out!"
+        },
+        {
+          "seconds": 6,
+          "text": "Don't worry about memorizing every rule."
+        },
+        {
+          "seconds": 9,
+          "text": "Your phone will tell what actions you can perform, and the main screen (here!) will announce everything that is going on."
         },
         {
           "seconds": 7,
@@ -577,11 +596,11 @@
       "title": "Introduction to game",
       "content": [
         {
-          "seconds": 5,
+          "seconds": 10,
           "text": "Morning is when you learn what happened the night before."
         },
         {
-          "seconds": 6,
+          "seconds": 8,
           "text": "Maybe someone was murdered or a Cullen was changed into a vampire?"
         },
         {
@@ -609,7 +628,7 @@
       "nothingHappened": ["It was a quiet night."],
       "vampireKilled": [
         "The bloodless body of {murderedPlayer}'s was discovered",
-        "{murderedPlayer}'s killed last night.",
+        "{murderedPlayer}'s was killed last night.",
         "{murderedPlayer}'s is dead."
       ],
       "cullenUpdates": {
@@ -625,11 +644,11 @@
       "title": "Introduction to game",
       "content": [
         {
-          "seconds": 7,
+          "seconds": 10,
           "text": "Day time is divided into two parts. Voting and viewing vote results."
         },
         {
-          "seconds": 10,
+          "seconds": 12,
           "text": "Rather than simply voting, we recommend accusing, interrogating and discussing with fellow players to see what can be learned."
         },
         {
@@ -649,8 +668,12 @@
           "text": "If after three votes no consensus can be made, nobody dies and the phase cycles back to night."
         },
         {
-          "seconds": 8,
-          "text": "This ends the tutorial! Best of luck, and if you're not already dead.... try not to die!"
+          "seconds": 5,
+          "text": "This ends the tutorial!"
+        }
+        {
+          "seconds": 7,
+          "text": "Best of luck, and if you're not already dead.... try not to die!"
         }
       ]
     },
