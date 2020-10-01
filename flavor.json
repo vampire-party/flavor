@@ -150,8 +150,12 @@
         "mayorVote": {
           "instructions": "You may choice to override the results - making your vote supersede none-politicians ",
           "usePower": "Rig the elections",
-          "doNotUsePower": "Bide your time...",
+          "doNotUsePower": "Do nothing",
           "confirmVote": "Confirm",
+          "voted": {
+            "usePower": "You are rigging the election!",
+            "doNotUsePower": "Sleep well!"
+          },
           "alreadyUsedSuperPower": "You've already used your mayoral super vote this game."
         },
         "garlicUpdates": {
