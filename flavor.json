@@ -633,7 +633,7 @@
       "vampireKilled": [
         "The bloodless body of {murderedPlayer}'s was discovered",
         "{murderedPlayer}'s was killed last night.",
-        "{murderedPlayer}'s is dead."
+        "{murderedPlayer}' is dead."
       ],
       "cullenUpdates": {
         "expired": [
