@@ -19,8 +19,8 @@
       ]
     },
     "actions": {
-      "startGame": "Start the party!",
-      "startGameSkipIntro": "Start the party! (Skip Intro)"
+      "startGame": "Start!",
+      "startGameSkipIntro": "Start! (Skip Intro)"
     },
     "waitingRoom": {
       "enterRoomCode": "Enter Room Code",
@@ -539,7 +539,7 @@
       "content": [
         {
           "seconds": 11,
-          "text": "It's now night time.  During this period, the Vampires, the Garlic farmer and the Librarian have activities to perform."
+          "text": "It's now night time. During this period, most ."
         },
         {
           "seconds": 7,
@@ -586,8 +586,16 @@
           "text": "If given garlic there is a chance the Cullen will die or turn into a full fledged vampire."
         },
         {
-          "seconds": 7,
-          "text": "With these rules out of the way, lets begin the night.  Look at your phone for further instructions!"
+          "seconds": 6,
+          "text": "The Mayor is presented with an option to use their Mayoral powers."
+        },
+        {
+          "seconds": 8,
+          "text": "If used, the Mayoral super vote will beat all other none politicians.  It can only be used once."
+        },
+        {
+          "seconds": 10,
+          "text": "Once a game the Priest will have a chance to resurrect a human player that died."
         }
       ]
     },
@@ -601,27 +609,43 @@
       "content": [
         {
           "seconds": 10,
-          "text": "Morning is when you learn what happened the night before."
+          "text": "At the start of a new day announcement are made."
         },
         {
-          "seconds": 8,
+          "seconds": 9,
           "text": "Maybe someone was murdered or a Cullen was changed into a vampire?"
         },
         {
           "seconds": 9,
-          "text": "During this phase, you will both see announcements on the main screen, and on your phone."
-        },
-        {
-          "seconds": 6,
-          "text": "The Mayor is presented with an option to use their Mayoral powers."
-        },
-        {
-          "seconds": 8,
-          "text": "If used, the Mayoral super vote will beat all other none politicians.  It can only be used once."
+          "text": "During announcements on the main screen, and on your phone."
         },
         {
           "seconds": 10,
-          "text": "If during the night a player was murdered, the Priest will have a chance to resurrect them.  Like the Mayor, this ability can only be used once."
+          "text": "After learning the events that happened during the night, it's time to vote."
+        },
+        {
+          "seconds": 12,
+          "text": "Rather than simply voting, we recommend accusing, interrogating and discussing your vote."
+        },
+        {
+          "seconds": 8,
+          "text": "Once all players votes the votes will be tallied."
+        },
+        {
+          "seconds": 9,
+          "text": "The most votes win, but in the event of a tie, there will be a re-vote."
+        },
+        {
+          "seconds": 10,
+          "text": "If after three votes no consensus can be made, nobody dies and the phase cycles back to night."
+        },
+        {
+          "seconds": 5,
+          "text": "This ends the tutorial!"
+        },
+        {
+          "seconds": 8,
+          "text": "Best of luck, and if you're not already dead.... try not to die!"
         }
       ]
     },
@@ -643,43 +667,6 @@
           "As a result of being given garlic, the Cullen has been transformed into a full fledged Vampire"
         ]
       }
-    },
-    "dayIntro": {
-      "title": "Introduction to game",
-      "content": [
-        {
-          "seconds": 10,
-          "text": "Day time is divided into two parts. Voting and viewing vote results."
-        },
-        {
-          "seconds": 12,
-          "text": "Rather than simply voting, we recommend accusing, interrogating and discussing with fellow players to see what can be learned."
-        },
-        {
-          "seconds": 9,
-          "text": "Once all players confirm their votes or the time runs out, the votes will be tallied."
-        },
-        {
-          "seconds": 9,
-          "text": "The votes are public, so you can learn a lot about a players intentions by viewing the vote results."
-        },
-        {
-          "seconds": 6,
-          "text": "The most votes win, but in the event of a tie, there will be a re-vote."
-        },
-        {
-          "seconds": 10,
-          "text": "If after three votes no consensus can be made, nobody dies and the phase cycles back to night."
-        },
-        {
-          "seconds": 5,
-          "text": "This ends the tutorial!"
-        },
-        {
-          "seconds": 7,
-          "text": "Best of luck, and if you're not already dead.... try not to die!"
-        }
-      ]
     },
     "day": {
       "title": "Day",
