@@ -61,7 +61,7 @@
         "Vampire": "Each night the Vampires can select one non-vampire to attack if there are multiple vampires, in the event of a tie, nobody dies",
         "Cullen": "A vegetarian vampire who wins and loses with the humans. If given garlic, there is a chance the CUllen will die or become a vampire.  If a vampire attacks the Cullen, they will fend them off.",
         "Garlic Farmer": "Garlic farmers give out garlic at night.  They have enough garlic to give out one to every player. If a human player receives garlic, they will be protected from the vampire for the night. If a vampire is given garlic, the hunt is off.",
-        "Priest": "The morning after a player is killed by a vampire, the priest may resurrect that player.  This can only be done once per game.",
+        "Priest": "The day after a player is killed by a vampire, the priest may resurrect that player.  This can only be done once per game.",
         "Human Person": "Humans have no special skills or abilities.",
         "Librarian": "Every night the librarian may research a player and learn with some degree of accuracy whether that player is a vampire or not.  This is an art not a science and the librarian is not always correct.",
         "Mayor": "The Mayor of this town may once a game rig the election and exclusively decide who will be executed during the day voting phase."
@@ -114,22 +114,8 @@
         }
       }
     },
-    "morningIntro": {
-      "title": "Morning Intro",
-      "button": "Skip",
-      "afterClick": "Waiting for rest of players",
-      "content": {
-        "Vampire": "Follow instructions on main screen.",
-        "Cullen": "Follow instructions on main screen.",
-        "Priest": "Follow instructions on main screen.",
-        "Garlic Farmer": "Follow instructions on main screen.",
-        "Human Person": "Follow instructions on main screen.",
-        "Librarian": "Follow instructions on main screen.",
-        "Mayor": "Follow instructions on main screen."
-      }
-    },
     "morning": {
-      "title": "Morning",
+      "title": "Day",
       "content": {
         "default": {
           "Vampire": "Read announcements on main screen",
@@ -553,7 +539,7 @@
         },
         {
           "seconds": 7,
-          "text": "If a human player receives garlic they will be protected from the vampire for the night."
+          "text": "If a human player receives garlic they will be protected from the vampires for the night."
         },
         {
           "seconds": 6,
@@ -644,7 +630,7 @@
       ]
     },
     "morning": {
-      "title": "Morning",
+      "title": "Day",
       "content": "How did everyone sleep? Let's see...",
       "timer": 20,
       "nothingHappened": ["It was a quiet night."],
