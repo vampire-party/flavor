@@ -32,7 +32,7 @@
       "vipWelcomeText": "{playerName}, as the first play to join room #{gameSessionId} you have special responsibilities.  Once more than four players have joined you can start the game."
     },
     "intro": {
-      "title": "Introduction to game",
+      "title": "Intro",
       "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
@@ -68,7 +68,7 @@
       }
     },
     "nightIntro": {
-      "title": "Night",
+      "title": "Night Intro",
       "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
@@ -115,7 +115,7 @@
       }
     },
     "morningIntro": {
-      "title": "Introduction to game",
+      "title": "Morning Intro",
       "button": "Skip",
       "afterClick": "Waiting for rest of players",
       "content": {
@@ -194,20 +194,6 @@
             "Vampire": "That was no human you attacked! {name} took you by surprise... and injured more than your pride... you must rest the following evening"
           }
         }
-      }
-    },
-    "dayIntro": {
-      "title": "Introduction to game",
-      "button": "Skip",
-      "afterClick": "Waiting for rest of players",
-      "content": {
-        "Vampire": "Follow instructions on main screen.",
-        "Cullen": "Follow instructions on main screen.",
-        "Priest": "Follow instructions on main screen.",
-        "Garlic Farmer": "Follow instructions on main screen.",
-        "Human Person": "Follow instructions on main screen.",
-        "Librarian": "Follow instructions on main screen.",
-        "Mayor": "Follow instructions on main screen."
       }
     },
     "day": {
@@ -430,7 +416,7 @@
       "waitingRoomPlayersInGame": "Leaving now will end the game for everyone.  I know {randomPlayer} is gonna be super sad"
     },
     "intro": {
-      "title": "Introduction to game",
+      "title": "Intro",
       "content": [
         {
           "seconds": 8,
@@ -539,7 +525,7 @@
       "timer": 20
     },
     "nightIntro": {
-      "title": "Intro",
+      "title": "Night Intro",
       "content": [
         {
           "seconds": 11,
@@ -609,7 +595,7 @@
       "timer": 30
     },
     "morningIntro": {
-      "title": "Introduction to game",
+      "title": "Day Intro",
       "content": [
         {
           "seconds": 10,
