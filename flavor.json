@@ -475,47 +475,47 @@
         },
         {
           "seconds": 12,
-          "text": "If you are unsure who {playerNames} are, you should probably quit and restart the game."
+          "text": "If don't know who {playerNames} are, quit and restart the game."
         },
         {
           "seconds": 6,
           "text": "To pause/exit the game press the [ESC] key."
         },
         {
-          "seconds": 9,
+          "seconds": 10,
           "text": "If you are playing over video chat make sure to share video and audio of this."
         },
         {
-          "seconds": 5,
-          "text": "There are three phases in the game."
-        },
-        {
-          "seconds": 9,
-          "text": "Different characters will be  able to perform different actions at those times."
-        },
-        {
-          "seconds": 10,
-          "text": "The phases are,  Night, Morning and Day - but we'll learn more about each of before each phase"
-        },
-        {
-          "seconds": 9,
-          "text": "It's a fast paced game and if you don't get it the first time, try playing again."
+          "seconds": 7,
+          "text": "There are two phases of the game... Night and Day."
         },
         {
           "seconds": 8,
-          "text": "The more you play, the greater variety of characters you'll get to try out!"
-        },
-        {
-          "seconds": 6,
-          "text": "Don't worry about memorizing every rule."
+          "text": "During the Night characters perform their unique abilities."
         },
         {
           "seconds": 9,
-          "text": "Your phone will tell what actions you can perform, and the main screen (here!) will announce everything that is going on."
+          "text": "During the Day players vote to kill a Player who they think is a vampire."
+        },
+        {
+          "seconds": 8,
+          "text": "There a fair amount of rules in the next following intro sections."
+        },
+        {
+          "seconds": 6,
+          "text": "Don't worry about memorizing them rule."
         },
         {
           "seconds": 7,
-          "text": "Next up you will learn what characters are going to be in this round."
+          "text": "Your phone will tell what actions you can perform"
+        },
+        {
+          "seconds": 7,
+          "text": "The main screen (here!) will announce major events."
+        },
+        {
+          "seconds": 7,
+          "text": "Next up you will learn what characters are in this round."
         }
       ]
     },
@@ -529,7 +529,7 @@
       "content": [
         {
           "seconds": 11,
-          "text": "It's now night time. During this period, most ."
+          "text": "It's now night time. Many characters can use their unique abilities."
         },
         {
           "seconds": 7,
@@ -538,6 +538,10 @@
         {
           "seconds": 7,
           "text": "But their success is by no means guaranteed."
+        },
+        {
+          "seconds": 7,
+          "text": "Majority wins, but if there is a tie, nobody dies."
         },
         {
           "seconds": 6,
@@ -557,7 +561,7 @@
         },
         {
           "seconds": 9,
-          "text": "Every night the Librarian may research a player and learn with some degree of accuracy whether that player is a vampire or not."
+          "text": "The Librarian may research a player to try and learn if they are vampire or human."
         },
         {
           "seconds": 6,
