@@ -433,15 +433,19 @@
       "title": "Introduction to game",
       "content": [
         {
-          "seconds": 5,
+          "seconds": 8,
           "text": [
             "Salutations and welcome to Vampire Party.",
             "Thanks for joining the party."
           ]
         },
         {
-          "seconds": 12,
-          "text": "This is a game of survival and secrecy in which the minority of the players are vampires pitted against the majority, humans."
+          "seconds": 8,
+          "text": "This is a game of survival and secrecy."
+        },
+        {
+          "seconds": 11,
+          "text": "The minority of the players are vampires pitted against the majority, humans."
         },
         {
           "seconds": 8,
