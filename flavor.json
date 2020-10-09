@@ -644,8 +644,9 @@
           "Last night {name} the Cullen was given garlic... and as a result turned into ashes."
         ],
         "turned": [
-          "As a result of being given garlic, the Cullen has been transformed into a full fledged Vampire"
-        ]
+          "After being given garlic the Cullen has been transformed into a full fledged Vampire"
+        ],
+        "attackedByVampire": "Last night the Vampire{pluralize} had a scrap, and got beat up.  They will be inactive tonight "
       }
     },
     "day": {
