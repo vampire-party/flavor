@@ -672,7 +672,7 @@
     "polls": {
       "title": "Poll Results",
       "pollResultsTimer": 15,
-      "timer": 15,
+      "timer": 30,
       "votedToKill": "Voted to kill {victimName}:",
       "noVote": "Didn't vote:"
     },
