@@ -114,6 +114,20 @@
         }
       }
     },
+    "morningIntro": {
+      "title": "Intro",
+      "button": "Skip",
+      "afterClick": "Waiting for rest of players",
+      "content": {
+        "Vampire": "Follow instructions on main screen.",
+        "Cullen": "Follow instructions on main screen.",
+        "Priest": "Follow instructions on main screen.",
+        "Garlic Farmer": "Follow instructions on main screen.",
+        "Human Person": "Follow instructions on main screen.",
+        "Librarian": "Follow instructions on main screen.",
+        "Mayor": "Follow instructions on main screen."
+      }
+    },
     "morning": {
       "title": "Day",
       "content": {
@@ -469,7 +483,7 @@
         },
         {
           "seconds": 10,
-          "text": "If you are playing over video chat make sure to share video and audio of this."
+          "text": "If you are playing over video chat share video and audio of the this screen."
         },
         {
           "seconds": 7,
@@ -489,7 +503,7 @@
         },
         {
           "seconds": 6,
-          "text": "Don't worry about memorizing them rule."
+          "text": "Don't worry about memorizing these rules."
         },
         {
           "seconds": 7,
@@ -644,7 +658,7 @@
           "Last night {name} the Cullen was given garlic... and as a result turned into ashes."
         ],
         "turned": [
-          "After being given garlic the Cullen has been transformed into a full fledged Vampire"
+          "After being given garlic the Cullen has been transformed into a full fledged Vampire."
         ],
         "attackedByVampire": "Last night the Vampire{pluralize} had a scrap, and got beat up.  They will be inactive tonight "
       }
