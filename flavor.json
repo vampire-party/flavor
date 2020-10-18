@@ -402,7 +402,8 @@
     "settings": {
       "title": "Settings",
       "toggleFullScreen": "Toggle full screen",
-      "music": "Music"
+      "music": "Music",
+      "soundEffects": "Sound effects"
     },
     "waitingRoom": {
       "title": "Party Lobby",
