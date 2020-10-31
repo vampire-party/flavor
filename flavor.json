@@ -20,7 +20,7 @@
     },
     "actions": {
       "startGame": "Start",
-      "startGameSkipIntro": "Start  (With Intro)",
+      "startGameWithIntro": "Start  (With Intro)",
       "addPlayers": "Add players",
       "quit": "Quit"
     },
