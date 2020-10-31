@@ -19,15 +19,15 @@
       ]
     },
     "actions": {
-      "startGame": "Start!",
-      "startGameSkipIntro": "Start! (Skip Intro)"
+      "startGame": "Start!  (With Intro)",
+      "startGameSkipIntro": "Start!"
     },
     "waitingRoom": {
       "enterRoomCode": "Enter Room Code",
       "enter": "Enter",
       "roomCode": "Room code:",
       "name": "Name",
-      "playGame": "Play game!",
+      "playGame": "Join party!",
       "welcomeText": "Velcome {playerName}, you're now in the *spooky* waiting room #{gameSessionId}. Chill out and relax while everyone else joins.... if you can... mwahahaha",
       "vipWelcomeText": "{playerName}, as the first play to join room #{gameSessionId} you have special responsibilities.  Once more than four players have joined you can start the game."
     },
@@ -201,12 +201,12 @@
       "content": {
         "default": {
           "Vampire": "Time to vote on who dies next... keep a low profile - they're looking for you!",
-          "Cullen": "Vote on who must be staked next!",
-          "Priest": "Vote on who must be staked next!",
-          "Garlic Farmer": "Vote on who must be staked next!",
-          "Human Person": "Vote on who must be staked next!",
-          "Librarian": "Vote on who must be staked next!",
-          "Mayor": "Vote on who must be staked next!"
+          "Cullen": "Vote on who to stake next",
+          "Priest": "Vote on who to stake next",
+          "Garlic Farmer": "Vote on who to stake next",
+          "Human Person": "Vote on who to stake next",
+          "Librarian": "Vote on who to stake next",
+          "Mayor": "Vote on who to stake next"
         },
         "mayoralSuperVote": "Today your votes are all that count!",
         "confirmVote": "Confirm Ballot of Death",
