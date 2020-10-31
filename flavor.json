@@ -19,8 +19,8 @@
       ]
     },
     "actions": {
-      "startGame": "Start!  (With Intro)",
-      "startGameSkipIntro": "Start!"
+      "startGame": "Start  (With Intro)",
+      "startGameSkipIntro": "Start"
     },
     "waitingRoom": {
       "enterRoomCode": "Enter Room Code",
