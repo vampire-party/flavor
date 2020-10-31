@@ -19,15 +19,17 @@
       ]
     },
     "actions": {
-      "startGame": "Start  (With Intro)",
-      "startGameSkipIntro": "Start"
+      "startGame": "Start",
+      "startGameSkipIntro": "Start  (With Intro)",
+      "addPlayers": "Add players",
+      "quit": "Quit"
     },
     "waitingRoom": {
       "enterRoomCode": "Enter Room Code",
       "enter": "Enter",
       "roomCode": "Room code:",
       "name": "Name",
-      "playGame": "Join party!",
+      "playGame": "Join party",
       "welcomeText": "Velcome {playerName}, you're now in the *spooky* waiting room #{gameSessionId}. Chill out and relax while everyone else joins.... if you can... mwahahaha",
       "vipWelcomeText": "{playerName}, as the first play to join room #{gameSessionId} you have special responsibilities.  Once more than four players have joined you can start the game."
     },
@@ -153,8 +155,8 @@
           "doNotUsePower": "Do nothing",
           "confirmVote": "Confirm",
           "voted": {
-            "usePower": "You are rigging the election!",
-            "doNotUsePower": "Sleep well!"
+            "usePower": "You are rigging the election",
+            "doNotUsePower": "Sleep well"
           },
           "alreadyUsedSuperPower": "You've already used your mayoral super vote this game."
         },
@@ -302,7 +304,7 @@
         "Mayor": {
           "expired": ["You have been defeated..."],
           "notExpired": [
-            "You have lost, and it's doubtful you will win the next election"
+            "You lost, and it's doubtful you will win the next election"
           ]
         },
         "Librarian": {
