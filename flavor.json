@@ -25,7 +25,6 @@
       "quit": "Quit"
     },
     "waitingRoom": {
-      "enterRoomCode": "Enter Room Code",
       "enter": "Enter",
       "roomCode": "Room code:",
       "name": "Name",
@@ -105,10 +104,7 @@
           "confirmVote": "Confirm Gift of Garlic"
         },
         "librarianResearch": {
-          "instructions": [
-            "Research player",
-            "Pick quick! Once the night is over you've missed your chance to research."
-          ],
+          "instructions": ["Research player"],
           "roleResearchResults": {
             "Vampire": "You are fairly certain {name} is a vampire",
             "Human Person": "Based on your research {name} is human"
