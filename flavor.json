@@ -99,7 +99,7 @@
           "resting": "Last night you attacked a vampire in human clothes.  You were injured in the fray and must rest."
         },
         "garlicVote": {
-          "instructions": "As the garlic farmer you get choose who to give garlic to. But remember you can only give each player one garlic per game.",
+          "instructions": "Gift garlic, save lives.",
           "voted": "You've given garlic to {name}.",
           "confirmVote": "Confirm Gift of Garlic"
         },
