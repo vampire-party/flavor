@@ -155,7 +155,7 @@
             "usePower": "You are rigging the election",
             "doNotUsePower": "Sleep well"
           },
-          "alreadyUsedSuperPower": "You've already used your mayoral super vote this game."
+          "alreadyUsedSuperPower": "You've used your mayoral super vote this game."
         },
         "garlicUpdates": {
           "received": {
@@ -251,12 +251,12 @@
         "Mayor": "Dead"
       },
       "content": {
-        "Vampire": "You are no longer undead... in fact you are a pile of ashes... ",
-        "Cullen": "You are gone... you never wanted to hurt anyone... why... why!",
+        "Vampire": "You are no longer undead... you cease to be ",
+        "Cullen": "You are gone... you never wanted to hurt anyone...",
         "Garlic Farmer": "You are dead... who will water the garden?",
         "Priest": "Why fear death",
         "Human Person": "You're dead and gone...",
-        "Librarian": "Looks like you've checked out...",
+        "Librarian": "You've checked out...",
         "Mayor": "Worst scandal yet... Yaa dead."
       }
     },
