@@ -21,7 +21,7 @@
     "actions": {
       "endGame": "Play again?",
       "startGame": "Start",
-      "startGameWithIntro": "Start  (With Intro)",
+      "startGameWithIntro": "Start  (Tutorial)",
       "addPlayers": "Add players",
       "quit": "Quit"
     },
