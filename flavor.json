@@ -19,6 +19,7 @@
       ]
     },
     "actions": {
+      "endGame": "Play again?",
       "startGame": "Start",
       "startGameWithIntro": "Start  (With Intro)",
       "addPlayers": "Add players",
