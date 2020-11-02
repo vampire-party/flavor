@@ -146,7 +146,7 @@
           "alreadyUsedSuperPower": "You've used your resurrection powers."
         },
         "mayorVote": {
-          "instructions": "You may choice to override the results - making your vote supersede none-politicians ",
+          "instructions": "Rig the elections to supersede none-politicians",
           "usePower": "Rig the elections",
           "doNotUsePower": "Do nothing",
           "confirmVote": "Confirm",
