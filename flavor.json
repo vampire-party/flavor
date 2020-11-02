@@ -146,7 +146,7 @@
           "alreadyUsedSuperPower": "You've used your resurrection powers."
         },
         "mayorVote": {
-          "instructions": "Rig the elections to supersede none-politicians",
+          "instructions": "Rig the elections to supersede none-politicians.",
           "usePower": "Rig the elections",
           "doNotUsePower": "Do nothing",
           "confirmVote": "Confirm",
@@ -261,13 +261,13 @@
     },
     "vampireWin": {
       "title": {
-        "Vampire": "You win!",
-        "Cullen": "You lose",
-        "Garlic Farmer": "You lose",
-        "Priest": "You lose",
-        "Human Person": "You lose",
-        "Librarian": "You lose",
-        "Mayor": "You lose"
+        "Vampire": "Win!",
+        "Cullen": "Lose",
+        "Garlic Farmer": "Lose",
+        "Priest": "Lose",
+        "Human Person": "Lose",
+        "Librarian": "Lose",
+        "Mayor": "Lose"
       },
       "content": {
         "Vampire": {
@@ -294,7 +294,7 @@
         "Priest": {
           "expired": ["You are dead."],
           "notExpired": [
-            "You will not pray for the soulless admonitions that have defeated you."
+            "Will not pray for the soulless admonitions that have defeated you."
           ]
         },
         "Mayor": {
@@ -320,13 +320,13 @@
     },
     "humanWin": {
       "title": {
-        "Vampire": "You lose",
-        "Cullen": "You win!",
-        "Garlic Farmer": "You win!",
-        "Priest": "You win!",
-        "Human Person": "You win!",
-        "Librarian": "You win!",
-        "Mayor": "You win!"
+        "Vampire": "Lose",
+        "Cullen": "Win!",
+        "Garlic Farmer": "Win!",
+        "Priest": "Win!",
+        "Human Person": "Win!",
+        "Librarian": "Win!",
+        "Mayor": "Win!"
       },
       "content": {
         "Vampire": {
