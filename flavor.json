@@ -410,7 +410,9 @@
       "readyToStart": "{vipPlayer} can start the game when everyone has joined",
       "howToQuit": "Press [ESC] to quit",
       "goTo": "Go to",
-      "clickToCopy": "(Click link to copy to clipboard)"
+      "clickToCopy": "(Click link to copy to clipboard)",
+      "yourHost": "Your host",
+      "guests": "Guests"
     },
     "exitModal": {
       "waitingRoomPlayersInGame": "Leaving now will end the game for everyone.  I know {randomPlayer} is gonna be super sad"
