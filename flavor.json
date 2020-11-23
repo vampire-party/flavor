@@ -412,7 +412,7 @@
       "goTo": "Go to",
       "clickToCopy": "(Click link to copy to clipboard)",
       "guests": "Guests",
-      "code": "Code"
+      "code": "Room code"
     },
     "exitModal": {
       "waitingRoomPlayersInGame": "Leaving now will end the game for everyone.  I know {randomPlayer} is gonna be super sad"
