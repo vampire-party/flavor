@@ -12,7 +12,7 @@
   },
   "web": {
     "general": {
-      "title": "Vampire Party",
+      "title": "Vampire Party!",
       "loading": "Loading...",
       "error": [
         "Something went wrong.  Please check your internet connection or try again later."
@@ -408,7 +408,7 @@
       "title": "Party Lobby",
       "waitingForPlayers": "You need {playersNeeded} more player{pluralize} to start the game",
       "readyToStart": "{vipPlayer} can start the game when everyone has joined",
-      "howToQuit": "Press [ESC] to quit",
+      "howToQuit": "Press escape to quit",
       "goTo": "Go to",
       "clickToCopy": "(Click link to copy to clipboard)",
       "guests": "Guests",
