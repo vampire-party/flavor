@@ -651,8 +651,8 @@
       "timer": 20,
       "nothingHappened": ["It was a quiet night."],
       "vampireKilled": [
-        "The bloodless body of {murderedPlayer}'s was discovered",
-        "{murderedPlayer}'s was killed last night.",
+        "The bloodless body of {murderedPlayer} was discovered",
+        "{murderedPlayer} was killed last night.",
         "{murderedPlayer}' is dead."
       ],
       "cullenUpdates": {
