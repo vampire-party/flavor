@@ -683,10 +683,10 @@
         "Vampire": "{victimName} the Vampire has been staked!",
         "Cullen": "{victimName} the {victimRole} has been staked.",
         "Garlic Farmer": "{victimName} the {victimRole} is dead.",
-        "Priest": "{victimName} the {victimRole} dead.",
-        "Mayor": "{victimName} the {victimRole} dead.",
-        "Librarian": "{victimName} the {victimRole} dead.",
-        "Human Person": "{victimName} the {victimRole} dead."
+        "Priest": "{victimName} the {victimRole} is dead.",
+        "Mayor": "{victimName} the {victimRole} is dead.",
+        "Librarian": "{victimName} the {victimRole} is dead.",
+        "Human Person": "{victimName} the {victimRole} is dead."
       },
       "onlyTwoPlayersLeft": "This is the final showdown...",
       "noTriesLeft": "Without consensus nobody dies.",
